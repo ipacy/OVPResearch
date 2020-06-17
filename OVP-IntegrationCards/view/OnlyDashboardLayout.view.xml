@@ -1,0 +1,10 @@
+﻿<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns:ovp="sap.ovp.ui"
+	xmlns:control="vistex.poc.ovp.control"
+	xmlns:template="http://schemas.sap.com/sapui5/extension/sap.ui.core.template/1"
+	xmlns:sap.ui.fl="sap.ui.fl" xmlns:w="sap.ui.integration.widgets"
+	xmlns:core="sap.ui.core" xmlns="sap.m" xmlns:f="sap.f"
+	controllerName="vistex.poc.ovp.controller.OnlyDashboardLayout"
+	displayBlock="true">
+	<core:ComponentContainer
+		name="vistex.poc.ovp.ovp2"></core:ComponentContainer>
+</mvc:View>

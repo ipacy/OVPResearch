@@ -1,0 +1,7625 @@
+[
+	{
+		"Product": "HT-1000",
+		"Product_Text": "Notebook Basic 15",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "12",
+		"DeliveryMonth_Text": "December",
+		"TotalQuantity": "11",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1068",
+		"Product_Text": "Designer Mousepad",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "02",
+		"DeliveryMonth_Text": "February",
+		"TotalQuantity": "2",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1257",
+		"Product_Text": "Cepat Tablet 10.5",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "02",
+		"DeliveryMonth_Text": "February",
+		"TotalQuantity": "16",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1085",
+		"Product_Text": "Copymaster",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "02",
+		"DeliveryMonth_Text": "February",
+		"TotalQuantity": "4",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1067",
+		"Product_Text": "Ergo Mousepad",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "02",
+		"DeliveryMonth_Text": "February",
+		"TotalQuantity": "4",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1256",
+		"Product_Text": "Cerdik Phone 7",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "02",
+		"DeliveryMonth_Text": "February",
+		"TotalQuantity": "28",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1116",
+		"Product_Text": "Wireless DSL Router / Repeater",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "12",
+		"DeliveryMonth_Text": "December",
+		"TotalQuantity": "6",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1251",
+		"Product_Text": "Astro Laptop 1516",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "12",
+		"DeliveryMonth_Text": "December",
+		"TotalQuantity": "6",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1071",
+		"Product_Text": "Gladiator MX",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "12",
+		"DeliveryMonth_Text": "December",
+		"TotalQuantity": "7",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1062",
+		"Product_Text": "Track Mouse",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "12",
+		"DeliveryMonth_Text": "December",
+		"TotalQuantity": "8",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1107",
+		"Product_Text": "Smart Money",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "12",
+		"DeliveryMonth_Text": "December",
+		"TotalQuantity": "14",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1080",
+		"Product_Text": "Photo Scan",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "12",
+		"DeliveryMonth_Text": "December",
+		"TotalQuantity": "9",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1035",
+		"Product_Text": "Flat Basic",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "12",
+		"DeliveryMonth_Text": "December",
+		"TotalQuantity": "12",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1115",
+		"Product_Text": "Wireless DSL Router",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "06",
+		"DeliveryMonth_Text": "June",
+		"TotalQuantity": "3",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1052",
+		"Product_Text": "Ultra Jet Super Highspeed",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "06",
+		"DeliveryMonth_Text": "June",
+		"TotalQuantity": "5",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1070",
+		"Product_Text": "Proctra X",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "06",
+		"DeliveryMonth_Text": "June",
+		"TotalQuantity": "6",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1061",
+		"Product_Text": "Speed Mouse",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "06",
+		"DeliveryMonth_Text": "June",
+		"TotalQuantity": "7",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1106",
+		"Product_Text": "Smart Firewall",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "06",
+		"DeliveryMonth_Text": "June",
+		"TotalQuantity": "9",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1502",
+		"Product_Text": "Server Power Pro",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "06",
+		"DeliveryMonth_Text": "June",
+		"TotalQuantity": "6",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1115",
+		"Product_Text": "Wireless DSL Router",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "01",
+		"DeliveryMonth_Text": "January",
+		"TotalQuantity": "3",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1070",
+		"Product_Text": "Proctra X",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "01",
+		"DeliveryMonth_Text": "January",
+		"TotalQuantity": "9",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1061",
+		"Product_Text": "Speed Mouse",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "01",
+		"DeliveryMonth_Text": "January",
+		"TotalQuantity": "7",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1052",
+		"Product_Text": "Ultra Jet Super Highspeed",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "01",
+		"DeliveryMonth_Text": "January",
+		"TotalQuantity": "7",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1106",
+		"Product_Text": "Smart Firewall",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "01",
+		"DeliveryMonth_Text": "January",
+		"TotalQuantity": "10",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1502",
+		"Product_Text": "Server Power Pro",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "01",
+		"DeliveryMonth_Text": "January",
+		"TotalQuantity": "10",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1000",
+		"Product_Text": "Notebook Basic 15",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "05",
+		"DeliveryMonth_Text": "May",
+		"TotalQuantity": "1",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1068",
+		"Product_Text": "Designer Mousepad",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "03",
+		"DeliveryMonth_Text": "March",
+		"TotalQuantity": "2",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1257",
+		"Product_Text": "Cepat Tablet 10.5",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "03",
+		"DeliveryMonth_Text": "March",
+		"TotalQuantity": "5",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1021",
+		"Product_Text": "ITelO Vault SAT",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "09",
+		"DeliveryMonth_Text": "September",
+		"TotalQuantity": "6",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1210",
+		"Product_Text": "PC Power Station",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "09",
+		"DeliveryMonth_Text": "September",
+		"TotalQuantity": "4",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1120",
+		"Product_Text": "Cordless Bluetooth Keyboard, english international",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "09",
+		"DeliveryMonth_Text": "September",
+		"TotalQuantity": "8",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1102",
+		"Product_Text": "Smart Network",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "09",
+		"DeliveryMonth_Text": "September",
+		"TotalQuantity": "13",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1111",
+		"Product_Text": "Notebook Lock",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "09",
+		"DeliveryMonth_Text": "September",
+		"TotalQuantity": "11",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1120",
+		"Product_Text": "Cordless Bluetooth Keyboard, english international",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "11",
+		"DeliveryMonth_Text": "November",
+		"TotalQuantity": "8",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1210",
+		"Product_Text": "PC Power Station",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "11",
+		"DeliveryMonth_Text": "November",
+		"TotalQuantity": "4",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1111",
+		"Product_Text": "Notebook Lock",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "11",
+		"DeliveryMonth_Text": "November",
+		"TotalQuantity": "9",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1102",
+		"Product_Text": "Smart Network",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "11",
+		"DeliveryMonth_Text": "November",
+		"TotalQuantity": "13",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1021",
+		"Product_Text": "ITelO Vault SAT",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "11",
+		"DeliveryMonth_Text": "November",
+		"TotalQuantity": "6",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1056",
+		"Product_Text": "Multi Color",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "05",
+		"DeliveryMonth_Text": "May",
+		"TotalQuantity": "2",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1254",
+		"Product_Text": "Bending Screen 21HD",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "05",
+		"DeliveryMonth_Text": "May",
+		"TotalQuantity": "4",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1020",
+		"Product_Text": "ITelO Vault Net",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "09",
+		"DeliveryMonth_Text": "September",
+		"TotalQuantity": "5",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-2001",
+		"Product_Text": "10\" Portable DVD player",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "09",
+		"DeliveryMonth_Text": "September",
+		"TotalQuantity": "10",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1101",
+		"Product_Text": "Smart Design",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "09",
+		"DeliveryMonth_Text": "September",
+		"TotalQuantity": "8",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1110",
+		"Product_Text": "PC Lock",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "09",
+		"DeliveryMonth_Text": "September",
+		"TotalQuantity": "11",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1115",
+		"Product_Text": "Wireless DSL Router",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "12",
+		"DeliveryMonth_Text": "December",
+		"TotalQuantity": "3",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1070",
+		"Product_Text": "Proctra X",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "12",
+		"DeliveryMonth_Text": "December",
+		"TotalQuantity": "9",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1061",
+		"Product_Text": "Speed Mouse",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "12",
+		"DeliveryMonth_Text": "December",
+		"TotalQuantity": "7",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1106",
+		"Product_Text": "Smart Firewall",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "12",
+		"DeliveryMonth_Text": "December",
+		"TotalQuantity": "9",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1502",
+		"Product_Text": "Server Power Pro",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "12",
+		"DeliveryMonth_Text": "December",
+		"TotalQuantity": "6",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1052",
+		"Product_Text": "Ultra Jet Super Highspeed",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "12",
+		"DeliveryMonth_Text": "December",
+		"TotalQuantity": "7",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1000",
+		"Product_Text": "Notebook Basic 15",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "10",
+		"DeliveryMonth_Text": "October",
+		"TotalQuantity": "10",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1050",
+		"Product_Text": "Ultra Jet Super Color",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "08",
+		"DeliveryMonth_Text": "August",
+		"TotalQuantity": "5",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1023",
+		"Product_Text": "Comfort Senior",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "08",
+		"DeliveryMonth_Text": "August",
+		"TotalQuantity": "9",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1104",
+		"Product_Text": "Smart Games",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "08",
+		"DeliveryMonth_Text": "August",
+		"TotalQuantity": "13",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1500",
+		"Product_Text": "Server Basic",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "08",
+		"DeliveryMonth_Text": "August",
+		"TotalQuantity": "3",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1113",
+		"Product_Text": "Screen clean",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "08",
+		"DeliveryMonth_Text": "August",
+		"TotalQuantity": "8",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1041",
+		"Product_Text": "Laser Basic",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "08",
+		"DeliveryMonth_Text": "August",
+		"TotalQuantity": "10",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1060",
+		"Product_Text": "Cordless Mouse",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "08",
+		"DeliveryMonth_Text": "August",
+		"TotalQuantity": "3",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1051",
+		"Product_Text": "Ultra Jet Mobile",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "08",
+		"DeliveryMonth_Text": "August",
+		"TotalQuantity": "3",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1105",
+		"Product_Text": "Smart Internet Antivirus",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "08",
+		"DeliveryMonth_Text": "August",
+		"TotalQuantity": "12",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1501",
+		"Product_Text": "Server Professional",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "08",
+		"DeliveryMonth_Text": "August",
+		"TotalQuantity": "4",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1114",
+		"Product_Text": "Fabric bag professional",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "08",
+		"DeliveryMonth_Text": "August",
+		"TotalQuantity": "3",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1042",
+		"Product_Text": "Laser Allround",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "08",
+		"DeliveryMonth_Text": "August",
+		"TotalQuantity": "11",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1117",
+		"Product_Text": "Wireless DSL Router / Repeater and Print Server",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "06",
+		"DeliveryMonth_Text": "June",
+		"TotalQuantity": "5",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1090",
+		"Product_Text": "Surround Sound",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "06",
+		"DeliveryMonth_Text": "June",
+		"TotalQuantity": "4",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1252",
+		"Product_Text": "Astro Phone 6",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "06",
+		"DeliveryMonth_Text": "June",
+		"TotalQuantity": "8",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1072",
+		"Product_Text": "Hurricane GX",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "06",
+		"DeliveryMonth_Text": "June",
+		"TotalQuantity": "8",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1063",
+		"Product_Text": "Ergonomic Keyboard",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "06",
+		"DeliveryMonth_Text": "June",
+		"TotalQuantity": "8",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1036",
+		"Product_Text": "Flat Future",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "06",
+		"DeliveryMonth_Text": "June",
+		"TotalQuantity": "10",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1081",
+		"Product_Text": "Power Scan",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "06",
+		"DeliveryMonth_Text": "June",
+		"TotalQuantity": "7",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1069",
+		"Product_Text": "Universal card reader",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "02",
+		"DeliveryMonth_Text": "February",
+		"TotalQuantity": "5",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1115",
+		"Product_Text": "Wireless DSL Router",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "10",
+		"DeliveryMonth_Text": "October",
+		"TotalQuantity": "1",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1070",
+		"Product_Text": "Proctra X",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "10",
+		"DeliveryMonth_Text": "October",
+		"TotalQuantity": "6",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1061",
+		"Product_Text": "Speed Mouse",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "10",
+		"DeliveryMonth_Text": "October",
+		"TotalQuantity": "4",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1106",
+		"Product_Text": "Smart Firewall",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "10",
+		"DeliveryMonth_Text": "October",
+		"TotalQuantity": "6",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1502",
+		"Product_Text": "Server Power Pro",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "10",
+		"DeliveryMonth_Text": "October",
+		"TotalQuantity": "8",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1052",
+		"Product_Text": "Ultra Jet Super Highspeed",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "10",
+		"DeliveryMonth_Text": "October",
+		"TotalQuantity": "4",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1042",
+		"Product_Text": "Laser Allround",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "05",
+		"DeliveryMonth_Text": "May",
+		"TotalQuantity": "2",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1051",
+		"Product_Text": "Ultra Jet Mobile",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "05",
+		"DeliveryMonth_Text": "May",
+		"TotalQuantity": "1",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1257",
+		"Product_Text": "Cepat Tablet 10.5",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "05",
+		"DeliveryMonth_Text": "May",
+		"TotalQuantity": "5",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1118",
+		"Product_Text": "USB Stick",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "03",
+		"DeliveryMonth_Text": "March",
+		"TotalQuantity": "3",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1082",
+		"Product_Text": "Jet Scan Professional",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "03",
+		"DeliveryMonth_Text": "March",
+		"TotalQuantity": "3",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1073",
+		"Product_Text": "Hurricane GX/LN",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "03",
+		"DeliveryMonth_Text": "March",
+		"TotalQuantity": "4",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1055",
+		"Product_Text": "Multi Print",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "03",
+		"DeliveryMonth_Text": "March",
+		"TotalQuantity": "4",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1253",
+		"Product_Text": "Benda Laptop 1408",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "03",
+		"DeliveryMonth_Text": "March",
+		"TotalQuantity": "3",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1064",
+		"Product_Text": "Internet Keyboard",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "03",
+		"DeliveryMonth_Text": "March",
+		"TotalQuantity": "3",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1037",
+		"Product_Text": "Flat XL",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "03",
+		"DeliveryMonth_Text": "March",
+		"TotalQuantity": "3",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1138",
+		"Product_Text": "Pocket Mouse",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "05",
+		"DeliveryMonth_Text": "May",
+		"TotalQuantity": "1",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1066",
+		"Product_Text": "Mousepad",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "05",
+		"DeliveryMonth_Text": "May",
+		"TotalQuantity": "2",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1255",
+		"Product_Text": "Broad Screen 22HD",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "05",
+		"DeliveryMonth_Text": "May",
+		"TotalQuantity": "5",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1255",
+		"Product_Text": "Broad Screen 22HD",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "05",
+		"DeliveryMonth_Text": "May",
+		"TotalQuantity": "4",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-2000",
+		"Product_Text": "7\" Widescreen Portable DVD Player w MP3",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "09",
+		"DeliveryMonth_Text": "September",
+		"TotalQuantity": "8",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1100",
+		"Product_Text": "Smart Office",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "09",
+		"DeliveryMonth_Text": "September",
+		"TotalQuantity": "12",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1035",
+		"Product_Text": "Flat Basic",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "05",
+		"DeliveryMonth_Text": "May",
+		"TotalQuantity": "2",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1251",
+		"Product_Text": "Astro Laptop 1516",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "05",
+		"DeliveryMonth_Text": "May",
+		"TotalQuantity": "2",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1069",
+		"Product_Text": "Universal card reader",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "01",
+		"DeliveryMonth_Text": "January",
+		"TotalQuantity": "5",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1500",
+		"Product_Text": "Server Basic",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "12",
+		"DeliveryMonth_Text": "December",
+		"TotalQuantity": "4",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1113",
+		"Product_Text": "Screen clean",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "12",
+		"DeliveryMonth_Text": "December",
+		"TotalQuantity": "11",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1104",
+		"Product_Text": "Smart Games",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "12",
+		"DeliveryMonth_Text": "December",
+		"TotalQuantity": "11",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1041",
+		"Product_Text": "Laser Basic",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "12",
+		"DeliveryMonth_Text": "December",
+		"TotalQuantity": "10",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1050",
+		"Product_Text": "Ultra Jet Super Color",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "12",
+		"DeliveryMonth_Text": "December",
+		"TotalQuantity": "5",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1023",
+		"Product_Text": "Comfort Senior",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "12",
+		"DeliveryMonth_Text": "December",
+		"TotalQuantity": "9",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1082",
+		"Product_Text": "Jet Scan Professional",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "01",
+		"DeliveryMonth_Text": "January",
+		"TotalQuantity": "4",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1073",
+		"Product_Text": "Hurricane GX/LN",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "01",
+		"DeliveryMonth_Text": "January",
+		"TotalQuantity": "7",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1055",
+		"Product_Text": "Multi Print",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "01",
+		"DeliveryMonth_Text": "January",
+		"TotalQuantity": "5",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1037",
+		"Product_Text": "Flat XL",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "01",
+		"DeliveryMonth_Text": "January",
+		"TotalQuantity": "6",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1253",
+		"Product_Text": "Benda Laptop 1408",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "01",
+		"DeliveryMonth_Text": "January",
+		"TotalQuantity": "5",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1118",
+		"Product_Text": "USB Stick",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "01",
+		"DeliveryMonth_Text": "January",
+		"TotalQuantity": "7",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1064",
+		"Product_Text": "Internet Keyboard",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "01",
+		"DeliveryMonth_Text": "January",
+		"TotalQuantity": "7",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1138",
+		"Product_Text": "Pocket Mouse",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "11",
+		"DeliveryMonth_Text": "November",
+		"TotalQuantity": "2",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1066",
+		"Product_Text": "Mousepad",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "11",
+		"DeliveryMonth_Text": "November",
+		"TotalQuantity": "4",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1255",
+		"Product_Text": "Broad Screen 22HD",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "11",
+		"DeliveryMonth_Text": "November",
+		"TotalQuantity": "14",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1085",
+		"Product_Text": "Copymaster",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "01",
+		"DeliveryMonth_Text": "January",
+		"TotalQuantity": "4",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1067",
+		"Product_Text": "Ergo Mousepad",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "01",
+		"DeliveryMonth_Text": "January",
+		"TotalQuantity": "4",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1256",
+		"Product_Text": "Cerdik Phone 7",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "01",
+		"DeliveryMonth_Text": "January",
+		"TotalQuantity": "24",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1137",
+		"Product_Text": "Flat XXL",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "03",
+		"DeliveryMonth_Text": "March",
+		"TotalQuantity": "2",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1083",
+		"Product_Text": "Jet Scan Professional",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "03",
+		"DeliveryMonth_Text": "March",
+		"TotalQuantity": "3",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1092",
+		"Product_Text": "Sound Booster",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "03",
+		"DeliveryMonth_Text": "March",
+		"TotalQuantity": "1",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1056",
+		"Product_Text": "Multi Color",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "03",
+		"DeliveryMonth_Text": "March",
+		"TotalQuantity": "4",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1065",
+		"Product_Text": "Media Keyboard",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "03",
+		"DeliveryMonth_Text": "March",
+		"TotalQuantity": "5",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1254",
+		"Product_Text": "Bending Screen 21HD",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "03",
+		"DeliveryMonth_Text": "March",
+		"TotalQuantity": "8",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1138",
+		"Product_Text": "Pocket Mouse",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "01",
+		"DeliveryMonth_Text": "January",
+		"TotalQuantity": "2",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1066",
+		"Product_Text": "Mousepad",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "01",
+		"DeliveryMonth_Text": "January",
+		"TotalQuantity": "6",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1255",
+		"Product_Text": "Broad Screen 22HD",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "01",
+		"DeliveryMonth_Text": "January",
+		"TotalQuantity": "18",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-2000",
+		"Product_Text": "7\" Widescreen Portable DVD Player w MP3",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "03",
+		"DeliveryMonth_Text": "March",
+		"TotalQuantity": "4",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1100",
+		"Product_Text": "Smart Office",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "03",
+		"DeliveryMonth_Text": "March",
+		"TotalQuantity": "8",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1050",
+		"Product_Text": "Ultra Jet Super Color",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "06",
+		"DeliveryMonth_Text": "June",
+		"TotalQuantity": "3",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1023",
+		"Product_Text": "Comfort Senior",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "06",
+		"DeliveryMonth_Text": "June",
+		"TotalQuantity": "6",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1041",
+		"Product_Text": "Laser Basic",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "06",
+		"DeliveryMonth_Text": "June",
+		"TotalQuantity": "9",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1500",
+		"Product_Text": "Server Basic",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "06",
+		"DeliveryMonth_Text": "June",
+		"TotalQuantity": "4",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1113",
+		"Product_Text": "Screen clean",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "06",
+		"DeliveryMonth_Text": "June",
+		"TotalQuantity": "11",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1104",
+		"Product_Text": "Smart Games",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "06",
+		"DeliveryMonth_Text": "June",
+		"TotalQuantity": "11",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1115",
+		"Product_Text": "Wireless DSL Router",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "05",
+		"DeliveryMonth_Text": "May",
+		"TotalQuantity": "1",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1070",
+		"Product_Text": "Proctra X",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "05",
+		"DeliveryMonth_Text": "May",
+		"TotalQuantity": "4",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1061",
+		"Product_Text": "Speed Mouse",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "05",
+		"DeliveryMonth_Text": "May",
+		"TotalQuantity": "2",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1106",
+		"Product_Text": "Smart Firewall",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "05",
+		"DeliveryMonth_Text": "May",
+		"TotalQuantity": "5",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1502",
+		"Product_Text": "Server Power Pro",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "05",
+		"DeliveryMonth_Text": "May",
+		"TotalQuantity": "6",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1138",
+		"Product_Text": "Pocket Mouse",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "12",
+		"DeliveryMonth_Text": "December",
+		"TotalQuantity": "2",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1066",
+		"Product_Text": "Mousepad",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "12",
+		"DeliveryMonth_Text": "December",
+		"TotalQuantity": "6",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1255",
+		"Product_Text": "Broad Screen 22HD",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "12",
+		"DeliveryMonth_Text": "December",
+		"TotalQuantity": "15",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1062",
+		"Product_Text": "Track Mouse",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "07",
+		"DeliveryMonth_Text": "July",
+		"TotalQuantity": "6",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1080",
+		"Product_Text": "Photo Scan",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "07",
+		"DeliveryMonth_Text": "July",
+		"TotalQuantity": "9",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1035",
+		"Product_Text": "Flat Basic",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "07",
+		"DeliveryMonth_Text": "July",
+		"TotalQuantity": "10",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1251",
+		"Product_Text": "Astro Laptop 1516",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "07",
+		"DeliveryMonth_Text": "July",
+		"TotalQuantity": "7",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1116",
+		"Product_Text": "Wireless DSL Router / Repeater",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "07",
+		"DeliveryMonth_Text": "July",
+		"TotalQuantity": "6",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1107",
+		"Product_Text": "Smart Money",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "07",
+		"DeliveryMonth_Text": "July",
+		"TotalQuantity": "14",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1071",
+		"Product_Text": "Gladiator MX",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "07",
+		"DeliveryMonth_Text": "July",
+		"TotalQuantity": "4",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1052",
+		"Product_Text": "Ultra Jet Super Highspeed",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "09",
+		"DeliveryMonth_Text": "September",
+		"TotalQuantity": "5",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1115",
+		"Product_Text": "Wireless DSL Router",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "09",
+		"DeliveryMonth_Text": "September",
+		"TotalQuantity": "3",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1070",
+		"Product_Text": "Proctra X",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "09",
+		"DeliveryMonth_Text": "September",
+		"TotalQuantity": "9",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1061",
+		"Product_Text": "Speed Mouse",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "09",
+		"DeliveryMonth_Text": "September",
+		"TotalQuantity": "7",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1106",
+		"Product_Text": "Smart Firewall",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "09",
+		"DeliveryMonth_Text": "September",
+		"TotalQuantity": "10",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1502",
+		"Product_Text": "Server Power Pro",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "09",
+		"DeliveryMonth_Text": "September",
+		"TotalQuantity": "8",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1117",
+		"Product_Text": "Wireless DSL Router / Repeater and Print Server",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "11",
+		"DeliveryMonth_Text": "November",
+		"TotalQuantity": "8",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1090",
+		"Product_Text": "Surround Sound",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "11",
+		"DeliveryMonth_Text": "November",
+		"TotalQuantity": "4",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1081",
+		"Product_Text": "Power Scan",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "11",
+		"DeliveryMonth_Text": "November",
+		"TotalQuantity": "4",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1072",
+		"Product_Text": "Hurricane GX",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "11",
+		"DeliveryMonth_Text": "November",
+		"TotalQuantity": "8",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1063",
+		"Product_Text": "Ergonomic Keyboard",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "11",
+		"DeliveryMonth_Text": "November",
+		"TotalQuantity": "7",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1036",
+		"Product_Text": "Flat Future",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "11",
+		"DeliveryMonth_Text": "November",
+		"TotalQuantity": "8",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1252",
+		"Product_Text": "Astro Phone 6",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "11",
+		"DeliveryMonth_Text": "November",
+		"TotalQuantity": "12",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-2000",
+		"Product_Text": "7\" Widescreen Portable DVD Player w MP3",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "12",
+		"DeliveryMonth_Text": "December",
+		"TotalQuantity": "6",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1100",
+		"Product_Text": "Smart Office",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "12",
+		"DeliveryMonth_Text": "December",
+		"TotalQuantity": "14",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1069",
+		"Product_Text": "Universal card reader",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "11",
+		"DeliveryMonth_Text": "November",
+		"TotalQuantity": "2",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1069",
+		"Product_Text": "Universal card reader",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "09",
+		"DeliveryMonth_Text": "September",
+		"TotalQuantity": "5",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1138",
+		"Product_Text": "Pocket Mouse",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "10",
+		"DeliveryMonth_Text": "October",
+		"TotalQuantity": "1",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1066",
+		"Product_Text": "Mousepad",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "10",
+		"DeliveryMonth_Text": "October",
+		"TotalQuantity": "4",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1255",
+		"Product_Text": "Broad Screen 22HD",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "10",
+		"DeliveryMonth_Text": "October",
+		"TotalQuantity": "13",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1210",
+		"Product_Text": "PC Power Station",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "12",
+		"DeliveryMonth_Text": "December",
+		"TotalQuantity": "2",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1120",
+		"Product_Text": "Cordless Bluetooth Keyboard, english international",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "12",
+		"DeliveryMonth_Text": "December",
+		"TotalQuantity": "5",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1111",
+		"Product_Text": "Notebook Lock",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "12",
+		"DeliveryMonth_Text": "December",
+		"TotalQuantity": "8",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1102",
+		"Product_Text": "Smart Network",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "12",
+		"DeliveryMonth_Text": "December",
+		"TotalQuantity": "12",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1021",
+		"Product_Text": "ITelO Vault SAT",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "12",
+		"DeliveryMonth_Text": "December",
+		"TotalQuantity": "9",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1068",
+		"Product_Text": "Designer Mousepad",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "10",
+		"DeliveryMonth_Text": "October",
+		"TotalQuantity": "1",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1257",
+		"Product_Text": "Cepat Tablet 10.5",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "10",
+		"DeliveryMonth_Text": "October",
+		"TotalQuantity": "8",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1210",
+		"Product_Text": "PC Power Station",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "02",
+		"DeliveryMonth_Text": "February",
+		"TotalQuantity": "4",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1111",
+		"Product_Text": "Notebook Lock",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "02",
+		"DeliveryMonth_Text": "February",
+		"TotalQuantity": "11",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1021",
+		"Product_Text": "ITelO Vault SAT",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "02",
+		"DeliveryMonth_Text": "February",
+		"TotalQuantity": "12",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1120",
+		"Product_Text": "Cordless Bluetooth Keyboard, english international",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "02",
+		"DeliveryMonth_Text": "February",
+		"TotalQuantity": "11",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1102",
+		"Product_Text": "Smart Network",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "02",
+		"DeliveryMonth_Text": "February",
+		"TotalQuantity": "18",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1110",
+		"Product_Text": "PC Lock",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "02",
+		"DeliveryMonth_Text": "February",
+		"TotalQuantity": "11",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1101",
+		"Product_Text": "Smart Design",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "02",
+		"DeliveryMonth_Text": "February",
+		"TotalQuantity": "9",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1020",
+		"Product_Text": "ITelO Vault Net",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "02",
+		"DeliveryMonth_Text": "February",
+		"TotalQuantity": "11",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-2001",
+		"Product_Text": "10\" Portable DVD player",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "02",
+		"DeliveryMonth_Text": "February",
+		"TotalQuantity": "13",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1069",
+		"Product_Text": "Universal card reader",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "03",
+		"DeliveryMonth_Text": "March",
+		"TotalQuantity": "5",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1073",
+		"Product_Text": "Hurricane GX/LN",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "02",
+		"DeliveryMonth_Text": "February",
+		"TotalQuantity": "10",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1082",
+		"Product_Text": "Jet Scan Professional",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "02",
+		"DeliveryMonth_Text": "February",
+		"TotalQuantity": "5",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1055",
+		"Product_Text": "Multi Print",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "02",
+		"DeliveryMonth_Text": "February",
+		"TotalQuantity": "6",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1037",
+		"Product_Text": "Flat XL",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "02",
+		"DeliveryMonth_Text": "February",
+		"TotalQuantity": "8",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1253",
+		"Product_Text": "Benda Laptop 1408",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "02",
+		"DeliveryMonth_Text": "February",
+		"TotalQuantity": "7",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1118",
+		"Product_Text": "USB Stick",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "02",
+		"DeliveryMonth_Text": "February",
+		"TotalQuantity": "10",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1064",
+		"Product_Text": "Internet Keyboard",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "02",
+		"DeliveryMonth_Text": "February",
+		"TotalQuantity": "8",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1000",
+		"Product_Text": "Notebook Basic 15",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "07",
+		"DeliveryMonth_Text": "July",
+		"TotalQuantity": "11",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1138",
+		"Product_Text": "Pocket Mouse",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "03",
+		"DeliveryMonth_Text": "March",
+		"TotalQuantity": "1",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1066",
+		"Product_Text": "Mousepad",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "03",
+		"DeliveryMonth_Text": "March",
+		"TotalQuantity": "4",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1255",
+		"Product_Text": "Broad Screen 22HD",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "03",
+		"DeliveryMonth_Text": "March",
+		"TotalQuantity": "9",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1114",
+		"Product_Text": "Fabric bag professional",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "10",
+		"DeliveryMonth_Text": "October",
+		"TotalQuantity": "2",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1060",
+		"Product_Text": "Cordless Mouse",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "10",
+		"DeliveryMonth_Text": "October",
+		"TotalQuantity": "4",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1105",
+		"Product_Text": "Smart Internet Antivirus",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "10",
+		"DeliveryMonth_Text": "October",
+		"TotalQuantity": "12",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1501",
+		"Product_Text": "Server Professional",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "10",
+		"DeliveryMonth_Text": "October",
+		"TotalQuantity": "8",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1042",
+		"Product_Text": "Laser Allround",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "10",
+		"DeliveryMonth_Text": "October",
+		"TotalQuantity": "10",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1051",
+		"Product_Text": "Ultra Jet Mobile",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "10",
+		"DeliveryMonth_Text": "October",
+		"TotalQuantity": "2",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1000",
+		"Product_Text": "Notebook Basic 15",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "04",
+		"DeliveryMonth_Text": "April",
+		"TotalQuantity": "13",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1118",
+		"Product_Text": "USB Stick",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "06",
+		"DeliveryMonth_Text": "June",
+		"TotalQuantity": "4",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1055",
+		"Product_Text": "Multi Print",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "06",
+		"DeliveryMonth_Text": "June",
+		"TotalQuantity": "4",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1253",
+		"Product_Text": "Benda Laptop 1408",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "06",
+		"DeliveryMonth_Text": "June",
+		"TotalQuantity": "3",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1064",
+		"Product_Text": "Internet Keyboard",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "06",
+		"DeliveryMonth_Text": "June",
+		"TotalQuantity": "6",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1037",
+		"Product_Text": "Flat XL",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "06",
+		"DeliveryMonth_Text": "June",
+		"TotalQuantity": "4",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1082",
+		"Product_Text": "Jet Scan Professional",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "06",
+		"DeliveryMonth_Text": "June",
+		"TotalQuantity": "4",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1073",
+		"Product_Text": "Hurricane GX/LN",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "06",
+		"DeliveryMonth_Text": "June",
+		"TotalQuantity": "7",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1090",
+		"Product_Text": "Surround Sound",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "02",
+		"DeliveryMonth_Text": "February",
+		"TotalQuantity": "4",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1072",
+		"Product_Text": "Hurricane GX",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "02",
+		"DeliveryMonth_Text": "February",
+		"TotalQuantity": "11",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1081",
+		"Product_Text": "Power Scan",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "02",
+		"DeliveryMonth_Text": "February",
+		"TotalQuantity": "10",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1036",
+		"Product_Text": "Flat Future",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "02",
+		"DeliveryMonth_Text": "February",
+		"TotalQuantity": "14",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1117",
+		"Product_Text": "Wireless DSL Router / Repeater and Print Server",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "02",
+		"DeliveryMonth_Text": "February",
+		"TotalQuantity": "11",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1252",
+		"Product_Text": "Astro Phone 6",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "02",
+		"DeliveryMonth_Text": "February",
+		"TotalQuantity": "16",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1063",
+		"Product_Text": "Ergonomic Keyboard",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "02",
+		"DeliveryMonth_Text": "February",
+		"TotalQuantity": "12",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1083",
+		"Product_Text": "Jet Scan Professional",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "04",
+		"DeliveryMonth_Text": "April",
+		"TotalQuantity": "4",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1056",
+		"Product_Text": "Multi Color",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "04",
+		"DeliveryMonth_Text": "April",
+		"TotalQuantity": "6",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1137",
+		"Product_Text": "Flat XXL",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "04",
+		"DeliveryMonth_Text": "April",
+		"TotalQuantity": "5",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1092",
+		"Product_Text": "Sound Booster",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "04",
+		"DeliveryMonth_Text": "April",
+		"TotalQuantity": "4",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1065",
+		"Product_Text": "Media Keyboard",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "04",
+		"DeliveryMonth_Text": "April",
+		"TotalQuantity": "12",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1254",
+		"Product_Text": "Bending Screen 21HD",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "04",
+		"DeliveryMonth_Text": "April",
+		"TotalQuantity": "14",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1090",
+		"Product_Text": "Surround Sound",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "01",
+		"DeliveryMonth_Text": "January",
+		"TotalQuantity": "4",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1072",
+		"Product_Text": "Hurricane GX",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "01",
+		"DeliveryMonth_Text": "January",
+		"TotalQuantity": "11",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1081",
+		"Product_Text": "Power Scan",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "01",
+		"DeliveryMonth_Text": "January",
+		"TotalQuantity": "7",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1036",
+		"Product_Text": "Flat Future",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "01",
+		"DeliveryMonth_Text": "January",
+		"TotalQuantity": "12",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1252",
+		"Product_Text": "Astro Phone 6",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "01",
+		"DeliveryMonth_Text": "January",
+		"TotalQuantity": "12",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1117",
+		"Product_Text": "Wireless DSL Router / Repeater and Print Server",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "01",
+		"DeliveryMonth_Text": "January",
+		"TotalQuantity": "8",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1063",
+		"Product_Text": "Ergonomic Keyboard",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "01",
+		"DeliveryMonth_Text": "January",
+		"TotalQuantity": "10",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1113",
+		"Product_Text": "Screen clean",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "07",
+		"DeliveryMonth_Text": "July",
+		"TotalQuantity": "8",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1041",
+		"Product_Text": "Laser Basic",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "07",
+		"DeliveryMonth_Text": "July",
+		"TotalQuantity": "6",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1050",
+		"Product_Text": "Ultra Jet Super Color",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "07",
+		"DeliveryMonth_Text": "July",
+		"TotalQuantity": "5",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1023",
+		"Product_Text": "Comfort Senior",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "07",
+		"DeliveryMonth_Text": "July",
+		"TotalQuantity": "9",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1104",
+		"Product_Text": "Smart Games",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "07",
+		"DeliveryMonth_Text": "July",
+		"TotalQuantity": "14",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1500",
+		"Product_Text": "Server Basic",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "07",
+		"DeliveryMonth_Text": "July",
+		"TotalQuantity": "6",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1116",
+		"Product_Text": "Wireless DSL Router / Repeater",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "11",
+		"DeliveryMonth_Text": "November",
+		"TotalQuantity": "9",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1080",
+		"Product_Text": "Photo Scan",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "11",
+		"DeliveryMonth_Text": "November",
+		"TotalQuantity": "6",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1071",
+		"Product_Text": "Gladiator MX",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "11",
+		"DeliveryMonth_Text": "November",
+		"TotalQuantity": "5",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1062",
+		"Product_Text": "Track Mouse",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "11",
+		"DeliveryMonth_Text": "November",
+		"TotalQuantity": "6",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1035",
+		"Product_Text": "Flat Basic",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "11",
+		"DeliveryMonth_Text": "November",
+		"TotalQuantity": "8",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1251",
+		"Product_Text": "Astro Laptop 1516",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "11",
+		"DeliveryMonth_Text": "November",
+		"TotalQuantity": "9",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1107",
+		"Product_Text": "Smart Money",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "11",
+		"DeliveryMonth_Text": "November",
+		"TotalQuantity": "13",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1021",
+		"Product_Text": "ITelO Vault SAT",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "01",
+		"DeliveryMonth_Text": "January",
+		"TotalQuantity": "9",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1120",
+		"Product_Text": "Cordless Bluetooth Keyboard, english international",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "01",
+		"DeliveryMonth_Text": "January",
+		"TotalQuantity": "8",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1102",
+		"Product_Text": "Smart Network",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "01",
+		"DeliveryMonth_Text": "January",
+		"TotalQuantity": "15",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1210",
+		"Product_Text": "PC Power Station",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "01",
+		"DeliveryMonth_Text": "January",
+		"TotalQuantity": "6",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1111",
+		"Product_Text": "Notebook Lock",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "01",
+		"DeliveryMonth_Text": "January",
+		"TotalQuantity": "14",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1256",
+		"Product_Text": "Cerdik Phone 7",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "05",
+		"DeliveryMonth_Text": "May",
+		"TotalQuantity": "5",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1067",
+		"Product_Text": "Ergo Mousepad",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "09",
+		"DeliveryMonth_Text": "September",
+		"TotalQuantity": "4",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1085",
+		"Product_Text": "Copymaster",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "09",
+		"DeliveryMonth_Text": "September",
+		"TotalQuantity": "4",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1256",
+		"Product_Text": "Cerdik Phone 7",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "09",
+		"DeliveryMonth_Text": "September",
+		"TotalQuantity": "21",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1112",
+		"Product_Text": "Web cam reality",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "10",
+		"DeliveryMonth_Text": "October",
+		"TotalQuantity": "9",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1103",
+		"Product_Text": "Smart Multimedia",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "10",
+		"DeliveryMonth_Text": "October",
+		"TotalQuantity": "7",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1040",
+		"Product_Text": "Laser Professional Eco",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "10",
+		"DeliveryMonth_Text": "October",
+		"TotalQuantity": "10",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1022",
+		"Product_Text": "Comfort Easy",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "10",
+		"DeliveryMonth_Text": "October",
+		"TotalQuantity": "4",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1137",
+		"Product_Text": "Flat XXL",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "05",
+		"DeliveryMonth_Text": "May",
+		"TotalQuantity": "3",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1092",
+		"Product_Text": "Sound Booster",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "05",
+		"DeliveryMonth_Text": "May",
+		"TotalQuantity": "3",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1065",
+		"Product_Text": "Media Keyboard",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "05",
+		"DeliveryMonth_Text": "May",
+		"TotalQuantity": "7",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1254",
+		"Product_Text": "Bending Screen 21HD",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "05",
+		"DeliveryMonth_Text": "May",
+		"TotalQuantity": "2",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1112",
+		"Product_Text": "Web cam reality",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "12",
+		"DeliveryMonth_Text": "December",
+		"TotalQuantity": "9",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1103",
+		"Product_Text": "Smart Multimedia",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "12",
+		"DeliveryMonth_Text": "December",
+		"TotalQuantity": "9",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1040",
+		"Product_Text": "Laser Professional Eco",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "12",
+		"DeliveryMonth_Text": "December",
+		"TotalQuantity": "11",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1022",
+		"Product_Text": "Comfort Easy",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "12",
+		"DeliveryMonth_Text": "December",
+		"TotalQuantity": "5",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1138",
+		"Product_Text": "Pocket Mouse",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "09",
+		"DeliveryMonth_Text": "September",
+		"TotalQuantity": "2",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1066",
+		"Product_Text": "Mousepad",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "09",
+		"DeliveryMonth_Text": "September",
+		"TotalQuantity": "6",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1255",
+		"Product_Text": "Broad Screen 22HD",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "09",
+		"DeliveryMonth_Text": "September",
+		"TotalQuantity": "17",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1051",
+		"Product_Text": "Ultra Jet Mobile",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "04",
+		"DeliveryMonth_Text": "April",
+		"TotalQuantity": "3",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1114",
+		"Product_Text": "Fabric bag professional",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "04",
+		"DeliveryMonth_Text": "April",
+		"TotalQuantity": "3",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1042",
+		"Product_Text": "Laser Allround",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "04",
+		"DeliveryMonth_Text": "April",
+		"TotalQuantity": "11",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1105",
+		"Product_Text": "Smart Internet Antivirus",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "04",
+		"DeliveryMonth_Text": "April",
+		"TotalQuantity": "15",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1501",
+		"Product_Text": "Server Professional",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "04",
+		"DeliveryMonth_Text": "April",
+		"TotalQuantity": "6",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1060",
+		"Product_Text": "Cordless Mouse",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "04",
+		"DeliveryMonth_Text": "April",
+		"TotalQuantity": "5",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1080",
+		"Product_Text": "Photo Scan",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "04",
+		"DeliveryMonth_Text": "April",
+		"TotalQuantity": "9",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1116",
+		"Product_Text": "Wireless DSL Router / Repeater",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "04",
+		"DeliveryMonth_Text": "April",
+		"TotalQuantity": "9",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1071",
+		"Product_Text": "Gladiator MX",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "04",
+		"DeliveryMonth_Text": "April",
+		"TotalQuantity": "7",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1251",
+		"Product_Text": "Astro Laptop 1516",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "04",
+		"DeliveryMonth_Text": "April",
+		"TotalQuantity": "9",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1107",
+		"Product_Text": "Smart Money",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "04",
+		"DeliveryMonth_Text": "April",
+		"TotalQuantity": "13",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1062",
+		"Product_Text": "Track Mouse",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "04",
+		"DeliveryMonth_Text": "April",
+		"TotalQuantity": "8",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1035",
+		"Product_Text": "Flat Basic",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "04",
+		"DeliveryMonth_Text": "April",
+		"TotalQuantity": "12",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1083",
+		"Product_Text": "Jet Scan Professional",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "07",
+		"DeliveryMonth_Text": "July",
+		"TotalQuantity": "4",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1056",
+		"Product_Text": "Multi Color",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "07",
+		"DeliveryMonth_Text": "July",
+		"TotalQuantity": "6",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1254",
+		"Product_Text": "Bending Screen 21HD",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "07",
+		"DeliveryMonth_Text": "July",
+		"TotalQuantity": "14",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1065",
+		"Product_Text": "Media Keyboard",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "07",
+		"DeliveryMonth_Text": "July",
+		"TotalQuantity": "9",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1092",
+		"Product_Text": "Sound Booster",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "07",
+		"DeliveryMonth_Text": "July",
+		"TotalQuantity": "4",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1137",
+		"Product_Text": "Flat XXL",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "07",
+		"DeliveryMonth_Text": "July",
+		"TotalQuantity": "5",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1068",
+		"Product_Text": "Designer Mousepad",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "04",
+		"DeliveryMonth_Text": "April",
+		"TotalQuantity": "2",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1257",
+		"Product_Text": "Cepat Tablet 10.5",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "04",
+		"DeliveryMonth_Text": "April",
+		"TotalQuantity": "12",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1100",
+		"Product_Text": "Smart Office",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "11",
+		"DeliveryMonth_Text": "November",
+		"TotalQuantity": "12",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-2000",
+		"Product_Text": "7\" Widescreen Portable DVD Player w MP3",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "11",
+		"DeliveryMonth_Text": "November",
+		"TotalQuantity": "8",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1113",
+		"Product_Text": "Screen clean",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "02",
+		"DeliveryMonth_Text": "February",
+		"TotalQuantity": "11",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1500",
+		"Product_Text": "Server Basic",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "02",
+		"DeliveryMonth_Text": "February",
+		"TotalQuantity": "6",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1050",
+		"Product_Text": "Ultra Jet Super Color",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "02",
+		"DeliveryMonth_Text": "February",
+		"TotalQuantity": "7",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1041",
+		"Product_Text": "Laser Basic",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "02",
+		"DeliveryMonth_Text": "February",
+		"TotalQuantity": "11",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1023",
+		"Product_Text": "Comfort Senior",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "02",
+		"DeliveryMonth_Text": "February",
+		"TotalQuantity": "12",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1104",
+		"Product_Text": "Smart Games",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "02",
+		"DeliveryMonth_Text": "February",
+		"TotalQuantity": "17",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1052",
+		"Product_Text": "Ultra Jet Super Highspeed",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "04",
+		"DeliveryMonth_Text": "April",
+		"TotalQuantity": "7",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1115",
+		"Product_Text": "Wireless DSL Router",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "04",
+		"DeliveryMonth_Text": "April",
+		"TotalQuantity": "3",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1070",
+		"Product_Text": "Proctra X",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "04",
+		"DeliveryMonth_Text": "April",
+		"TotalQuantity": "9",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1106",
+		"Product_Text": "Smart Firewall",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "04",
+		"DeliveryMonth_Text": "April",
+		"TotalQuantity": "9",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1502",
+		"Product_Text": "Server Power Pro",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "04",
+		"DeliveryMonth_Text": "April",
+		"TotalQuantity": "6",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1061",
+		"Product_Text": "Speed Mouse",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "04",
+		"DeliveryMonth_Text": "April",
+		"TotalQuantity": "7",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1040",
+		"Product_Text": "Laser Professional Eco",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "05",
+		"DeliveryMonth_Text": "May",
+		"TotalQuantity": "2",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1112",
+		"Product_Text": "Web cam reality",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "05",
+		"DeliveryMonth_Text": "May",
+		"TotalQuantity": "7",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1103",
+		"Product_Text": "Smart Multimedia",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "05",
+		"DeliveryMonth_Text": "May",
+		"TotalQuantity": "6",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1068",
+		"Product_Text": "Designer Mousepad",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "09",
+		"DeliveryMonth_Text": "September",
+		"TotalQuantity": "2",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1022",
+		"Product_Text": "Comfort Easy",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "09",
+		"DeliveryMonth_Text": "September",
+		"TotalQuantity": "3",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1103",
+		"Product_Text": "Smart Multimedia",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "09",
+		"DeliveryMonth_Text": "September",
+		"TotalQuantity": "11",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1040",
+		"Product_Text": "Laser Professional Eco",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "09",
+		"DeliveryMonth_Text": "September",
+		"TotalQuantity": "8",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1257",
+		"Product_Text": "Cepat Tablet 10.5",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "09",
+		"DeliveryMonth_Text": "September",
+		"TotalQuantity": "12",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1112",
+		"Product_Text": "Web cam reality",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "09",
+		"DeliveryMonth_Text": "September",
+		"TotalQuantity": "11",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1085",
+		"Product_Text": "Copymaster",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "03",
+		"DeliveryMonth_Text": "March",
+		"TotalQuantity": "2",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1067",
+		"Product_Text": "Ergo Mousepad",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "03",
+		"DeliveryMonth_Text": "March",
+		"TotalQuantity": "4",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1256",
+		"Product_Text": "Cerdik Phone 7",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "03",
+		"DeliveryMonth_Text": "March",
+		"TotalQuantity": "10",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1500",
+		"Product_Text": "Server Basic",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "11",
+		"DeliveryMonth_Text": "November",
+		"TotalQuantity": "5",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1113",
+		"Product_Text": "Screen clean",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "11",
+		"DeliveryMonth_Text": "November",
+		"TotalQuantity": "8",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1050",
+		"Product_Text": "Ultra Jet Super Color",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "11",
+		"DeliveryMonth_Text": "November",
+		"TotalQuantity": "3",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1041",
+		"Product_Text": "Laser Basic",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "11",
+		"DeliveryMonth_Text": "November",
+		"TotalQuantity": "7",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1023",
+		"Product_Text": "Comfort Senior",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "11",
+		"DeliveryMonth_Text": "November",
+		"TotalQuantity": "6",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1104",
+		"Product_Text": "Smart Games",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "11",
+		"DeliveryMonth_Text": "November",
+		"TotalQuantity": "11",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1100",
+		"Product_Text": "Smart Office",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "02",
+		"DeliveryMonth_Text": "February",
+		"TotalQuantity": "14",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-2000",
+		"Product_Text": "7\" Widescreen Portable DVD Player w MP3",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "02",
+		"DeliveryMonth_Text": "February",
+		"TotalQuantity": "10",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-2000",
+		"Product_Text": "7\" Widescreen Portable DVD Player w MP3",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "10",
+		"DeliveryMonth_Text": "October",
+		"TotalQuantity": "4",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1100",
+		"Product_Text": "Smart Office",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "10",
+		"DeliveryMonth_Text": "October",
+		"TotalQuantity": "10",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1113",
+		"Product_Text": "Screen clean",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "01",
+		"DeliveryMonth_Text": "January",
+		"TotalQuantity": "11",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1041",
+		"Product_Text": "Laser Basic",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "01",
+		"DeliveryMonth_Text": "January",
+		"TotalQuantity": "10",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1050",
+		"Product_Text": "Ultra Jet Super Color",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "01",
+		"DeliveryMonth_Text": "January",
+		"TotalQuantity": "5",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1023",
+		"Product_Text": "Comfort Senior",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "01",
+		"DeliveryMonth_Text": "January",
+		"TotalQuantity": "9",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1104",
+		"Product_Text": "Smart Games",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "01",
+		"DeliveryMonth_Text": "January",
+		"TotalQuantity": "14",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1500",
+		"Product_Text": "Server Basic",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "01",
+		"DeliveryMonth_Text": "January",
+		"TotalQuantity": "8",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1210",
+		"Product_Text": "PC Power Station",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "03",
+		"DeliveryMonth_Text": "March",
+		"TotalQuantity": "2",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1120",
+		"Product_Text": "Cordless Bluetooth Keyboard, english international",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "03",
+		"DeliveryMonth_Text": "March",
+		"TotalQuantity": "3",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1021",
+		"Product_Text": "ITelO Vault SAT",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "03",
+		"DeliveryMonth_Text": "March",
+		"TotalQuantity": "6",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1111",
+		"Product_Text": "Notebook Lock",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "03",
+		"DeliveryMonth_Text": "March",
+		"TotalQuantity": "7",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1102",
+		"Product_Text": "Smart Network",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "03",
+		"DeliveryMonth_Text": "March",
+		"TotalQuantity": "8",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1040",
+		"Product_Text": "Laser Professional Eco",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "01",
+		"DeliveryMonth_Text": "January",
+		"TotalQuantity": "11",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1022",
+		"Product_Text": "Comfort Easy",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "01",
+		"DeliveryMonth_Text": "January",
+		"TotalQuantity": "5",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1103",
+		"Product_Text": "Smart Multimedia",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "01",
+		"DeliveryMonth_Text": "January",
+		"TotalQuantity": "12",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1112",
+		"Product_Text": "Web cam reality",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "01",
+		"DeliveryMonth_Text": "January",
+		"TotalQuantity": "13",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-2001",
+		"Product_Text": "10\" Portable DVD player",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "12",
+		"DeliveryMonth_Text": "December",
+		"TotalQuantity": "7",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1110",
+		"Product_Text": "PC Lock",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "12",
+		"DeliveryMonth_Text": "December",
+		"TotalQuantity": "9",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1101",
+		"Product_Text": "Smart Design",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "12",
+		"DeliveryMonth_Text": "December",
+		"TotalQuantity": "9",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1020",
+		"Product_Text": "ITelO Vault Net",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "12",
+		"DeliveryMonth_Text": "December",
+		"TotalQuantity": "8",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1085",
+		"Product_Text": "Copymaster",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "08",
+		"DeliveryMonth_Text": "August",
+		"TotalQuantity": "2",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1067",
+		"Product_Text": "Ergo Mousepad",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "08",
+		"DeliveryMonth_Text": "August",
+		"TotalQuantity": "4",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1256",
+		"Product_Text": "Cerdik Phone 7",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "08",
+		"DeliveryMonth_Text": "August",
+		"TotalQuantity": "19",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1118",
+		"Product_Text": "USB Stick",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "05",
+		"DeliveryMonth_Text": "May",
+		"TotalQuantity": "4",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1064",
+		"Product_Text": "Internet Keyboard",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "05",
+		"DeliveryMonth_Text": "May",
+		"TotalQuantity": "4",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1037",
+		"Product_Text": "Flat XL",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "05",
+		"DeliveryMonth_Text": "May",
+		"TotalQuantity": "1",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1114",
+		"Product_Text": "Fabric bag professional",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "06",
+		"DeliveryMonth_Text": "June",
+		"TotalQuantity": "3",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1051",
+		"Product_Text": "Ultra Jet Mobile",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "06",
+		"DeliveryMonth_Text": "June",
+		"TotalQuantity": "2",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1042",
+		"Product_Text": "Laser Allround",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "06",
+		"DeliveryMonth_Text": "June",
+		"TotalQuantity": "9",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1060",
+		"Product_Text": "Cordless Mouse",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "06",
+		"DeliveryMonth_Text": "June",
+		"TotalQuantity": "5",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1105",
+		"Product_Text": "Smart Internet Antivirus",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "06",
+		"DeliveryMonth_Text": "June",
+		"TotalQuantity": "15",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1501",
+		"Product_Text": "Server Professional",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "06",
+		"DeliveryMonth_Text": "June",
+		"TotalQuantity": "6",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1067",
+		"Product_Text": "Ergo Mousepad",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "04",
+		"DeliveryMonth_Text": "April",
+		"TotalQuantity": "4",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1085",
+		"Product_Text": "Copymaster",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "04",
+		"DeliveryMonth_Text": "April",
+		"TotalQuantity": "4",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1256",
+		"Product_Text": "Cerdik Phone 7",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "04",
+		"DeliveryMonth_Text": "April",
+		"TotalQuantity": "23",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1118",
+		"Product_Text": "USB Stick",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "12",
+		"DeliveryMonth_Text": "December",
+		"TotalQuantity": "4",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1253",
+		"Product_Text": "Benda Laptop 1408",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "12",
+		"DeliveryMonth_Text": "December",
+		"TotalQuantity": "3",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1064",
+		"Product_Text": "Internet Keyboard",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "12",
+		"DeliveryMonth_Text": "December",
+		"TotalQuantity": "6",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1082",
+		"Product_Text": "Jet Scan Professional",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "12",
+		"DeliveryMonth_Text": "December",
+		"TotalQuantity": "4",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1073",
+		"Product_Text": "Hurricane GX/LN",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "12",
+		"DeliveryMonth_Text": "December",
+		"TotalQuantity": "7",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1055",
+		"Product_Text": "Multi Print",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "12",
+		"DeliveryMonth_Text": "December",
+		"TotalQuantity": "5",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1037",
+		"Product_Text": "Flat XL",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "12",
+		"DeliveryMonth_Text": "December",
+		"TotalQuantity": "6",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1083",
+		"Product_Text": "Jet Scan Professional",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "09",
+		"DeliveryMonth_Text": "September",
+		"TotalQuantity": "3",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1056",
+		"Product_Text": "Multi Color",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "09",
+		"DeliveryMonth_Text": "September",
+		"TotalQuantity": "4",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1137",
+		"Product_Text": "Flat XXL",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "09",
+		"DeliveryMonth_Text": "September",
+		"TotalQuantity": "5",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1092",
+		"Product_Text": "Sound Booster",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "09",
+		"DeliveryMonth_Text": "September",
+		"TotalQuantity": "4",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1065",
+		"Product_Text": "Media Keyboard",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "09",
+		"DeliveryMonth_Text": "September",
+		"TotalQuantity": "12",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1254",
+		"Product_Text": "Bending Screen 21HD",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "09",
+		"DeliveryMonth_Text": "September",
+		"TotalQuantity": "12",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1068",
+		"Product_Text": "Designer Mousepad",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "01",
+		"DeliveryMonth_Text": "January",
+		"TotalQuantity": "2",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1257",
+		"Product_Text": "Cepat Tablet 10.5",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "01",
+		"DeliveryMonth_Text": "January",
+		"TotalQuantity": "12",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1114",
+		"Product_Text": "Fabric bag professional",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "03",
+		"DeliveryMonth_Text": "March",
+		"TotalQuantity": "1",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1051",
+		"Product_Text": "Ultra Jet Mobile",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "03",
+		"DeliveryMonth_Text": "March",
+		"TotalQuantity": "2",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1042",
+		"Product_Text": "Laser Allround",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "03",
+		"DeliveryMonth_Text": "March",
+		"TotalQuantity": "5",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1060",
+		"Product_Text": "Cordless Mouse",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "03",
+		"DeliveryMonth_Text": "March",
+		"TotalQuantity": "3",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1105",
+		"Product_Text": "Smart Internet Antivirus",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "03",
+		"DeliveryMonth_Text": "March",
+		"TotalQuantity": "12",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1501",
+		"Product_Text": "Server Professional",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "03",
+		"DeliveryMonth_Text": "March",
+		"TotalQuantity": "4",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1000",
+		"Product_Text": "Notebook Basic 15",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "06",
+		"DeliveryMonth_Text": "June",
+		"TotalQuantity": "11",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1069",
+		"Product_Text": "Universal card reader",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "08",
+		"DeliveryMonth_Text": "August",
+		"TotalQuantity": "5",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1090",
+		"Product_Text": "Surround Sound",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "08",
+		"DeliveryMonth_Text": "August",
+		"TotalQuantity": "2",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1081",
+		"Product_Text": "Power Scan",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "08",
+		"DeliveryMonth_Text": "August",
+		"TotalQuantity": "7",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1117",
+		"Product_Text": "Wireless DSL Router / Repeater and Print Server",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "08",
+		"DeliveryMonth_Text": "August",
+		"TotalQuantity": "8",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1063",
+		"Product_Text": "Ergonomic Keyboard",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "08",
+		"DeliveryMonth_Text": "August",
+		"TotalQuantity": "7",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1036",
+		"Product_Text": "Flat Future",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "08",
+		"DeliveryMonth_Text": "August",
+		"TotalQuantity": "10",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1072",
+		"Product_Text": "Hurricane GX",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "08",
+		"DeliveryMonth_Text": "August",
+		"TotalQuantity": "11",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1252",
+		"Product_Text": "Astro Phone 6",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "08",
+		"DeliveryMonth_Text": "August",
+		"TotalQuantity": "12",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1055",
+		"Product_Text": "Multi Print",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "05",
+		"DeliveryMonth_Text": "May",
+		"TotalQuantity": "1",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1037",
+		"Product_Text": "Flat XL",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "05",
+		"DeliveryMonth_Text": "May",
+		"TotalQuantity": "2",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1253",
+		"Product_Text": "Benda Laptop 1408",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "05",
+		"DeliveryMonth_Text": "May",
+		"TotalQuantity": "2",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1114",
+		"Product_Text": "Fabric bag professional",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "02",
+		"DeliveryMonth_Text": "February",
+		"TotalQuantity": "3",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1060",
+		"Product_Text": "Cordless Mouse",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "02",
+		"DeliveryMonth_Text": "February",
+		"TotalQuantity": "5",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1501",
+		"Product_Text": "Server Professional",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "02",
+		"DeliveryMonth_Text": "February",
+		"TotalQuantity": "8",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1051",
+		"Product_Text": "Ultra Jet Mobile",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "02",
+		"DeliveryMonth_Text": "February",
+		"TotalQuantity": "4",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1042",
+		"Product_Text": "Laser Allround",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "02",
+		"DeliveryMonth_Text": "February",
+		"TotalQuantity": "13",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1105",
+		"Product_Text": "Smart Internet Antivirus",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "02",
+		"DeliveryMonth_Text": "February",
+		"TotalQuantity": "21",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1036",
+		"Product_Text": "Flat Future",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "05",
+		"DeliveryMonth_Text": "May",
+		"TotalQuantity": "2",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1252",
+		"Product_Text": "Astro Phone 6",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "05",
+		"DeliveryMonth_Text": "May",
+		"TotalQuantity": "2",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1050",
+		"Product_Text": "Ultra Jet Super Color",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "03",
+		"DeliveryMonth_Text": "March",
+		"TotalQuantity": "3",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1023",
+		"Product_Text": "Comfort Senior",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "03",
+		"DeliveryMonth_Text": "March",
+		"TotalQuantity": "6",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1041",
+		"Product_Text": "Laser Basic",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "03",
+		"DeliveryMonth_Text": "March",
+		"TotalQuantity": "5",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1113",
+		"Product_Text": "Screen clean",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "03",
+		"DeliveryMonth_Text": "March",
+		"TotalQuantity": "8",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1500",
+		"Product_Text": "Server Basic",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "03",
+		"DeliveryMonth_Text": "March",
+		"TotalQuantity": "2",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1104",
+		"Product_Text": "Smart Games",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "03",
+		"DeliveryMonth_Text": "March",
+		"TotalQuantity": "10",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1068",
+		"Product_Text": "Designer Mousepad",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "06",
+		"DeliveryMonth_Text": "June",
+		"TotalQuantity": "2",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1257",
+		"Product_Text": "Cepat Tablet 10.5",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "06",
+		"DeliveryMonth_Text": "June",
+		"TotalQuantity": "8",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1000",
+		"Product_Text": "Notebook Basic 15",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "02",
+		"DeliveryMonth_Text": "February",
+		"TotalQuantity": "15",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1116",
+		"Product_Text": "Wireless DSL Router / Repeater",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "03",
+		"DeliveryMonth_Text": "March",
+		"TotalQuantity": "3",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1080",
+		"Product_Text": "Photo Scan",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "03",
+		"DeliveryMonth_Text": "March",
+		"TotalQuantity": "6",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1251",
+		"Product_Text": "Astro Laptop 1516",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "03",
+		"DeliveryMonth_Text": "March",
+		"TotalQuantity": "4",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1071",
+		"Product_Text": "Gladiator MX",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "03",
+		"DeliveryMonth_Text": "March",
+		"TotalQuantity": "3",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1062",
+		"Product_Text": "Track Mouse",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "03",
+		"DeliveryMonth_Text": "March",
+		"TotalQuantity": "4",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1035",
+		"Product_Text": "Flat Basic",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "03",
+		"DeliveryMonth_Text": "March",
+		"TotalQuantity": "6",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1107",
+		"Product_Text": "Smart Money",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "03",
+		"DeliveryMonth_Text": "March",
+		"TotalQuantity": "11",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1069",
+		"Product_Text": "Universal card reader",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "10",
+		"DeliveryMonth_Text": "October",
+		"TotalQuantity": "3",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1100",
+		"Product_Text": "Smart Office",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "01",
+		"DeliveryMonth_Text": "January",
+		"TotalQuantity": "14",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-2000",
+		"Product_Text": "7\" Widescreen Portable DVD Player w MP3",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "01",
+		"DeliveryMonth_Text": "January",
+		"TotalQuantity": "8",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1069",
+		"Product_Text": "Universal card reader",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "12",
+		"DeliveryMonth_Text": "December",
+		"TotalQuantity": "5",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1050",
+		"Product_Text": "Ultra Jet Super Color",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "09",
+		"DeliveryMonth_Text": "September",
+		"TotalQuantity": "3",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1023",
+		"Product_Text": "Comfort Senior",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "09",
+		"DeliveryMonth_Text": "September",
+		"TotalQuantity": "6",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1041",
+		"Product_Text": "Laser Basic",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "09",
+		"DeliveryMonth_Text": "September",
+		"TotalQuantity": "9",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1104",
+		"Product_Text": "Smart Games",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "09",
+		"DeliveryMonth_Text": "September",
+		"TotalQuantity": "11",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1500",
+		"Product_Text": "Server Basic",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "09",
+		"DeliveryMonth_Text": "September",
+		"TotalQuantity": "6",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1113",
+		"Product_Text": "Screen clean",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "09",
+		"DeliveryMonth_Text": "September",
+		"TotalQuantity": "11",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1100",
+		"Product_Text": "Smart Office",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "08",
+		"DeliveryMonth_Text": "August",
+		"TotalQuantity": "12",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-2000",
+		"Product_Text": "7\" Widescreen Portable DVD Player w MP3",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "08",
+		"DeliveryMonth_Text": "August",
+		"TotalQuantity": "8",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1022",
+		"Product_Text": "Comfort Easy",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "08",
+		"DeliveryMonth_Text": "August",
+		"TotalQuantity": "5",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1103",
+		"Product_Text": "Smart Multimedia",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "08",
+		"DeliveryMonth_Text": "August",
+		"TotalQuantity": "12",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1112",
+		"Product_Text": "Web cam reality",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "08",
+		"DeliveryMonth_Text": "August",
+		"TotalQuantity": "9",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1040",
+		"Product_Text": "Laser Professional Eco",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "08",
+		"DeliveryMonth_Text": "August",
+		"TotalQuantity": "11",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1052",
+		"Product_Text": "Ultra Jet Super Highspeed",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "05",
+		"DeliveryMonth_Text": "May",
+		"TotalQuantity": "2",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1101",
+		"Product_Text": "Smart Design",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "07",
+		"DeliveryMonth_Text": "July",
+		"TotalQuantity": "6",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1020",
+		"Product_Text": "ITelO Vault Net",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "07",
+		"DeliveryMonth_Text": "July",
+		"TotalQuantity": "8",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-2001",
+		"Product_Text": "10\" Portable DVD player",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "07",
+		"DeliveryMonth_Text": "July",
+		"TotalQuantity": "8",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1110",
+		"Product_Text": "PC Lock",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "07",
+		"DeliveryMonth_Text": "July",
+		"TotalQuantity": "10",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1115",
+		"Product_Text": "Wireless DSL Router",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "02",
+		"DeliveryMonth_Text": "February",
+		"TotalQuantity": "3",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1070",
+		"Product_Text": "Proctra X",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "02",
+		"DeliveryMonth_Text": "February",
+		"TotalQuantity": "9",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1061",
+		"Product_Text": "Speed Mouse",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "02",
+		"DeliveryMonth_Text": "February",
+		"TotalQuantity": "7",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1502",
+		"Product_Text": "Server Power Pro",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "02",
+		"DeliveryMonth_Text": "February",
+		"TotalQuantity": "8",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1052",
+		"Product_Text": "Ultra Jet Super Highspeed",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "02",
+		"DeliveryMonth_Text": "February",
+		"TotalQuantity": "9",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1106",
+		"Product_Text": "Smart Firewall",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "02",
+		"DeliveryMonth_Text": "February",
+		"TotalQuantity": "11",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1257",
+		"Product_Text": "Cepat Tablet 10.5",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "05",
+		"DeliveryMonth_Text": "May",
+		"TotalQuantity": "2",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1138",
+		"Product_Text": "Pocket Mouse",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "06",
+		"DeliveryMonth_Text": "June",
+		"TotalQuantity": "1",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1066",
+		"Product_Text": "Mousepad",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "06",
+		"DeliveryMonth_Text": "June",
+		"TotalQuantity": "6",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1255",
+		"Product_Text": "Broad Screen 22HD",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "06",
+		"DeliveryMonth_Text": "June",
+		"TotalQuantity": "14",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1000",
+		"Product_Text": "Notebook Basic 15",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "05",
+		"DeliveryMonth_Text": "May",
+		"TotalQuantity": "6",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1022",
+		"Product_Text": "Comfort Easy",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "06",
+		"DeliveryMonth_Text": "June",
+		"TotalQuantity": "3",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1040",
+		"Product_Text": "Laser Professional Eco",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "06",
+		"DeliveryMonth_Text": "June",
+		"TotalQuantity": "8",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1112",
+		"Product_Text": "Web cam reality",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "06",
+		"DeliveryMonth_Text": "June",
+		"TotalQuantity": "9",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1103",
+		"Product_Text": "Smart Multimedia",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "06",
+		"DeliveryMonth_Text": "June",
+		"TotalQuantity": "9",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1502",
+		"Product_Text": "Server Power Pro",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "11",
+		"DeliveryMonth_Text": "November",
+		"TotalQuantity": "6",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1115",
+		"Product_Text": "Wireless DSL Router",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "11",
+		"DeliveryMonth_Text": "November",
+		"TotalQuantity": "3",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1070",
+		"Product_Text": "Proctra X",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "11",
+		"DeliveryMonth_Text": "November",
+		"TotalQuantity": "7",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1061",
+		"Product_Text": "Speed Mouse",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "11",
+		"DeliveryMonth_Text": "November",
+		"TotalQuantity": "5",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1052",
+		"Product_Text": "Ultra Jet Super Highspeed",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "11",
+		"DeliveryMonth_Text": "November",
+		"TotalQuantity": "5",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1106",
+		"Product_Text": "Smart Firewall",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "11",
+		"DeliveryMonth_Text": "November",
+		"TotalQuantity": "9",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1101",
+		"Product_Text": "Smart Design",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "01",
+		"DeliveryMonth_Text": "January",
+		"TotalQuantity": "9",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1020",
+		"Product_Text": "ITelO Vault Net",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "01",
+		"DeliveryMonth_Text": "January",
+		"TotalQuantity": "8",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-2001",
+		"Product_Text": "10\" Portable DVD player",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "01",
+		"DeliveryMonth_Text": "January",
+		"TotalQuantity": "10",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1110",
+		"Product_Text": "PC Lock",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "01",
+		"DeliveryMonth_Text": "January",
+		"TotalQuantity": "13",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1100",
+		"Product_Text": "Smart Office",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "07",
+		"DeliveryMonth_Text": "July",
+		"TotalQuantity": "10",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-2000",
+		"Product_Text": "7\" Widescreen Portable DVD Player w MP3",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "07",
+		"DeliveryMonth_Text": "July",
+		"TotalQuantity": "6",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1069",
+		"Product_Text": "Universal card reader",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "04",
+		"DeliveryMonth_Text": "April",
+		"TotalQuantity": "5",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1069",
+		"Product_Text": "Universal card reader",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "06",
+		"DeliveryMonth_Text": "June",
+		"TotalQuantity": "5",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1071",
+		"Product_Text": "Gladiator MX",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "02",
+		"DeliveryMonth_Text": "February",
+		"TotalQuantity": "7",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1062",
+		"Product_Text": "Track Mouse",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "02",
+		"DeliveryMonth_Text": "February",
+		"TotalQuantity": "8",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1080",
+		"Product_Text": "Photo Scan",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "02",
+		"DeliveryMonth_Text": "February",
+		"TotalQuantity": "12",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1035",
+		"Product_Text": "Flat Basic",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "02",
+		"DeliveryMonth_Text": "February",
+		"TotalQuantity": "14",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1116",
+		"Product_Text": "Wireless DSL Router / Repeater",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "02",
+		"DeliveryMonth_Text": "February",
+		"TotalQuantity": "12",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1251",
+		"Product_Text": "Astro Laptop 1516",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "02",
+		"DeliveryMonth_Text": "February",
+		"TotalQuantity": "12",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1107",
+		"Product_Text": "Smart Money",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "02",
+		"DeliveryMonth_Text": "February",
+		"TotalQuantity": "18",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1080",
+		"Product_Text": "Photo Scan",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "09",
+		"DeliveryMonth_Text": "September",
+		"TotalQuantity": "6",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1116",
+		"Product_Text": "Wireless DSL Router / Repeater",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "09",
+		"DeliveryMonth_Text": "September",
+		"TotalQuantity": "9",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1071",
+		"Product_Text": "Gladiator MX",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "09",
+		"DeliveryMonth_Text": "September",
+		"TotalQuantity": "7",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1251",
+		"Product_Text": "Astro Laptop 1516",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "09",
+		"DeliveryMonth_Text": "September",
+		"TotalQuantity": "9",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1062",
+		"Product_Text": "Track Mouse",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "09",
+		"DeliveryMonth_Text": "September",
+		"TotalQuantity": "8",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1035",
+		"Product_Text": "Flat Basic",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "09",
+		"DeliveryMonth_Text": "September",
+		"TotalQuantity": "10",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1107",
+		"Product_Text": "Smart Money",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "09",
+		"DeliveryMonth_Text": "September",
+		"TotalQuantity": "16",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1114",
+		"Product_Text": "Fabric bag professional",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "07",
+		"DeliveryMonth_Text": "July",
+		"TotalQuantity": "1",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1060",
+		"Product_Text": "Cordless Mouse",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "07",
+		"DeliveryMonth_Text": "July",
+		"TotalQuantity": "5",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1042",
+		"Product_Text": "Laser Allround",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "07",
+		"DeliveryMonth_Text": "July",
+		"TotalQuantity": "7",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1051",
+		"Product_Text": "Ultra Jet Mobile",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "07",
+		"DeliveryMonth_Text": "July",
+		"TotalQuantity": "3",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1105",
+		"Product_Text": "Smart Internet Antivirus",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "07",
+		"DeliveryMonth_Text": "July",
+		"TotalQuantity": "18",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1501",
+		"Product_Text": "Server Professional",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "07",
+		"DeliveryMonth_Text": "July",
+		"TotalQuantity": "8",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1114",
+		"Product_Text": "Fabric bag professional",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "05",
+		"DeliveryMonth_Text": "May",
+		"TotalQuantity": "2",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1042",
+		"Product_Text": "Laser Allround",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "05",
+		"DeliveryMonth_Text": "May",
+		"TotalQuantity": "4",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1060",
+		"Product_Text": "Cordless Mouse",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "05",
+		"DeliveryMonth_Text": "May",
+		"TotalQuantity": "2",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1105",
+		"Product_Text": "Smart Internet Antivirus",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "05",
+		"DeliveryMonth_Text": "May",
+		"TotalQuantity": "9",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1501",
+		"Product_Text": "Server Professional",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "05",
+		"DeliveryMonth_Text": "May",
+		"TotalQuantity": "6",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1081",
+		"Product_Text": "Power Scan",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "09",
+		"DeliveryMonth_Text": "September",
+		"TotalQuantity": "4",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1117",
+		"Product_Text": "Wireless DSL Router / Repeater and Print Server",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "09",
+		"DeliveryMonth_Text": "September",
+		"TotalQuantity": "8",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1072",
+		"Product_Text": "Hurricane GX",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "09",
+		"DeliveryMonth_Text": "September",
+		"TotalQuantity": "11",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1252",
+		"Product_Text": "Astro Phone 6",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "09",
+		"DeliveryMonth_Text": "September",
+		"TotalQuantity": "12",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1090",
+		"Product_Text": "Surround Sound",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "09",
+		"DeliveryMonth_Text": "September",
+		"TotalQuantity": "4",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1063",
+		"Product_Text": "Ergonomic Keyboard",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "09",
+		"DeliveryMonth_Text": "September",
+		"TotalQuantity": "10",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1036",
+		"Product_Text": "Flat Future",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "09",
+		"DeliveryMonth_Text": "September",
+		"TotalQuantity": "10",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1040",
+		"Product_Text": "Laser Professional Eco",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "07",
+		"DeliveryMonth_Text": "July",
+		"TotalQuantity": "9",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1022",
+		"Product_Text": "Comfort Easy",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "07",
+		"DeliveryMonth_Text": "July",
+		"TotalQuantity": "5",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1103",
+		"Product_Text": "Smart Multimedia",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "07",
+		"DeliveryMonth_Text": "July",
+		"TotalQuantity": "10",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1112",
+		"Product_Text": "Web cam reality",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "07",
+		"DeliveryMonth_Text": "July",
+		"TotalQuantity": "8",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1120",
+		"Product_Text": "Cordless Bluetooth Keyboard, english international",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "06",
+		"DeliveryMonth_Text": "June",
+		"TotalQuantity": "5",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1210",
+		"Product_Text": "PC Power Station",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "06",
+		"DeliveryMonth_Text": "June",
+		"TotalQuantity": "2",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1021",
+		"Product_Text": "ITelO Vault SAT",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "06",
+		"DeliveryMonth_Text": "June",
+		"TotalQuantity": "6",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1111",
+		"Product_Text": "Notebook Lock",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "06",
+		"DeliveryMonth_Text": "June",
+		"TotalQuantity": "8",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1102",
+		"Product_Text": "Smart Network",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "06",
+		"DeliveryMonth_Text": "June",
+		"TotalQuantity": "12",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1071",
+		"Product_Text": "Gladiator MX",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "01",
+		"DeliveryMonth_Text": "January",
+		"TotalQuantity": "7",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1062",
+		"Product_Text": "Track Mouse",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "01",
+		"DeliveryMonth_Text": "January",
+		"TotalQuantity": "8",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1080",
+		"Product_Text": "Photo Scan",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "01",
+		"DeliveryMonth_Text": "January",
+		"TotalQuantity": "9",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1035",
+		"Product_Text": "Flat Basic",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "01",
+		"DeliveryMonth_Text": "January",
+		"TotalQuantity": "12",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1251",
+		"Product_Text": "Astro Laptop 1516",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "01",
+		"DeliveryMonth_Text": "January",
+		"TotalQuantity": "9",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1116",
+		"Product_Text": "Wireless DSL Router / Repeater",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "01",
+		"DeliveryMonth_Text": "January",
+		"TotalQuantity": "9",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1107",
+		"Product_Text": "Smart Money",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "01",
+		"DeliveryMonth_Text": "January",
+		"TotalQuantity": "16",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1137",
+		"Product_Text": "Flat XXL",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "02",
+		"DeliveryMonth_Text": "February",
+		"TotalQuantity": "5",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1092",
+		"Product_Text": "Sound Booster",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "02",
+		"DeliveryMonth_Text": "February",
+		"TotalQuantity": "4",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1083",
+		"Product_Text": "Jet Scan Professional",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "02",
+		"DeliveryMonth_Text": "February",
+		"TotalQuantity": "5",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1056",
+		"Product_Text": "Multi Color",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "02",
+		"DeliveryMonth_Text": "February",
+		"TotalQuantity": "8",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1254",
+		"Product_Text": "Bending Screen 21HD",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "02",
+		"DeliveryMonth_Text": "February",
+		"TotalQuantity": "18",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1065",
+		"Product_Text": "Media Keyboard",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "02",
+		"DeliveryMonth_Text": "February",
+		"TotalQuantity": "14",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1138",
+		"Product_Text": "Pocket Mouse",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "04",
+		"DeliveryMonth_Text": "April",
+		"TotalQuantity": "2",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1066",
+		"Product_Text": "Mousepad",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "04",
+		"DeliveryMonth_Text": "April",
+		"TotalQuantity": "6",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1255",
+		"Product_Text": "Broad Screen 22HD",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "04",
+		"DeliveryMonth_Text": "April",
+		"TotalQuantity": "18",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1115",
+		"Product_Text": "Wireless DSL Router",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "07",
+		"DeliveryMonth_Text": "July",
+		"TotalQuantity": "2",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1061",
+		"Product_Text": "Speed Mouse",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "07",
+		"DeliveryMonth_Text": "July",
+		"TotalQuantity": "7",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1052",
+		"Product_Text": "Ultra Jet Super Highspeed",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "07",
+		"DeliveryMonth_Text": "July",
+		"TotalQuantity": "7",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1106",
+		"Product_Text": "Smart Firewall",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "07",
+		"DeliveryMonth_Text": "July",
+		"TotalQuantity": "10",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1502",
+		"Product_Text": "Server Power Pro",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "07",
+		"DeliveryMonth_Text": "July",
+		"TotalQuantity": "8",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1070",
+		"Product_Text": "Proctra X",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "07",
+		"DeliveryMonth_Text": "July",
+		"TotalQuantity": "8",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1085",
+		"Product_Text": "Copymaster",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "07",
+		"DeliveryMonth_Text": "July",
+		"TotalQuantity": "4",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1067",
+		"Product_Text": "Ergo Mousepad",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "07",
+		"DeliveryMonth_Text": "July",
+		"TotalQuantity": "4",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1256",
+		"Product_Text": "Cerdik Phone 7",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "07",
+		"DeliveryMonth_Text": "July",
+		"TotalQuantity": "20",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-2001",
+		"Product_Text": "10\" Portable DVD player",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "05",
+		"DeliveryMonth_Text": "May",
+		"TotalQuantity": "2",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1110",
+		"Product_Text": "PC Lock",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "05",
+		"DeliveryMonth_Text": "May",
+		"TotalQuantity": "6",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1101",
+		"Product_Text": "Smart Design",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "05",
+		"DeliveryMonth_Text": "May",
+		"TotalQuantity": "5",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1137",
+		"Product_Text": "Flat XXL",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "12",
+		"DeliveryMonth_Text": "December",
+		"TotalQuantity": "5",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1092",
+		"Product_Text": "Sound Booster",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "12",
+		"DeliveryMonth_Text": "December",
+		"TotalQuantity": "3",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1065",
+		"Product_Text": "Media Keyboard",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "12",
+		"DeliveryMonth_Text": "December",
+		"TotalQuantity": "10",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1083",
+		"Product_Text": "Jet Scan Professional",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "12",
+		"DeliveryMonth_Text": "December",
+		"TotalQuantity": "4",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1056",
+		"Product_Text": "Multi Color",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "12",
+		"DeliveryMonth_Text": "December",
+		"TotalQuantity": "6",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1254",
+		"Product_Text": "Bending Screen 21HD",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "12",
+		"DeliveryMonth_Text": "December",
+		"TotalQuantity": "12",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1116",
+		"Product_Text": "Wireless DSL Router / Repeater",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "10",
+		"DeliveryMonth_Text": "October",
+		"TotalQuantity": "6",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1071",
+		"Product_Text": "Gladiator MX",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "10",
+		"DeliveryMonth_Text": "October",
+		"TotalQuantity": "6",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1251",
+		"Product_Text": "Astro Laptop 1516",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "10",
+		"DeliveryMonth_Text": "October",
+		"TotalQuantity": "5",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1062",
+		"Product_Text": "Track Mouse",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "10",
+		"DeliveryMonth_Text": "October",
+		"TotalQuantity": "6",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1107",
+		"Product_Text": "Smart Money",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "10",
+		"DeliveryMonth_Text": "October",
+		"TotalQuantity": "11",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1080",
+		"Product_Text": "Photo Scan",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "10",
+		"DeliveryMonth_Text": "October",
+		"TotalQuantity": "6",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1035",
+		"Product_Text": "Flat Basic",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "10",
+		"DeliveryMonth_Text": "October",
+		"TotalQuantity": "10",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1137",
+		"Product_Text": "Flat XXL",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "01",
+		"DeliveryMonth_Text": "January",
+		"TotalQuantity": "5",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1083",
+		"Product_Text": "Jet Scan Professional",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "01",
+		"DeliveryMonth_Text": "January",
+		"TotalQuantity": "4",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1056",
+		"Product_Text": "Multi Color",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "01",
+		"DeliveryMonth_Text": "January",
+		"TotalQuantity": "6",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1254",
+		"Product_Text": "Bending Screen 21HD",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "01",
+		"DeliveryMonth_Text": "January",
+		"TotalQuantity": "14",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1065",
+		"Product_Text": "Media Keyboard",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "01",
+		"DeliveryMonth_Text": "January",
+		"TotalQuantity": "12",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1092",
+		"Product_Text": "Sound Booster",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "01",
+		"DeliveryMonth_Text": "January",
+		"TotalQuantity": "5",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1113",
+		"Product_Text": "Screen clean",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "10",
+		"DeliveryMonth_Text": "October",
+		"TotalQuantity": "9",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1500",
+		"Product_Text": "Server Basic",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "10",
+		"DeliveryMonth_Text": "October",
+		"TotalQuantity": "6",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1104",
+		"Product_Text": "Smart Games",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "10",
+		"DeliveryMonth_Text": "October",
+		"TotalQuantity": "10",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1041",
+		"Product_Text": "Laser Basic",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "10",
+		"DeliveryMonth_Text": "October",
+		"TotalQuantity": "8",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1050",
+		"Product_Text": "Ultra Jet Super Color",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "10",
+		"DeliveryMonth_Text": "October",
+		"TotalQuantity": "4",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1023",
+		"Product_Text": "Comfort Senior",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "10",
+		"DeliveryMonth_Text": "October",
+		"TotalQuantity": "6",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1061",
+		"Product_Text": "Speed Mouse",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "08",
+		"DeliveryMonth_Text": "August",
+		"TotalQuantity": "5",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1052",
+		"Product_Text": "Ultra Jet Super Highspeed",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "08",
+		"DeliveryMonth_Text": "August",
+		"TotalQuantity": "7",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1106",
+		"Product_Text": "Smart Firewall",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "08",
+		"DeliveryMonth_Text": "August",
+		"TotalQuantity": "6",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1502",
+		"Product_Text": "Server Power Pro",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "08",
+		"DeliveryMonth_Text": "August",
+		"TotalQuantity": "4",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1115",
+		"Product_Text": "Wireless DSL Router",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "08",
+		"DeliveryMonth_Text": "August",
+		"TotalQuantity": "3",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1070",
+		"Product_Text": "Proctra X",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "08",
+		"DeliveryMonth_Text": "August",
+		"TotalQuantity": "9",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1022",
+		"Product_Text": "Comfort Easy",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "03",
+		"DeliveryMonth_Text": "March",
+		"TotalQuantity": "3",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1040",
+		"Product_Text": "Laser Professional Eco",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "03",
+		"DeliveryMonth_Text": "March",
+		"TotalQuantity": "6",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1112",
+		"Product_Text": "Web cam reality",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "03",
+		"DeliveryMonth_Text": "March",
+		"TotalQuantity": "6",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1103",
+		"Product_Text": "Smart Multimedia",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "03",
+		"DeliveryMonth_Text": "March",
+		"TotalQuantity": "7",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1117",
+		"Product_Text": "Wireless DSL Router / Repeater and Print Server",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "12",
+		"DeliveryMonth_Text": "December",
+		"TotalQuantity": "5",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1090",
+		"Product_Text": "Surround Sound",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "12",
+		"DeliveryMonth_Text": "December",
+		"TotalQuantity": "4",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1252",
+		"Product_Text": "Astro Phone 6",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "12",
+		"DeliveryMonth_Text": "December",
+		"TotalQuantity": "8",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1072",
+		"Product_Text": "Hurricane GX",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "12",
+		"DeliveryMonth_Text": "December",
+		"TotalQuantity": "11",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1063",
+		"Product_Text": "Ergonomic Keyboard",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "12",
+		"DeliveryMonth_Text": "December",
+		"TotalQuantity": "8",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1081",
+		"Product_Text": "Power Scan",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "12",
+		"DeliveryMonth_Text": "December",
+		"TotalQuantity": "7",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1036",
+		"Product_Text": "Flat Future",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "12",
+		"DeliveryMonth_Text": "December",
+		"TotalQuantity": "12",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1117",
+		"Product_Text": "Wireless DSL Router / Repeater and Print Server",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "10",
+		"DeliveryMonth_Text": "October",
+		"TotalQuantity": "5",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1072",
+		"Product_Text": "Hurricane GX",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "10",
+		"DeliveryMonth_Text": "October",
+		"TotalQuantity": "8",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1252",
+		"Product_Text": "Astro Phone 6",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "10",
+		"DeliveryMonth_Text": "October",
+		"TotalQuantity": "7",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1090",
+		"Product_Text": "Surround Sound",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "10",
+		"DeliveryMonth_Text": "October",
+		"TotalQuantity": "2",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1063",
+		"Product_Text": "Ergonomic Keyboard",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "10",
+		"DeliveryMonth_Text": "October",
+		"TotalQuantity": "9",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1081",
+		"Product_Text": "Power Scan",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "10",
+		"DeliveryMonth_Text": "October",
+		"TotalQuantity": "6",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1036",
+		"Product_Text": "Flat Future",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "10",
+		"DeliveryMonth_Text": "October",
+		"TotalQuantity": "10",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1501",
+		"Product_Text": "Server Professional",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "11",
+		"DeliveryMonth_Text": "November",
+		"TotalQuantity": "6",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1114",
+		"Product_Text": "Fabric bag professional",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "11",
+		"DeliveryMonth_Text": "November",
+		"TotalQuantity": "3",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1060",
+		"Product_Text": "Cordless Mouse",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "11",
+		"DeliveryMonth_Text": "November",
+		"TotalQuantity": "3",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1051",
+		"Product_Text": "Ultra Jet Mobile",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "11",
+		"DeliveryMonth_Text": "November",
+		"TotalQuantity": "2",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1042",
+		"Product_Text": "Laser Allround",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "11",
+		"DeliveryMonth_Text": "November",
+		"TotalQuantity": "7",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1105",
+		"Product_Text": "Smart Internet Antivirus",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "11",
+		"DeliveryMonth_Text": "November",
+		"TotalQuantity": "15",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1041",
+		"Product_Text": "Laser Basic",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "05",
+		"DeliveryMonth_Text": "May",
+		"TotalQuantity": "1",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1050",
+		"Product_Text": "Ultra Jet Super Color",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "05",
+		"DeliveryMonth_Text": "May",
+		"TotalQuantity": "2",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1023",
+		"Product_Text": "Comfort Senior",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "05",
+		"DeliveryMonth_Text": "May",
+		"TotalQuantity": "3",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1000",
+		"Product_Text": "Notebook Basic 15",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "03",
+		"DeliveryMonth_Text": "March",
+		"TotalQuantity": "6",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1021",
+		"Product_Text": "ITelO Vault SAT",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "07",
+		"DeliveryMonth_Text": "July",
+		"TotalQuantity": "9",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1120",
+		"Product_Text": "Cordless Bluetooth Keyboard, english international",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "07",
+		"DeliveryMonth_Text": "July",
+		"TotalQuantity": "6",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1102",
+		"Product_Text": "Smart Network",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "07",
+		"DeliveryMonth_Text": "July",
+		"TotalQuantity": "14",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1210",
+		"Product_Text": "PC Power Station",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "07",
+		"DeliveryMonth_Text": "July",
+		"TotalQuantity": "4",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1111",
+		"Product_Text": "Notebook Lock",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "07",
+		"DeliveryMonth_Text": "July",
+		"TotalQuantity": "10",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1000",
+		"Product_Text": "Notebook Basic 15",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "08",
+		"DeliveryMonth_Text": "August",
+		"TotalQuantity": "10",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1073",
+		"Product_Text": "Hurricane GX/LN",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "08",
+		"DeliveryMonth_Text": "August",
+		"TotalQuantity": "7",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1082",
+		"Product_Text": "Jet Scan Professional",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "08",
+		"DeliveryMonth_Text": "August",
+		"TotalQuantity": "4",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1055",
+		"Product_Text": "Multi Print",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "08",
+		"DeliveryMonth_Text": "August",
+		"TotalQuantity": "5",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1037",
+		"Product_Text": "Flat XL",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "08",
+		"DeliveryMonth_Text": "August",
+		"TotalQuantity": "5",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1253",
+		"Product_Text": "Benda Laptop 1408",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "08",
+		"DeliveryMonth_Text": "August",
+		"TotalQuantity": "5",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1118",
+		"Product_Text": "USB Stick",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "08",
+		"DeliveryMonth_Text": "August",
+		"TotalQuantity": "7",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1064",
+		"Product_Text": "Internet Keyboard",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "08",
+		"DeliveryMonth_Text": "August",
+		"TotalQuantity": "6",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1138",
+		"Product_Text": "Pocket Mouse",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "08",
+		"DeliveryMonth_Text": "August",
+		"TotalQuantity": "2",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1066",
+		"Product_Text": "Mousepad",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "08",
+		"DeliveryMonth_Text": "August",
+		"TotalQuantity": "6",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1255",
+		"Product_Text": "Broad Screen 22HD",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "08",
+		"DeliveryMonth_Text": "August",
+		"TotalQuantity": "15",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1081",
+		"Product_Text": "Power Scan",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "04",
+		"DeliveryMonth_Text": "April",
+		"TotalQuantity": "7",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1117",
+		"Product_Text": "Wireless DSL Router / Repeater and Print Server",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "04",
+		"DeliveryMonth_Text": "April",
+		"TotalQuantity": "8",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1072",
+		"Product_Text": "Hurricane GX",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "04",
+		"DeliveryMonth_Text": "April",
+		"TotalQuantity": "11",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1252",
+		"Product_Text": "Astro Phone 6",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "04",
+		"DeliveryMonth_Text": "April",
+		"TotalQuantity": "12",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1090",
+		"Product_Text": "Surround Sound",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "04",
+		"DeliveryMonth_Text": "April",
+		"TotalQuantity": "4",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1063",
+		"Product_Text": "Ergonomic Keyboard",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "04",
+		"DeliveryMonth_Text": "April",
+		"TotalQuantity": "10",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1036",
+		"Product_Text": "Flat Future",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "04",
+		"DeliveryMonth_Text": "April",
+		"TotalQuantity": "12",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1116",
+		"Product_Text": "Wireless DSL Router / Repeater",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "05",
+		"DeliveryMonth_Text": "May",
+		"TotalQuantity": "6",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1071",
+		"Product_Text": "Gladiator MX",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "05",
+		"DeliveryMonth_Text": "May",
+		"TotalQuantity": "4",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1251",
+		"Product_Text": "Astro Laptop 1516",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "05",
+		"DeliveryMonth_Text": "May",
+		"TotalQuantity": "3",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1062",
+		"Product_Text": "Track Mouse",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "05",
+		"DeliveryMonth_Text": "May",
+		"TotalQuantity": "4",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1035",
+		"Product_Text": "Flat Basic",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "05",
+		"DeliveryMonth_Text": "May",
+		"TotalQuantity": "4",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1107",
+		"Product_Text": "Smart Money",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "05",
+		"DeliveryMonth_Text": "May",
+		"TotalQuantity": "8",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1050",
+		"Product_Text": "Ultra Jet Super Color",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "04",
+		"DeliveryMonth_Text": "April",
+		"TotalQuantity": "5",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1023",
+		"Product_Text": "Comfort Senior",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "04",
+		"DeliveryMonth_Text": "April",
+		"TotalQuantity": "9",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1113",
+		"Product_Text": "Screen clean",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "04",
+		"DeliveryMonth_Text": "April",
+		"TotalQuantity": "8",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1041",
+		"Product_Text": "Laser Basic",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "04",
+		"DeliveryMonth_Text": "April",
+		"TotalQuantity": "10",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1104",
+		"Product_Text": "Smart Games",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "04",
+		"DeliveryMonth_Text": "April",
+		"TotalQuantity": "11",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1500",
+		"Product_Text": "Server Basic",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "04",
+		"DeliveryMonth_Text": "April",
+		"TotalQuantity": "5",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1067",
+		"Product_Text": "Ergo Mousepad",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "10",
+		"DeliveryMonth_Text": "October",
+		"TotalQuantity": "2",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1085",
+		"Product_Text": "Copymaster",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "10",
+		"DeliveryMonth_Text": "October",
+		"TotalQuantity": "2",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1256",
+		"Product_Text": "Cerdik Phone 7",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "10",
+		"DeliveryMonth_Text": "October",
+		"TotalQuantity": "16",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1020",
+		"Product_Text": "ITelO Vault Net",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "05",
+		"DeliveryMonth_Text": "May",
+		"TotalQuantity": "3",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-2001",
+		"Product_Text": "10\" Portable DVD player",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "05",
+		"DeliveryMonth_Text": "May",
+		"TotalQuantity": "3",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1000",
+		"Product_Text": "Notebook Basic 15",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "09",
+		"DeliveryMonth_Text": "September",
+		"TotalQuantity": "13",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1041",
+		"Product_Text": "Laser Basic",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "05",
+		"DeliveryMonth_Text": "May",
+		"TotalQuantity": "4",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1113",
+		"Product_Text": "Screen clean",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "05",
+		"DeliveryMonth_Text": "May",
+		"TotalQuantity": "6",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1500",
+		"Product_Text": "Server Basic",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "05",
+		"DeliveryMonth_Text": "May",
+		"TotalQuantity": "5",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1104",
+		"Product_Text": "Smart Games",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "05",
+		"DeliveryMonth_Text": "May",
+		"TotalQuantity": "7",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1021",
+		"Product_Text": "ITelO Vault SAT",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "08",
+		"DeliveryMonth_Text": "August",
+		"TotalQuantity": "9",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1210",
+		"Product_Text": "PC Power Station",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "08",
+		"DeliveryMonth_Text": "August",
+		"TotalQuantity": "4",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1102",
+		"Product_Text": "Smart Network",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "08",
+		"DeliveryMonth_Text": "August",
+		"TotalQuantity": "12",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1120",
+		"Product_Text": "Cordless Bluetooth Keyboard, english international",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "08",
+		"DeliveryMonth_Text": "August",
+		"TotalQuantity": "8",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1111",
+		"Product_Text": "Notebook Lock",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "08",
+		"DeliveryMonth_Text": "August",
+		"TotalQuantity": "9",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1137",
+		"Product_Text": "Flat XXL",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "06",
+		"DeliveryMonth_Text": "June",
+		"TotalQuantity": "2",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1092",
+		"Product_Text": "Sound Booster",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "06",
+		"DeliveryMonth_Text": "June",
+		"TotalQuantity": "3",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1056",
+		"Product_Text": "Multi Color",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "06",
+		"DeliveryMonth_Text": "June",
+		"TotalQuantity": "4",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1065",
+		"Product_Text": "Media Keyboard",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "06",
+		"DeliveryMonth_Text": "June",
+		"TotalQuantity": "10",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1254",
+		"Product_Text": "Bending Screen 21HD",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "06",
+		"DeliveryMonth_Text": "June",
+		"TotalQuantity": "10",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1083",
+		"Product_Text": "Jet Scan Professional",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "06",
+		"DeliveryMonth_Text": "June",
+		"TotalQuantity": "4",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1066",
+		"Product_Text": "Mousepad",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "07",
+		"DeliveryMonth_Text": "July",
+		"TotalQuantity": "4",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1255",
+		"Product_Text": "Broad Screen 22HD",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "07",
+		"DeliveryMonth_Text": "July",
+		"TotalQuantity": "16",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1138",
+		"Product_Text": "Pocket Mouse",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "07",
+		"DeliveryMonth_Text": "July",
+		"TotalQuantity": "2",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1210",
+		"Product_Text": "PC Power Station",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "05",
+		"DeliveryMonth_Text": "May",
+		"TotalQuantity": "2",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1120",
+		"Product_Text": "Cordless Bluetooth Keyboard, english international",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "05",
+		"DeliveryMonth_Text": "May",
+		"TotalQuantity": "5",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1111",
+		"Product_Text": "Notebook Lock",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "05",
+		"DeliveryMonth_Text": "May",
+		"TotalQuantity": "6",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1102",
+		"Product_Text": "Smart Network",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "05",
+		"DeliveryMonth_Text": "May",
+		"TotalQuantity": "9",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1085",
+		"Product_Text": "Copymaster",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "06",
+		"DeliveryMonth_Text": "June",
+		"TotalQuantity": "4",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1067",
+		"Product_Text": "Ergo Mousepad",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "06",
+		"DeliveryMonth_Text": "June",
+		"TotalQuantity": "4",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1256",
+		"Product_Text": "Cerdik Phone 7",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "06",
+		"DeliveryMonth_Text": "June",
+		"TotalQuantity": "17",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1020",
+		"Product_Text": "ITelO Vault Net",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "06",
+		"DeliveryMonth_Text": "June",
+		"TotalQuantity": "5",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-2001",
+		"Product_Text": "10\" Portable DVD player",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "06",
+		"DeliveryMonth_Text": "June",
+		"TotalQuantity": "7",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1110",
+		"Product_Text": "PC Lock",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "06",
+		"DeliveryMonth_Text": "June",
+		"TotalQuantity": "9",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1101",
+		"Product_Text": "Smart Design",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "06",
+		"DeliveryMonth_Text": "June",
+		"TotalQuantity": "9",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1090",
+		"Product_Text": "Surround Sound",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "07",
+		"DeliveryMonth_Text": "July",
+		"TotalQuantity": "4",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1081",
+		"Product_Text": "Power Scan",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "07",
+		"DeliveryMonth_Text": "July",
+		"TotalQuantity": "7",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1036",
+		"Product_Text": "Flat Future",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "07",
+		"DeliveryMonth_Text": "July",
+		"TotalQuantity": "10",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1252",
+		"Product_Text": "Astro Phone 6",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "07",
+		"DeliveryMonth_Text": "July",
+		"TotalQuantity": "9",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1117",
+		"Product_Text": "Wireless DSL Router / Repeater and Print Server",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "07",
+		"DeliveryMonth_Text": "July",
+		"TotalQuantity": "6",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1063",
+		"Product_Text": "Ergonomic Keyboard",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "07",
+		"DeliveryMonth_Text": "July",
+		"TotalQuantity": "9",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1072",
+		"Product_Text": "Hurricane GX",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "07",
+		"DeliveryMonth_Text": "July",
+		"TotalQuantity": "9",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-2001",
+		"Product_Text": "10\" Portable DVD player",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "10",
+		"DeliveryMonth_Text": "October",
+		"TotalQuantity": "5",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1110",
+		"Product_Text": "PC Lock",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "10",
+		"DeliveryMonth_Text": "October",
+		"TotalQuantity": "9",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1101",
+		"Product_Text": "Smart Design",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "10",
+		"DeliveryMonth_Text": "October",
+		"TotalQuantity": "6",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1020",
+		"Product_Text": "ITelO Vault Net",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "10",
+		"DeliveryMonth_Text": "October",
+		"TotalQuantity": "6",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1082",
+		"Product_Text": "Jet Scan Professional",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "07",
+		"DeliveryMonth_Text": "July",
+		"TotalQuantity": "4",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1073",
+		"Product_Text": "Hurricane GX/LN",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "07",
+		"DeliveryMonth_Text": "July",
+		"TotalQuantity": "7",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1055",
+		"Product_Text": "Multi Print",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "07",
+		"DeliveryMonth_Text": "July",
+		"TotalQuantity": "5",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1037",
+		"Product_Text": "Flat XL",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "07",
+		"DeliveryMonth_Text": "July",
+		"TotalQuantity": "6",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1253",
+		"Product_Text": "Benda Laptop 1408",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "07",
+		"DeliveryMonth_Text": "July",
+		"TotalQuantity": "5",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1118",
+		"Product_Text": "USB Stick",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "07",
+		"DeliveryMonth_Text": "July",
+		"TotalQuantity": "6",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1064",
+		"Product_Text": "Internet Keyboard",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "07",
+		"DeliveryMonth_Text": "July",
+		"TotalQuantity": "5",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1037",
+		"Product_Text": "Flat XL",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "11",
+		"DeliveryMonth_Text": "November",
+		"TotalQuantity": "3",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1118",
+		"Product_Text": "USB Stick",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "11",
+		"DeliveryMonth_Text": "November",
+		"TotalQuantity": "7",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1082",
+		"Product_Text": "Jet Scan Professional",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "11",
+		"DeliveryMonth_Text": "November",
+		"TotalQuantity": "3",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1073",
+		"Product_Text": "Hurricane GX/LN",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "11",
+		"DeliveryMonth_Text": "November",
+		"TotalQuantity": "4",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1055",
+		"Product_Text": "Multi Print",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "11",
+		"DeliveryMonth_Text": "November",
+		"TotalQuantity": "4",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1064",
+		"Product_Text": "Internet Keyboard",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "11",
+		"DeliveryMonth_Text": "November",
+		"TotalQuantity": "6",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1253",
+		"Product_Text": "Benda Laptop 1408",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "11",
+		"DeliveryMonth_Text": "November",
+		"TotalQuantity": "5",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-2000",
+		"Product_Text": "7\" Widescreen Portable DVD Player w MP3",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "04",
+		"DeliveryMonth_Text": "April",
+		"TotalQuantity": "8",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1100",
+		"Product_Text": "Smart Office",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "04",
+		"DeliveryMonth_Text": "April",
+		"TotalQuantity": "12",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1068",
+		"Product_Text": "Designer Mousepad",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "11",
+		"DeliveryMonth_Text": "November",
+		"TotalQuantity": "1",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1257",
+		"Product_Text": "Cepat Tablet 10.5",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "11",
+		"DeliveryMonth_Text": "November",
+		"TotalQuantity": "11",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1114",
+		"Product_Text": "Fabric bag professional",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "01",
+		"DeliveryMonth_Text": "January",
+		"TotalQuantity": "3",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1060",
+		"Product_Text": "Cordless Mouse",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "01",
+		"DeliveryMonth_Text": "January",
+		"TotalQuantity": "5",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1042",
+		"Product_Text": "Laser Allround",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "01",
+		"DeliveryMonth_Text": "January",
+		"TotalQuantity": "11",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1051",
+		"Product_Text": "Ultra Jet Mobile",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "01",
+		"DeliveryMonth_Text": "January",
+		"TotalQuantity": "3",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1105",
+		"Product_Text": "Smart Internet Antivirus",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "01",
+		"DeliveryMonth_Text": "January",
+		"TotalQuantity": "18",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1501",
+		"Product_Text": "Server Professional",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "01",
+		"DeliveryMonth_Text": "January",
+		"TotalQuantity": "10",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1051",
+		"Product_Text": "Ultra Jet Mobile",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "09",
+		"DeliveryMonth_Text": "September",
+		"TotalQuantity": "2",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1114",
+		"Product_Text": "Fabric bag professional",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "09",
+		"DeliveryMonth_Text": "September",
+		"TotalQuantity": "3",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1042",
+		"Product_Text": "Laser Allround",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "09",
+		"DeliveryMonth_Text": "September",
+		"TotalQuantity": "9",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1060",
+		"Product_Text": "Cordless Mouse",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "09",
+		"DeliveryMonth_Text": "September",
+		"TotalQuantity": "5",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1105",
+		"Product_Text": "Smart Internet Antivirus",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "09",
+		"DeliveryMonth_Text": "September",
+		"TotalQuantity": "18",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1501",
+		"Product_Text": "Server Professional",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "09",
+		"DeliveryMonth_Text": "September",
+		"TotalQuantity": "8",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1116",
+		"Product_Text": "Wireless DSL Router / Repeater",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "06",
+		"DeliveryMonth_Text": "June",
+		"TotalQuantity": "6",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1251",
+		"Product_Text": "Astro Laptop 1516",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "06",
+		"DeliveryMonth_Text": "June",
+		"TotalQuantity": "6",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1071",
+		"Product_Text": "Gladiator MX",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "06",
+		"DeliveryMonth_Text": "June",
+		"TotalQuantity": "6",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1062",
+		"Product_Text": "Track Mouse",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "06",
+		"DeliveryMonth_Text": "June",
+		"TotalQuantity": "8",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1035",
+		"Product_Text": "Flat Basic",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "06",
+		"DeliveryMonth_Text": "June",
+		"TotalQuantity": "10",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1107",
+		"Product_Text": "Smart Money",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "06",
+		"DeliveryMonth_Text": "June",
+		"TotalQuantity": "14",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1080",
+		"Product_Text": "Photo Scan",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "06",
+		"DeliveryMonth_Text": "June",
+		"TotalQuantity": "9",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1000",
+		"Product_Text": "Notebook Basic 15",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "11",
+		"DeliveryMonth_Text": "November",
+		"TotalQuantity": "10",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1210",
+		"Product_Text": "PC Power Station",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "10",
+		"DeliveryMonth_Text": "October",
+		"TotalQuantity": "2",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1120",
+		"Product_Text": "Cordless Bluetooth Keyboard, english international",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "10",
+		"DeliveryMonth_Text": "October",
+		"TotalQuantity": "5",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1111",
+		"Product_Text": "Notebook Lock",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "10",
+		"DeliveryMonth_Text": "October",
+		"TotalQuantity": "8",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1102",
+		"Product_Text": "Smart Network",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "10",
+		"DeliveryMonth_Text": "October",
+		"TotalQuantity": "11",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1021",
+		"Product_Text": "ITelO Vault SAT",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "10",
+		"DeliveryMonth_Text": "October",
+		"TotalQuantity": "6",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1083",
+		"Product_Text": "Jet Scan Professional",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "08",
+		"DeliveryMonth_Text": "August",
+		"TotalQuantity": "4",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1056",
+		"Product_Text": "Multi Color",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "08",
+		"DeliveryMonth_Text": "August",
+		"TotalQuantity": "6",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1254",
+		"Product_Text": "Bending Screen 21HD",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "08",
+		"DeliveryMonth_Text": "August",
+		"TotalQuantity": "12",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1092",
+		"Product_Text": "Sound Booster",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "08",
+		"DeliveryMonth_Text": "August",
+		"TotalQuantity": "2",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1137",
+		"Product_Text": "Flat XXL",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "08",
+		"DeliveryMonth_Text": "August",
+		"TotalQuantity": "5",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1065",
+		"Product_Text": "Media Keyboard",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "08",
+		"DeliveryMonth_Text": "August",
+		"TotalQuantity": "10",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1085",
+		"Product_Text": "Copymaster",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "11",
+		"DeliveryMonth_Text": "November",
+		"TotalQuantity": "4",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1067",
+		"Product_Text": "Ergo Mousepad",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "11",
+		"DeliveryMonth_Text": "November",
+		"TotalQuantity": "2",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1256",
+		"Product_Text": "Cerdik Phone 7",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "11",
+		"DeliveryMonth_Text": "November",
+		"TotalQuantity": "20",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1068",
+		"Product_Text": "Designer Mousepad",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "12",
+		"DeliveryMonth_Text": "December",
+		"TotalQuantity": "2",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1257",
+		"Product_Text": "Cepat Tablet 10.5",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "12",
+		"DeliveryMonth_Text": "December",
+		"TotalQuantity": "8",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1020",
+		"Product_Text": "ITelO Vault Net",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "08",
+		"DeliveryMonth_Text": "August",
+		"TotalQuantity": "8",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1101",
+		"Product_Text": "Smart Design",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "08",
+		"DeliveryMonth_Text": "August",
+		"TotalQuantity": "8",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1110",
+		"Product_Text": "PC Lock",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "08",
+		"DeliveryMonth_Text": "August",
+		"TotalQuantity": "8",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-2001",
+		"Product_Text": "10\" Portable DVD player",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "08",
+		"DeliveryMonth_Text": "August",
+		"TotalQuantity": "10",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1085",
+		"Product_Text": "Copymaster",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "12",
+		"DeliveryMonth_Text": "December",
+		"TotalQuantity": "4",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1067",
+		"Product_Text": "Ergo Mousepad",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "12",
+		"DeliveryMonth_Text": "December",
+		"TotalQuantity": "4",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1256",
+		"Product_Text": "Cerdik Phone 7",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "12",
+		"DeliveryMonth_Text": "December",
+		"TotalQuantity": "19",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1137",
+		"Product_Text": "Flat XXL",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "10",
+		"DeliveryMonth_Text": "October",
+		"TotalQuantity": "3",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1092",
+		"Product_Text": "Sound Booster",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "10",
+		"DeliveryMonth_Text": "October",
+		"TotalQuantity": "3",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1065",
+		"Product_Text": "Media Keyboard",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "10",
+		"DeliveryMonth_Text": "October",
+		"TotalQuantity": "9",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1083",
+		"Product_Text": "Jet Scan Professional",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "10",
+		"DeliveryMonth_Text": "October",
+		"TotalQuantity": "2",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1056",
+		"Product_Text": "Multi Color",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "10",
+		"DeliveryMonth_Text": "October",
+		"TotalQuantity": "4",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1254",
+		"Product_Text": "Bending Screen 21HD",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "10",
+		"DeliveryMonth_Text": "October",
+		"TotalQuantity": "10",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1117",
+		"Product_Text": "Wireless DSL Router / Repeater and Print Server",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "05",
+		"DeliveryMonth_Text": "May",
+		"TotalQuantity": "5",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1072",
+		"Product_Text": "Hurricane GX",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "05",
+		"DeliveryMonth_Text": "May",
+		"TotalQuantity": "5",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1252",
+		"Product_Text": "Astro Phone 6",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "05",
+		"DeliveryMonth_Text": "May",
+		"TotalQuantity": "5",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1090",
+		"Product_Text": "Surround Sound",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "05",
+		"DeliveryMonth_Text": "May",
+		"TotalQuantity": "2",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1063",
+		"Product_Text": "Ergonomic Keyboard",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "05",
+		"DeliveryMonth_Text": "May",
+		"TotalQuantity": "6",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1036",
+		"Product_Text": "Flat Future",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "05",
+		"DeliveryMonth_Text": "May",
+		"TotalQuantity": "4",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1117",
+		"Product_Text": "Wireless DSL Router / Repeater and Print Server",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "03",
+		"DeliveryMonth_Text": "March",
+		"TotalQuantity": "3",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1090",
+		"Product_Text": "Surround Sound",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "03",
+		"DeliveryMonth_Text": "March",
+		"TotalQuantity": "2",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1081",
+		"Product_Text": "Power Scan",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "03",
+		"DeliveryMonth_Text": "March",
+		"TotalQuantity": "4",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1252",
+		"Product_Text": "Astro Phone 6",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "03",
+		"DeliveryMonth_Text": "March",
+		"TotalQuantity": "5",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1072",
+		"Product_Text": "Hurricane GX",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "03",
+		"DeliveryMonth_Text": "March",
+		"TotalQuantity": "6",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1063",
+		"Product_Text": "Ergonomic Keyboard",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "03",
+		"DeliveryMonth_Text": "March",
+		"TotalQuantity": "4",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1036",
+		"Product_Text": "Flat Future",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "03",
+		"DeliveryMonth_Text": "March",
+		"TotalQuantity": "6",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1021",
+		"Product_Text": "ITelO Vault SAT",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "04",
+		"DeliveryMonth_Text": "April",
+		"TotalQuantity": "9",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1210",
+		"Product_Text": "PC Power Station",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "04",
+		"DeliveryMonth_Text": "April",
+		"TotalQuantity": "4",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1120",
+		"Product_Text": "Cordless Bluetooth Keyboard, english international",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "04",
+		"DeliveryMonth_Text": "April",
+		"TotalQuantity": "8",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1111",
+		"Product_Text": "Notebook Lock",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "04",
+		"DeliveryMonth_Text": "April",
+		"TotalQuantity": "9",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1102",
+		"Product_Text": "Smart Network",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "04",
+		"DeliveryMonth_Text": "April",
+		"TotalQuantity": "13",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1068",
+		"Product_Text": "Designer Mousepad",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "07",
+		"DeliveryMonth_Text": "July",
+		"TotalQuantity": "2",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1257",
+		"Product_Text": "Cepat Tablet 10.5",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "07",
+		"DeliveryMonth_Text": "July",
+		"TotalQuantity": "10",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1085",
+		"Product_Text": "Copymaster",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "05",
+		"DeliveryMonth_Text": "May",
+		"TotalQuantity": "2",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1256",
+		"Product_Text": "Cerdik Phone 7",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "05",
+		"DeliveryMonth_Text": "May",
+		"TotalQuantity": "8",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-2000",
+		"Product_Text": "7\" Widescreen Portable DVD Player w MP3",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "05",
+		"DeliveryMonth_Text": "May",
+		"TotalQuantity": "2",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1100",
+		"Product_Text": "Smart Office",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "05",
+		"DeliveryMonth_Text": "May",
+		"TotalQuantity": "8",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1112",
+		"Product_Text": "Web cam reality",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "02",
+		"DeliveryMonth_Text": "February",
+		"TotalQuantity": "11",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1040",
+		"Product_Text": "Laser Professional Eco",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "02",
+		"DeliveryMonth_Text": "February",
+		"TotalQuantity": "14",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1022",
+		"Product_Text": "Comfort Easy",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "02",
+		"DeliveryMonth_Text": "February",
+		"TotalQuantity": "7",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1103",
+		"Product_Text": "Smart Multimedia",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "02",
+		"DeliveryMonth_Text": "February",
+		"TotalQuantity": "15",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1069",
+		"Product_Text": "Universal card reader",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "07",
+		"DeliveryMonth_Text": "July",
+		"TotalQuantity": "5",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-2000",
+		"Product_Text": "7\" Widescreen Portable DVD Player w MP3",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "05",
+		"DeliveryMonth_Text": "May",
+		"TotalQuantity": "2",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1253",
+		"Product_Text": "Benda Laptop 1408",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "10",
+		"DeliveryMonth_Text": "October",
+		"TotalQuantity": "2",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1118",
+		"Product_Text": "USB Stick",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "10",
+		"DeliveryMonth_Text": "October",
+		"TotalQuantity": "4",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1064",
+		"Product_Text": "Internet Keyboard",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "10",
+		"DeliveryMonth_Text": "October",
+		"TotalQuantity": "5",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1082",
+		"Product_Text": "Jet Scan Professional",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "10",
+		"DeliveryMonth_Text": "October",
+		"TotalQuantity": "2",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1073",
+		"Product_Text": "Hurricane GX/LN",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "10",
+		"DeliveryMonth_Text": "October",
+		"TotalQuantity": "6",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1055",
+		"Product_Text": "Multi Print",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "10",
+		"DeliveryMonth_Text": "October",
+		"TotalQuantity": "2",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1037",
+		"Product_Text": "Flat XL",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "10",
+		"DeliveryMonth_Text": "October",
+		"TotalQuantity": "6",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1080",
+		"Product_Text": "Photo Scan",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "08",
+		"DeliveryMonth_Text": "August",
+		"TotalQuantity": "9",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1107",
+		"Product_Text": "Smart Money",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "08",
+		"DeliveryMonth_Text": "August",
+		"TotalQuantity": "12",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1116",
+		"Product_Text": "Wireless DSL Router / Repeater",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "08",
+		"DeliveryMonth_Text": "August",
+		"TotalQuantity": "9",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1062",
+		"Product_Text": "Track Mouse",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "08",
+		"DeliveryMonth_Text": "August",
+		"TotalQuantity": "6",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1035",
+		"Product_Text": "Flat Basic",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "08",
+		"DeliveryMonth_Text": "August",
+		"TotalQuantity": "10",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1071",
+		"Product_Text": "Gladiator MX",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "08",
+		"DeliveryMonth_Text": "August",
+		"TotalQuantity": "7",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1251",
+		"Product_Text": "Astro Laptop 1516",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "08",
+		"DeliveryMonth_Text": "August",
+		"TotalQuantity": "9",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1110",
+		"Product_Text": "PC Lock",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "11",
+		"DeliveryMonth_Text": "November",
+		"TotalQuantity": "8",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1101",
+		"Product_Text": "Smart Design",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "11",
+		"DeliveryMonth_Text": "November",
+		"TotalQuantity": "8",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-2001",
+		"Product_Text": "10\" Portable DVD player",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "11",
+		"DeliveryMonth_Text": "November",
+		"TotalQuantity": "10",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1020",
+		"Product_Text": "ITelO Vault Net",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "11",
+		"DeliveryMonth_Text": "November",
+		"TotalQuantity": "5",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1040",
+		"Product_Text": "Laser Professional Eco",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "05",
+		"DeliveryMonth_Text": "May",
+		"TotalQuantity": "3",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1022",
+		"Product_Text": "Comfort Easy",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "05",
+		"DeliveryMonth_Text": "May",
+		"TotalQuantity": "2",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1137",
+		"Product_Text": "Flat XXL",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "11",
+		"DeliveryMonth_Text": "November",
+		"TotalQuantity": "5",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1083",
+		"Product_Text": "Jet Scan Professional",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "11",
+		"DeliveryMonth_Text": "November",
+		"TotalQuantity": "3",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1092",
+		"Product_Text": "Sound Booster",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "11",
+		"DeliveryMonth_Text": "November",
+		"TotalQuantity": "4",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1056",
+		"Product_Text": "Multi Color",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "11",
+		"DeliveryMonth_Text": "November",
+		"TotalQuantity": "4",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1065",
+		"Product_Text": "Media Keyboard",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "11",
+		"DeliveryMonth_Text": "November",
+		"TotalQuantity": "10",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1254",
+		"Product_Text": "Bending Screen 21HD",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "11",
+		"DeliveryMonth_Text": "November",
+		"TotalQuantity": "10",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1138",
+		"Product_Text": "Pocket Mouse",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "02",
+		"DeliveryMonth_Text": "February",
+		"TotalQuantity": "2",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1066",
+		"Product_Text": "Mousepad",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "02",
+		"DeliveryMonth_Text": "February",
+		"TotalQuantity": "6",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1255",
+		"Product_Text": "Broad Screen 22HD",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "02",
+		"DeliveryMonth_Text": "February",
+		"TotalQuantity": "22",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1082",
+		"Product_Text": "Jet Scan Professional",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "04",
+		"DeliveryMonth_Text": "April",
+		"TotalQuantity": "4",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1073",
+		"Product_Text": "Hurricane GX/LN",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "04",
+		"DeliveryMonth_Text": "April",
+		"TotalQuantity": "7",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1055",
+		"Product_Text": "Multi Print",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "04",
+		"DeliveryMonth_Text": "April",
+		"TotalQuantity": "5",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1253",
+		"Product_Text": "Benda Laptop 1408",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "04",
+		"DeliveryMonth_Text": "April",
+		"TotalQuantity": "5",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1118",
+		"Product_Text": "USB Stick",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "04",
+		"DeliveryMonth_Text": "April",
+		"TotalQuantity": "7",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1064",
+		"Product_Text": "Internet Keyboard",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "04",
+		"DeliveryMonth_Text": "April",
+		"TotalQuantity": "7",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1037",
+		"Product_Text": "Flat XL",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "04",
+		"DeliveryMonth_Text": "April",
+		"TotalQuantity": "6",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1021",
+		"Product_Text": "ITelO Vault SAT",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "05",
+		"DeliveryMonth_Text": "May",
+		"TotalQuantity": "3",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-2000",
+		"Product_Text": "7\" Widescreen Portable DVD Player w MP3",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "06",
+		"DeliveryMonth_Text": "June",
+		"TotalQuantity": "6",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1100",
+		"Product_Text": "Smart Office",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "06",
+		"DeliveryMonth_Text": "June",
+		"TotalQuantity": "14",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1112",
+		"Product_Text": "Web cam reality",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "11",
+		"DeliveryMonth_Text": "November",
+		"TotalQuantity": "9",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1103",
+		"Product_Text": "Smart Multimedia",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "11",
+		"DeliveryMonth_Text": "November",
+		"TotalQuantity": "11",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1040",
+		"Product_Text": "Laser Professional Eco",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "11",
+		"DeliveryMonth_Text": "November",
+		"TotalQuantity": "6",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1022",
+		"Product_Text": "Comfort Easy",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "11",
+		"DeliveryMonth_Text": "November",
+		"TotalQuantity": "3",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1022",
+		"Product_Text": "Comfort Easy",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "04",
+		"DeliveryMonth_Text": "April",
+		"TotalQuantity": "5",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1103",
+		"Product_Text": "Smart Multimedia",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "04",
+		"DeliveryMonth_Text": "April",
+		"TotalQuantity": "11",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1112",
+		"Product_Text": "Web cam reality",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "04",
+		"DeliveryMonth_Text": "April",
+		"TotalQuantity": "9",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1040",
+		"Product_Text": "Laser Professional Eco",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "04",
+		"DeliveryMonth_Text": "April",
+		"TotalQuantity": "11",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1073",
+		"Product_Text": "Hurricane GX/LN",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "09",
+		"DeliveryMonth_Text": "September",
+		"TotalQuantity": "4",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1082",
+		"Product_Text": "Jet Scan Professional",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "09",
+		"DeliveryMonth_Text": "September",
+		"TotalQuantity": "3",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1055",
+		"Product_Text": "Multi Print",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "09",
+		"DeliveryMonth_Text": "September",
+		"TotalQuantity": "4",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1253",
+		"Product_Text": "Benda Laptop 1408",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "09",
+		"DeliveryMonth_Text": "September",
+		"TotalQuantity": "5",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1118",
+		"Product_Text": "USB Stick",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "09",
+		"DeliveryMonth_Text": "September",
+		"TotalQuantity": "7",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1064",
+		"Product_Text": "Internet Keyboard",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "09",
+		"DeliveryMonth_Text": "September",
+		"TotalQuantity": "7",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1037",
+		"Product_Text": "Flat XL",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "09",
+		"DeliveryMonth_Text": "September",
+		"TotalQuantity": "4",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1114",
+		"Product_Text": "Fabric bag professional",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "12",
+		"DeliveryMonth_Text": "December",
+		"TotalQuantity": "3",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1060",
+		"Product_Text": "Cordless Mouse",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "12",
+		"DeliveryMonth_Text": "December",
+		"TotalQuantity": "5",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1105",
+		"Product_Text": "Smart Internet Antivirus",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "12",
+		"DeliveryMonth_Text": "December",
+		"TotalQuantity": "15",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1501",
+		"Product_Text": "Server Professional",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "12",
+		"DeliveryMonth_Text": "December",
+		"TotalQuantity": "6",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1042",
+		"Product_Text": "Laser Allround",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "12",
+		"DeliveryMonth_Text": "December",
+		"TotalQuantity": "11",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1051",
+		"Product_Text": "Ultra Jet Mobile",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "12",
+		"DeliveryMonth_Text": "December",
+		"TotalQuantity": "3",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1068",
+		"Product_Text": "Designer Mousepad",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "08",
+		"DeliveryMonth_Text": "August",
+		"TotalQuantity": "2",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1257",
+		"Product_Text": "Cepat Tablet 10.5",
+		"DeliveryYear": "2016",
+		"DeliveryMonth": "08",
+		"DeliveryMonth_Text": "August",
+		"TotalQuantity": "11",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1000",
+		"Product_Text": "Notebook Basic 15",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "01",
+		"DeliveryMonth_Text": "January",
+		"TotalQuantity": "13",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-2001",
+		"Product_Text": "10\" Portable DVD player",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "03",
+		"DeliveryMonth_Text": "March",
+		"TotalQuantity": "5",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1020",
+		"Product_Text": "ITelO Vault Net",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "03",
+		"DeliveryMonth_Text": "March",
+		"TotalQuantity": "5",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1110",
+		"Product_Text": "PC Lock",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "03",
+		"DeliveryMonth_Text": "March",
+		"TotalQuantity": "8",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1101",
+		"Product_Text": "Smart Design",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "03",
+		"DeliveryMonth_Text": "March",
+		"TotalQuantity": "5",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1020",
+		"Product_Text": "ITelO Vault Net",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "04",
+		"DeliveryMonth_Text": "April",
+		"TotalQuantity": "8",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1110",
+		"Product_Text": "PC Lock",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "04",
+		"DeliveryMonth_Text": "April",
+		"TotalQuantity": "8",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-2001",
+		"Product_Text": "10\" Portable DVD player",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "04",
+		"DeliveryMonth_Text": "April",
+		"TotalQuantity": "10",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1101",
+		"Product_Text": "Smart Design",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "04",
+		"DeliveryMonth_Text": "April",
+		"TotalQuantity": "8",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1115",
+		"Product_Text": "Wireless DSL Router",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "03",
+		"DeliveryMonth_Text": "March",
+		"TotalQuantity": "2",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1052",
+		"Product_Text": "Ultra Jet Super Highspeed",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "03",
+		"DeliveryMonth_Text": "March",
+		"TotalQuantity": "5",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1070",
+		"Product_Text": "Proctra X",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "03",
+		"DeliveryMonth_Text": "March",
+		"TotalQuantity": "5",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1061",
+		"Product_Text": "Speed Mouse",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "03",
+		"DeliveryMonth_Text": "March",
+		"TotalQuantity": "5",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1106",
+		"Product_Text": "Smart Firewall",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "03",
+		"DeliveryMonth_Text": "March",
+		"TotalQuantity": "6",
+		"QuantityUnit": "EA"
+	},
+	{
+		"Product": "HT-1502",
+		"Product_Text": "Server Power Pro",
+		"DeliveryYear": "2017",
+		"DeliveryMonth": "03",
+		"DeliveryMonth_Text": "March",
+		"TotalQuantity": "4",
+		"QuantityUnit": "EA"
+	}
+]

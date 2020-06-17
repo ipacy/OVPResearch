@@ -1,0 +1,50 @@
+[
+	{
+		"PurchaseOrderOverallStatus": "P",
+		"PurchaseOrderOverallStatus_Text": "Awaiting Approval"
+	},
+	{
+		"PurchaseOrderOverallStatus": "A",
+		"PurchaseOrderOverallStatus_Text": "Approved"
+	},
+	{
+		"PurchaseOrderOverallStatus": "R",
+		"PurchaseOrderOverallStatus_Text": "Rejected by Approver"
+	},
+	{
+		"PurchaseOrderOverallStatus": "S",
+		"PurchaseOrderOverallStatus_Text": "Sent"
+	},
+	{
+		"PurchaseOrderOverallStatus": "F",
+		"PurchaseOrderOverallStatus_Text": "Confirmed"
+	},
+	{
+		"PurchaseOrderOverallStatus": "D",
+		"PurchaseOrderOverallStatus_Text": "Delivered"
+	},
+	{
+		"PurchaseOrderOverallStatus": "I",
+		"PurchaseOrderOverallStatus_Text": "Invoiced"
+	},
+	{
+		"PurchaseOrderOverallStatus": "X",
+		"PurchaseOrderOverallStatus_Text": "Cancelled"
+	},
+	{
+		"PurchaseOrderOverallStatus": "J",
+		"PurchaseOrderOverallStatus_Text": "Rejected by Supplier"
+	},
+	{
+		"PurchaseOrderOverallStatus": "C",
+		"PurchaseOrderOverallStatus_Text": "Completed"
+	},
+	{
+		"PurchaseOrderOverallStatus": "E",
+		"PurchaseOrderOverallStatus_Text": "Draft"
+	},
+	{
+		"PurchaseOrderOverallStatus": "Z",
+		"PurchaseOrderOverallStatus_Text": "All"
+	}
+]

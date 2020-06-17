@@ -1,0 +1,18 @@
+<core:FragmentDefinition xmlns="sap.m"
+	xmlns:core="sap.ui.core">
+	<Toolbar>
+		<Title id="idPageTitle" />
+		<ToolbarSpacer/>
+		<SegmentedButton xmlns="sap.m"
+			id="idSwapSegmentedButton" selectionChange="swapView">
+			<items>
+				<SegmentedButtonItem text="GridContainer"
+					key="gridContainer" />
+				<SegmentedButtonItem text="EasyScanLayout"
+					key="easyScanLayout" />
+				<SegmentedButtonItem text="DashboardLayout"
+					key="dashboardLayout" />
+			</items>
+		</SegmentedButton>
+	</Toolbar>
+</core:FragmentDefinition>

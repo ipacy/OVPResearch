@@ -1,0 +1,38 @@
+<core:FragmentDefinition
+        xmlns="sap.m"
+        xmlns:core="sap.ui.core"
+        xmlns:build="sap.build">
+
+        <!-- Title is first Row first Column -->
+        <!-- number is first Row second Column -->
+        <ObjectListItem
+                class="sapOvpObjectListItem sapOvpListFragment sapUiContentPadding borderBottom"
+                title="Title Title Title Title Title Title Title Title "
+                number="Overdue"
+                numberState="Error"
+                type="Active"
+                press="onListItemPress">
+            <attributes>
+                <!--This is second Row first Column -->
+                <ObjectAttribute id="listItem2Row1Column"
+                                 text="Row first Column"/>
+                <!--This is third Row first Column -->
+                        <ObjectAttribute id="listItem3row1column"
+                                         text="68 EA"/>
+            </attributes>
+            <!-- This is Second Row Second Column -->
+            <firstStatus>
+                  <ObjectStatus
+                          id="listItem2row2column"
+                          text="22"
+                          state="Error"/>
+            </firstStatus>
+            <!-- This is Third Row Second Column -->
+            <secondStatus>
+                        <ObjectStatus id="listItem3row2column"
+                                         text="1.1K USD"
+                                         />
+            </secondStatus>
+        </ObjectListItem>
+
+</core:FragmentDefinition>

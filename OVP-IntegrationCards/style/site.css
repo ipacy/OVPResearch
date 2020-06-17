@@ -1,0 +1,68 @@
+.vistexEasyScanLayout {
+	text-align: left;
+}
+
+.borderBottom {
+	border-bottom: 1px solid #e5e5e5 !important;
+}
+
+.easyScanLayoutItemWrapper>.sapUiComponentContainer {
+	background: rebeccapurple;
+}
+
+.bgColor {
+	background: rebeccapurple;
+}
+
+.sapSampleRevealGridWrapper {
+	position: relative;
+	pointer-events: none;
+}
+
+.sapSampleRevealGridItem {
+	border: 0.0625rem dashed rgb(255, 0, 255);
+	pointer-events: none;
+}
+
+.sapSampleRevealGridOverlay {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	pointer-events: none;
+}
+
+.sapFDynamicPageContent, #mainView--ovpCardPage {
+	background: #d8e2ed !important;
+}
+
+.sapOvpObjectListItem .sapMObjLBottomRow {
+	margin-top: 0.25rem !important;
+}
+
+.sapOvpObjectListItem .sapMObjLTopRow .sapMTextMaxLine {
+	font-size: 1rem;
+}
+
+.sapOvpObjectListItem .sapMObjLBottomRow .sapMObjLAttrRow:not(:first-child) {
+	margin-top: 0.15rem !important;
+}
+
+.sapOvpObjectListItem.sapOvpListFragment .sapMObjectNumberText {
+	/* font-weight: bold; */
+}
+
+
+.sapUiComponentContainer {
+	height: 100%;
+}
+
+
+.sapUiComponentContainer>div {
+	/* height: 100%; */
+}
+
+.ovpLayout {
+	text-align: left;
+}

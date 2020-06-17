@@ -1,0 +1,42 @@
+[
+	{
+		"ID": ".1~20170501.2~05.3~May.4~USD.5~United States Dollar",
+		"CreationMonthAsDate": "/Date(1493596800000)/",
+		"CreationMonth": "05",
+		"CreationMonth_Text": "May",
+		"GrossAmountInCompanyCurrency": "375431.69",
+		"CompanyCurrency": "USD",
+		"CompanyCurrency_Text": "United States Dollar",
+		"ReferenceAmount": 200
+	},
+	{
+		"ID": ".1~20170201.2~02.3~February.4~USD.5~United States Dollar",
+		"CreationMonthAsDate": "/Date(1485907200000)/",
+		"CreationMonth": "02",
+		"CreationMonth_Text": "February",
+		"GrossAmountInCompanyCurrency": "655056.56",
+		"CompanyCurrency": "USD",
+		"CompanyCurrency_Text": "United States Dollar",
+		"ReferenceAmount": 200
+	},
+	{
+		"ID": ".1~20170401.2~04.3~April.4~USD.5~United States Dollar",
+		"CreationMonthAsDate": "/Date(1491004800000)/",
+		"CreationMonth": "04",
+		"CreationMonth_Text": "April",
+		"GrossAmountInCompanyCurrency": "509008.45",
+		"CompanyCurrency": "USD",
+		"CompanyCurrency_Text": "United States Dollar",
+		"ReferenceAmount": 200
+	},
+	{
+		"ID": ".1~20170301.2~03.3~March.4~USD.5~United States Dollar",
+		"CreationMonthAsDate": "/Date(1488326400000)/",
+		"CreationMonth": "03",
+		"CreationMonth_Text": "March",
+		"GrossAmountInCompanyCurrency": "301360.41",
+		"CompanyCurrency": "USD",
+		"CompanyCurrency_Text": "United States Dollar",
+		"ReferenceAmount": 200
+	}
+]

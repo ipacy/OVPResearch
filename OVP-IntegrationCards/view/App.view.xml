@@ -1,0 +1,6 @@
+﻿<mvc:View xmlns:mvc="sap.ui.core.mvc"
+	xmlns:w="sap.ui.integration.widgets" xmlns:core="sap.ui.core"
+	xmlns="sap.m" xmlns:f="sap.f"
+	controllerName="vistex.poc.ovp.controller.App" displayBlock="true">
+	<App id="Vistex-POC-OVP" class="" />
+</mvc:View>

@@ -1,0 +1,26 @@
+[
+	{
+		"ActiveSalesOrder": "500000497",
+		"CompanyName": "Siwusha",
+		"CreationDateTime": "/Date(1494540000000+0000)/",
+		"CreationDate": "/Date(1494460800000)/",
+		"LocalCurrency": "USD",
+		"RevenueInLocalCurrency": "521.22"
+	},
+	{
+		"ActiveSalesOrder": "500000498",
+		"CompanyName": "PicoBit",
+		"CreationDateTime": "/Date(1494540000000+0000)/",
+		"CreationDate": "/Date(1494460800000)/",
+		"LocalCurrency": "USD",
+		"RevenueInLocalCurrency": "411.50"
+	},
+	{
+		"ActiveSalesOrder": "500000499",
+		"CompanyName": "Bionic Research Lab",
+		"CreationDateTime": "/Date(1494540000000+0000)/",
+		"CreationDate": "/Date(1494460800000)/",
+		"LocalCurrency": "USD",
+		"RevenueInLocalCurrency": "5851.23"
+	}
+]

@@ -1,0 +1,76 @@
+{
+	"containerLayout": "resizable",
+	"cards": [
+		{
+			"cardType": "custom",
+			"settings": {
+				"listType": "condensed"
+			},
+			"id": "__card0"
+		},
+		{
+			"cardType": "list1",
+			"settings": {
+				"listType": "condensed"
+			},
+			"id": "__card1"
+		},
+		{
+			"cardType": "objList",
+			"settings": {
+				"listType": "condensed"
+			},
+			"id": "__card3"
+		},
+		{
+			"cardType": "table",
+			"settings": {
+				"listType": "condensed",
+				"defaultSpan": {
+					"rows": 21,
+					"cols": 2
+				}
+			},
+			"id": "__card4"
+		},
+		{
+			"cardType": "list2",
+			"settings": {
+				"listType": "condensed"
+			},
+			"id": "__card6"
+		},
+		{
+			"cardType": "stackedColumn",
+			"settings": {
+				"listType": "condensed"
+			},
+			"id": "__card8"
+		},
+		{
+			"cardType": "donut",
+			"settings": {
+				"listType": "condensed",
+				"defaultSpan": {
+					"rows": 11,
+					"cols": 2
+				}
+			},
+			"id": "__card10"
+		},
+		{
+			"cardType": "list2",
+			"settings": {
+				"listType": "condensed"
+			},
+			"id": "__card14"
+		},
+		{
+			"cardType": "list2",
+			"settings": {
+				"listType": "condensed"
+			},
+			"id": "__card16"
+		}
+	]
+}

@@ -1,0 +1,148 @@
+{
+  "_version": "1.2.0_24.1.2020",
+  "sap.app": {
+    "_version": "1.2.0",
+    "id": "vistex.poc.ovp",
+    "type": "application",
+    "i18n": "i18n/i18n.properties",
+    "title": "Vistex Sample",
+    "applicationVersion": {
+      "version": "1.0.0"
+    },
+    "dataSources": {
+    }
+  },
+  "sap.ui": {
+    "_version": "1.2.0",
+    "technology": "UI5",
+    "icons": {
+      "icon": "sap-icon://task",
+      "favIcon": "",
+      "phone": "",
+      "phone@2": "",
+      "tablet": "",
+      "tablet@2": ""
+    },
+    "deviceTypes": {
+      "desktop": true,
+      "tablet": true,
+      "phone": true
+    },
+    "supportedThemes": [
+      "sap_hcb",
+      "sap_belize"
+    ]
+  },
+  "sap.ui5": {
+    "_version": "1.2.0",
+    "handleValidation": true,
+    "rootView": {
+      "viewName": "vistex.poc.ovp.view.App",
+      "type": "XML",
+      "id": "Vistex-POC-OVP"
+    },
+    "config": {
+      "fullWidth": true
+    },
+    "resources": {
+      "css": [
+        {
+          "uri": "style/site.css"
+        }
+      ]
+    },
+    "dependencies": {
+      "minUI5Version": "1.52.0",
+      "libs": {
+        "sap.ui.core": {
+          "minVersion": "1.52.0"
+        },
+        "sap.uxap": {},
+        "sap.m": {
+          "minVersion": "1.52.0"
+        },
+        "sap.ui.table": {},
+        "sap.ui.comp": {},
+        "sap.f": {},
+        "sap.ovp": {}
+      }
+    },
+    "contentDensities": {
+      "compact": true,
+      "cozy": true
+    },
+    "models": {
+      "i18n": {
+        "type": "sap.ui.model.resource.ResourceModel",
+        "settings": {
+          "bundleName": "vistex.poc.ovp.i18n.i18n"
+        }
+      }
+    },
+    "routing": {
+      "config": {
+        "routerClass": "sap.m.routing.Router",
+        "viewType": "XML",
+        "viewPath": "vistex.poc.ovp.view",
+        "controlId": "Vistex-POC-OVP",
+        "controlAggregation": "pages",
+        "bypassed": {
+          "target": [
+            "notFound"
+          ]
+        },
+        "async": true
+      },
+      "routes": [
+        {
+          "pattern": "gridContainer",
+          "name": "gridContainer",
+          "target": [
+            "gridContainer"
+          ]
+        },
+        {
+          "pattern": "easyScanLayout",
+          "name": "easyScanLayout",
+          "target": [
+            "easyScanLayout"
+          ]
+        },
+        {
+          "pattern": "dashboardLayout",
+          "name": "dashboardLayout",
+          "target": [
+            "dashboardLayout"
+          ]
+        },
+        {
+          "pattern": "onlyDashboardLayout",
+          "name": "onlyDashboardLayout",
+          "target": [
+            "onlyDashboardLayout"
+          ]
+        }
+      ],
+      "targets": {
+        "gridContainer": {
+          "viewName": "GridContainer",
+          "viewId": "GridContainerView",
+          "transition": "show",
+          "viewLevel": 1
+        },
+        "easyScanLayout": {
+          "viewName": "EasyScanLayout",
+          "viewId": "EasyScanLayoutView"
+        },
+        "dashboardLayout": {
+          "viewName": "DashboardLayout",
+          "viewId": "DashboardLayout"
+        },
+        "onlyDashboardLayout": {
+          "viewName": "OnlyDashboardLayout",
+          "viewId": "OnlyDashboardLayout"
+        }
+      }
+    }
+  }
+}

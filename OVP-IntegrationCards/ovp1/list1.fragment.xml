@@ -1,0 +1,7 @@
+<core:FragmentDefinition xmlns="sap.m"
+	xmlns:w="sap.ui.integration.widgets" xmlns:ovp="sap.ovp.ui"
+	xmlns:core="sap.ui.core">
+	<ovp:Card>
+		<!-- <w:Card class="sapUiTinyMarginBottom" /> -->
+	</ovp:Card>
+</core:FragmentDefinition>
