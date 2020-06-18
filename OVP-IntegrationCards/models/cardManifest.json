@@ -1,26 +1,4 @@
 {
-  "layoutConfig": {
-    "cards": [
-      {
-        "cardType": "custom",
-        "settings": {
-          "listType": "condensed"
-        },
-        "id": "__card0"
-      },
-      {
-        "cardType": "custom",
-        "settings": {
-          "listType": "condensed",
-          "defaultSpan": {
-            "rows": 21,
-            "cols": 2
-          }
-        },
-        "id": "__card1"
-      }
-    ]
-  },
   "cards": {
     "custom1": {
       "layoutConfig": {

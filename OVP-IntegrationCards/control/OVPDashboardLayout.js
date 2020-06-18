@@ -38,12 +38,13 @@ sap.ui.define([
                 for (var i=0;i<this.getCards().length;i++) {
                     if (this.getCards()[i].getLayoutConfig()) {
                         oLayoutConfig.cards.push(this.getCards()[i].getLayoutConfig());
-                        // this.addContent(this.getCards()[i]);
+
+                        var oContainer = new sap.ui.core.ComponentContainer();
+                        this.addContent(oContainer);
                     }
                 }
             }
             this.uiModel.setData(oLayoutConfig);
-            // this.uiModel.setData(this.getLayoutConfig());
 
             this.dashboardLayoutUtil = new DashboardLayoutUtil(this.uiModel);
             this.dashboardLayoutUtil.setLayout(this);

@@ -1,7 +1,5 @@
 ﻿<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns:ovp="sap.ovp.ui"
           xmlns:control="vistex.poc.ovp.control"
-          xmlns:template="http://schemas.sap.com/sapui5/extension/sap.ui.core.template/1"
-          xmlns:sap.ui.fl="sap.ui.fl" xmlns:w="sap.ui.integration.widgets"
           xmlns:core="sap.ui.core" xmlns="sap.m" xmlns:f="sap.f"
           xmlns:fb="sap.ui.comp.filterbar"
           controllerName="vistex.poc.ovp.controller.DashboardLayout"
@@ -18,10 +16,10 @@
                         type="XML" /> -->
                 </f:header>
                 <f:content>
+<!--                    <ovp:EasyScanLayout dragAndDropEnabled="true" id="OVPDashboardLayout"-->
+<!--                                        class="vistexEasyScanLayout">-->
                     <control:OVPDashboardLayout id="OVPDashboardLayout"
-                                                content="{data>/layoutConfig/cards}"
                                                 class="ovpLayout">
-                        <core:ComponentContainer/>
                         <control:cards>
                             <control:IntegrationCard title="{data>/cards/custom1/title}"
                                                      layoutConfig="{data>/cards/custom1/layoutConfig}"
@@ -48,6 +46,8 @@
                             <!--							<w:Card manifest="{data>/cards/donut}" action=".onAction"/>-->
                             <!--							<w:Card manifest="{data>/cards/stackedColumn}" action=".onAction"/>-->
                             <!--							<w:Card manifest="{data>/cards/calendar}" action=".onAction"/>-->
+
+<!--                    </ovp:EasyScanLayout>-->
                         </control:cards>
                     </control:OVPDashboardLayout>
                 </f:content>
