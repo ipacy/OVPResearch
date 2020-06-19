@@ -8,11 +8,6 @@ sap.ui.define([
     return DashboardLayout.extend('vistex.poc.ovp.control.OVPDashboardLayout', {
 
         metadata: {
-            properties: {
-                layoutConfig: {
-                    type: "object"
-                }
-            },
             aggregations: {
                 cards: {
                     type: "sap.ui.integration.widgets.Card",
