@@ -10,8 +10,8 @@ sap.ui.define([
 		},
 
 		updatePageHeader: function(sTitle, sKey) {
-			this.getView().byId("idPageTitle").setText(sTitle);
-			this.getView().byId("idSwapSegmentedButton").setSelectedKey(sKey);
+		//	this.getView().byId("idPageTitle").setText(sTitle);
+		//	this.getView().byId("idSwapSegmentedButton").setSelectedKey(sKey);
 		}
 
 	});

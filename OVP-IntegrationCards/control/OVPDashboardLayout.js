@@ -31,6 +31,7 @@ sap.ui.define([
 
         onBeforeRendering: function () {
             var oLayoutConfig = {
+                visible:true,
                 cards: []
             };
 

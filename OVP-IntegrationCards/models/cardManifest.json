@@ -48,8 +48,7 @@
         "settings": {
           "listType": "condensed",
           "defaultSpan": {
-            "rows": 21,
-            "cols": 2
+            "cols": 3
           }
         },
         "id": "__card1"
