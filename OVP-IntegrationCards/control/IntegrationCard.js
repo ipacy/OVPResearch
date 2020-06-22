@@ -33,10 +33,8 @@ sap.ui.define([
             },
             defaultAggregation: "content",
             aggregations: {
-                content: {
-                    type: "sap.ui.core.Control",
-                    multiple: false
-                }
+                viewSwitch: { "type": "sap.ui.core.Control", multiple: false},
+                content: { type: "sap.ui.core.Control", multiple: false}
             }
         },
 

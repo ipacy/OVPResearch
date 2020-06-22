@@ -37,6 +37,7 @@ sap.ui.define([
                             };
                             var fnCreateCustomContentInstance = function (Content) {
                                 var oContent = new Content({
+                                    viewSwitch: oCard.getViewSwitch(),
                                     content: oCard.getContent()
                                 });
                                 oContent._sAppId = sAppId;
