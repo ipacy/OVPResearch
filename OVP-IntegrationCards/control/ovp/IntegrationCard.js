@@ -15,7 +15,7 @@ sap.ui.define([
     "use strict";
     /* global Map */
 
-    var IntegrationCard = Card.extend("vistex.poc.ovp.control.IntegrationCard", /** @lends sap.ui.integration.widgets.Card.prototype */ {
+    var IntegrationCard = Card.extend("vistex.poc.ovp.control.ovp.IntegrationCard", /** @lends sap.ui.integration.widgets.Card.prototype */ {
         metadata: {
             properties: {
                 layoutConfig: {

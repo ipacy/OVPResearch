@@ -23,7 +23,7 @@ sap.ui.define([
                 sap.f.cards.BaseContent.create = function (sType, oConfiguration, oServiceManager, oDataProviderFactory, sAppId, oCard) {
                     if (sType.toLowerCase() === "standardlist"
                         || sType.toLowerCase() === "objlist"
-                        || oCard instanceof vistex.poc.ovp.control.IntegrationCard) {
+                        || oCard instanceof vistex.poc.ovp.control.ovp.IntegrationCard) {
                         return new Promise(function (resolve, reject) {
                             var fnCreateContentInstance = function (Content) {
                                 var oContent = new Content();
@@ -49,8 +49,8 @@ sap.ui.define([
                                 resolve(oContent);
                             };
 
-                            if (oCard instanceof vistex.poc.ovp.control.IntegrationCard) {
-                                sap.ui.require(["vistex/poc/ovp/control/CustomContent"], fnCreateCustomContentInstance);
+                            if (oCard instanceof vistex.poc.ovp.control.ovp.IntegrationCard) {
+                                sap.ui.require(["vistex/poc/ovp/control/ovp/CustomContent"], fnCreateCustomContentInstance);
                             } else {
                                 try {
                                     switch (sType.toLowerCase()) {
@@ -61,7 +61,7 @@ sap.ui.define([
                                             sap.ui.require(["vistex/poc/ovp/control/ObjListContent"], fnCreateContentInstance);
                                             break;
                                         case "custom":
-                                            sap.ui.require(["vistex/poc/ovp/control/CustomContent"], fnCreateCustomContentInstance);
+                                            sap.ui.require(["vistex/poc/ovp/control/ovp/CustomContent"], fnCreateCustomContentInstance);
                                             break;
                                         default:
                                             reject(sType.toUpperCase() + " content type is not supported.");

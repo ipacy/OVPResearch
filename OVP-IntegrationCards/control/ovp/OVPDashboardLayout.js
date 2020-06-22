@@ -5,7 +5,7 @@ sap.ui.define([
     "sap/ui/Device"
 ], function (DashboardLayout, DashboardLayoutUtil, Control, Device) {
     'use strict';
-    return DashboardLayout.extend('vistex.poc.ovp.control.OVPDashboardLayout', {
+    return DashboardLayout.extend('vistex.poc.ovp.control.ovp.OVPDashboardLayout', {
 
         metadata: {
             aggregations: {
@@ -151,12 +151,12 @@ sap.ui.define([
 
         getComp: function (id) {
             var oComp1 = sap.ui.getCore().createComponent({
-                name: "vistex.poc.ovp.ovp1",
-                id: id + "-Comp1",
+                name: "vistex.poc.ovp.control.ovp",
+                id: id + "-OVPCardComp",
                 settings: {}
             });
 
-            return oComp1
+            return oComp1;
         }
     });
 

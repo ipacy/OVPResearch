@@ -12,26 +12,7 @@ sap.ui.define([
 
         var AreaType = library.cards.AreaType;
 
-        /**
-         * Constructor for a new <code>ListContent</code>.
-         *
-         * @param {string} [sId] ID for the new control, generated automatically if no ID is given
-         * @param {object} [mSettings] Initial settings for the new control
-         *
-         * @class
-         * A control that is a wrapper of a <code>sap.m.List</code> and allows its creation based on a configuration.
-         *
-         * @extends sap.f.cards.BaseContent
-         *
-         * @author SAP SE
-         * @version 1.75.1
-         *
-         * @constructor
-         * @private
-         * @since 1.62
-         * @alias sap.f.cards.ListContent
-         */
-        var CustomContent = BaseContent.extend("vistex.poc.ovp.control.CustomContent", {
+        var CustomContent = BaseContent.extend("vistex.poc.ovp.control.ovp.CustomContent", {
             metadata: {
                 aggregations: {
                     viewSwitch: {"type": "sap.ui.core.Control", multiple: false},
