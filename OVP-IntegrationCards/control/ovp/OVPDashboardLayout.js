@@ -62,11 +62,11 @@ sap.ui.define([
                         this.addContent(oContainer);
                     }
                 }
-            }
-            this.uiModel.setData(oLayoutConfig);
+                this.uiModel.setData(oLayoutConfig);
 
-            this.dashboardLayoutUtil = new DashboardLayoutUtil(this.uiModel);
-            this.dashboardLayoutUtil.setLayout(this);
+                this.dashboardLayoutUtil = new DashboardLayoutUtil(this.uiModel);
+                this.dashboardLayoutUtil.setLayout(this);
+            }
         },
 
         renderer: {
