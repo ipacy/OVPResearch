@@ -26,16 +26,39 @@ sap.ui.define([
 
         onBeforeRendering: function () {
             var oLayoutConfig = {
-                visible:true,
+                visible: true,
                 cards: []
             };
 
-            if (this.getCards()) {
-                for (var i=0;i<this.getCards().length;i++) {
-                    if (this.getCards()[i].getLayoutConfig()) {
-                        oLayoutConfig.cards.push(this.getCards()[i].getLayoutConfig());
+            if (this.getCards() && this.getContent().length === 0) {
+                // this.removeAllContent();
+                for (var i = 0; i < this.getCards().length; i++) {
+                    var oCard = this.getCards()[0];
 
-                        var oContainer = new sap.ui.core.ComponentContainer();
+                    if (oCard.getLayoutConfig()) {
+                        oCard.getLayoutConfig().id = oCard.getId();
+                        oLayoutConfig.cards.push(oCard.getLayoutConfig());
+
+                        oCard.addDelegate({
+                            onAfterRendering: function (oEvent) {
+                                var card = oEvent.srcControl;
+                                var dashboardLayoutUtil = oCard.getParent().getParent().oContainer.getParent().dashboardLayoutUtil;
+
+                                if (dashboardLayoutUtil && dashboardLayoutUtil.isCardAutoSpan(card.getId())) {
+                                    var $wrapper = jQuery("#" + dashboardLayoutUtil.getCardDomId(card.getId()));
+                                    dashboardLayoutUtil.setAutoCardSpanHeight(null, card.getId(), card.$().height());
+                                }
+                            }
+                        });
+
+                        var oComponent = this.getComp(oCard.getId());
+                        oComponent.card.setInnerCard(this.getCards()[0]);
+                        --i;
+
+                        var oContainer = new sap.ui.core.ComponentContainer({
+                            component: oComponent
+                        });
+
                         this.addContent(oContainer);
                     }
                 }
@@ -69,6 +92,23 @@ sap.ui.define([
                 }
 
                 var filteredItems = oControl.getContent().filter(filterVisibleCards);
+
+                if (aCards.length && filteredItems.length) {
+                    for (var i = 0; i < aCards.length; i++) {
+                        for (var j = 0; j < filteredItems.length; j++) {
+                            if (aCards[i].id === filteredItems[j].getComponentInstance().card.getInnerCard().getLayoutConfig().id) {
+                                filteredItems[j].getComponentInstance().card.getInnerCard().getLayoutConfig().dashboardLayout = aCards[i].dashboardLayout;
+                            }
+                        }
+                    }
+                }
+
+                if (aCards.length === 0 && filteredItems.length) {
+                    for (var i = 0; i < filteredItems.length; i++) {
+                        aCards.push(filteredItems[i].getComponentInstance().card.getInnerCard().getLayoutConfig());
+                    }
+                }
+
                 oRm.write("<div");
                 oRm.writeControlData(oControl);
                 oRm.addClass("sapUshellEasyScanLayout");
@@ -82,15 +122,16 @@ sap.ui.define([
                 oRm.write(">");
                 oRm.write("<div class='sapUshellEasyScanLayoutInner' role='list' aria-label='Cards' tabindex='0'>");
 
-                if (aCards.length > 0) {
-                    var card = {}, counter, iLength, bSideCard,
-                        colCount = oControl.getDashboardLayoutModel().getColCount();
+                // if (aCards.length > 0) {
+                var card = {}, counter, iLength, bSideCard,
+                    colCount = oControl.getDashboardLayoutModel().getColCount();
 
-                    for (counter = 0, iLength = filteredItems.length; counter < iLength; counter++) {
-                        var aStyleClasses = ['easyScanLayoutItemWrapper', 'sapOvpDashboardLayoutItem'];
+                for (counter = 0, iLength = filteredItems.length; counter < iLength; counter++) {
+                    var aStyleClasses = ['easyScanLayoutItemWrapper', 'sapOvpDashboardLayoutItem'];
 //						card = aCards.filter(filterById.bind(filteredItems[counter]))[0];
-                        card = aCards[counter];
-                        //re-set css values for current card
+                    card = aCards[counter];
+                    //re-set css values for current card
+                    if (card) {
                         oControl.dashboardLayoutUtil.setCardCssValues(card);
                         bSideCard = card.dashboardLayout.column + card.dashboardLayout.colSpan === colCount + 1;
                         if (bSideCard) {
@@ -110,37 +151,12 @@ sap.ui.define([
                             " tabindex='0'; aria-setsize=" + iLength + " aria-posinset=" + (counter + 1));
                         oRm.writeAccessibilityState(undefined, {role: "listitem"});
                         oRm.write(">");
-
-                        if (filteredItems[counter].getId()) {
-
-                            var oComponent = oControl.getComp(filteredItems[counter].getId());
-
-                            var aCard = oControl.getCards();
-
-                            if (aCard[0]) {
-                                oComponent.card.setInnerCard(aCard[0]);
-
-                                oComponent.card.getInnerCard().addDelegate({
-                                    onAfterRendering: function (oEvent) {
-                                        var oCard = oEvent.srcControl;
-                                        var dashboardLayoutUtil = oCard.getParent().getParent().oContainer.getParent().dashboardLayoutUtil;
-
-                                        if (dashboardLayoutUtil && dashboardLayoutUtil.isCardAutoSpan(oCard.getId())) {
-                                            var $wrapper = jQuery("#" + dashboardLayoutUtil.getCardDomId(oCard.getId()));
-                                            dashboardLayoutUtil.setAutoCardSpanHeight(null, oCard.getId(), oCard.$().height());
-                                        }
-                                    }
-                                });
-
-                                filteredItems[counter].setComponent(oComponent);
-                                oRm.renderControl(filteredItems[counter]);
-                            }
-                        }
-
+                        oRm.renderControl(filteredItems[counter]);
                         oRm.write("<div class='lastElement' tabindex='0'></div>");
                         oRm.write("</div>");
                     }
                 }
+                // }
 
                 oRm.write("</div>");
                 // dummy after focusable area

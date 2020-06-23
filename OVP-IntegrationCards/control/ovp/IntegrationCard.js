@@ -33,8 +33,8 @@ sap.ui.define([
             },
             defaultAggregation: "content",
             aggregations: {
-                viewSwitch: { "type": "sap.ui.core.Control", multiple: false},
-                content: { type: "sap.ui.core.Control", multiple: false}
+                viewSwitch: {"type": "sap.ui.core.Control", multiple: false},
+                content: {type: "sap.ui.core.Control", multiple: false}
             }
         },
 
@@ -122,7 +122,7 @@ sap.ui.define([
 
         this._setTemporaryContent();
 
-        BaseContent
+        IntegrationCard
             .create(sCardType, oManifestContent, this._oServiceManager, this._oDataProviderFactory, this._sAppId, this)
             .then(function (oContent) {
                 this._setCardContent(oContent);
@@ -134,6 +134,25 @@ sap.ui.define([
                 this._endBusyState("applyManifest");
             }.bind(this));
     };
+
+    IntegrationCard.create = function (sType, oConfiguration, oServiceManager, oDataProviderFactory, sAppId, oCard) {
+        return new Promise(function (resolve, reject) {
+
+            if (oCard instanceof vistex.poc.ovp.control.ovp.IntegrationCard) {
+                var oContent = new vistex.poc.ovp.control.ovp.CustomContent({
+                    viewSwitch: oCard.getViewSwitch(),
+                    content: oCard.getContent()
+                });
+                oContent._sAppId = sAppId;
+                oContent.setServiceManager(oServiceManager);
+                oContent.setDataProviderFactory(oDataProviderFactory);
+
+                oContent.setConfiguration(oConfiguration);
+
+                resolve(oContent);
+            }
+        });
+    }
 
     return IntegrationCard;
 });

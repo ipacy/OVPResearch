@@ -6,7 +6,8 @@ sap.ui.define([
         "sap/f/cards/BindingHelper",
         "sap/base/Log",
         "sap/ovp/ui/DashboardLayoutUtil",
-        "sap/ovp/ui/DashboardLayoutRearrange"],
+        "sap/ovp/ui/DashboardLayoutRearrange",
+        "vistex/poc/ovp/control/ovp/CustomContent"],
     function (library, UIComponent, BaseContent, Card, BindingHelper, Log, DashboardLayoutUtil, Rearrange) {
         "use strict";
         return UIComponent.extend("vistex.poc.ovp.Component", {
@@ -17,65 +18,6 @@ sap.ui.define([
             init: function () {
                 UIComponent.prototype.init.apply(this, arguments);
                 this.getRouter().initialize();
-
-                var bContent = sap.f.cards.BaseContent.create;
-
-                sap.f.cards.BaseContent.create = function (sType, oConfiguration, oServiceManager, oDataProviderFactory, sAppId, oCard) {
-                    if (sType.toLowerCase() === "standardlist"
-                        || sType.toLowerCase() === "objlist"
-                        || oCard instanceof vistex.poc.ovp.control.ovp.IntegrationCard) {
-                        return new Promise(function (resolve, reject) {
-                            var fnCreateContentInstance = function (Content) {
-                                var oContent = new Content();
-                                oContent._sAppId = sAppId;
-                                oContent.setServiceManager(oServiceManager);
-                                oContent.setDataProviderFactory(oDataProviderFactory);
-
-                                oContent.setConfiguration(oConfiguration);
-
-                                resolve(oContent);
-                            };
-                            var fnCreateCustomContentInstance = function (Content) {
-                                var oContent = new Content({
-                                    viewSwitch: oCard.getViewSwitch(),
-                                    content: oCard.getContent()
-                                });
-                                oContent._sAppId = sAppId;
-                                oContent.setServiceManager(oServiceManager);
-                                oContent.setDataProviderFactory(oDataProviderFactory);
-
-                                oContent.setConfiguration(oConfiguration);
-
-                                resolve(oContent);
-                            };
-
-                            if (oCard instanceof vistex.poc.ovp.control.ovp.IntegrationCard) {
-                                sap.ui.require(["vistex/poc/ovp/control/ovp/CustomContent"], fnCreateCustomContentInstance);
-                            } else {
-                                try {
-                                    switch (sType.toLowerCase()) {
-                                        case "standardlist":
-                                            sap.ui.require(["vistex/poc/ovp/control/StandardListContent"], fnCreateContentInstance);
-                                            break;
-                                        case "objlist":
-                                            sap.ui.require(["vistex/poc/ovp/control/ObjListContent"], fnCreateContentInstance);
-                                            break;
-                                        case "custom":
-                                            sap.ui.require(["vistex/poc/ovp/control/ovp/CustomContent"], fnCreateCustomContentInstance);
-                                            break;
-                                        default:
-                                            reject(sType.toUpperCase() + " content type is not supported.");
-                                    }
-                                } catch (sError) {
-                                    reject(sError);
-                                }
-                            }
-                        });
-                    } else {
-                        return bContent.apply(this, arguments);
-                    }
-                };
-
 
                 sap.ovp.ui.DashboardLayoutUtil.prototype._triggerCardResize = function (oCard) {
                     var cardLayout = oCard.dashboardLayout,
