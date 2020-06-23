@@ -15,7 +15,7 @@ sap.ui.define([
     "use strict";
     /* global Map */
 
-    var IntegrationCard = Card.extend("vistex.poc.ovp.control.ovp.IntegrationCard", /** @lends sap.ui.integration.widgets.Card.prototype */ {
+    var IntegrationCard = Card.extend("vistex.control.ovp.IntegrationCard", /** @lends sap.ui.integration.widgets.Card.prototype */ {
         metadata: {
             properties: {
                 layoutConfig: {
@@ -138,8 +138,8 @@ sap.ui.define([
     IntegrationCard.create = function (sType, oConfiguration, oServiceManager, oDataProviderFactory, sAppId, oCard) {
         return new Promise(function (resolve, reject) {
 
-            if (oCard instanceof vistex.poc.ovp.control.ovp.IntegrationCard) {
-                var oContent = new vistex.poc.ovp.control.ovp.CustomContent({
+            if (oCard instanceof vistex.control.ovp.IntegrationCard) {
+                var oContent = new vistex.control.ovp.CustomContent({
                     viewSwitch: oCard.getViewSwitch(),
                     content: oCard.getContent()
                 });

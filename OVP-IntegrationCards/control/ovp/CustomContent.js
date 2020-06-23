@@ -12,7 +12,7 @@ sap.ui.define([
 
         var AreaType = library.cards.AreaType;
 
-        var CustomContent = BaseContent.extend("vistex.poc.ovp.control.ovp.CustomContent", {
+        var CustomContent = BaseContent.extend("vistex.control.ovp.CustomContent", {
             metadata: {
                 aggregations: {
                     viewSwitch: {"type": "sap.ui.core.Control", multiple: false},

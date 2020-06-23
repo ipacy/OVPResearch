@@ -1,5 +1,5 @@
 ﻿<mvc:View xmlns:mvc="sap.ui.core.mvc"
-          xmlns:control="vistex.poc.ovp.control.ovp"
+          xmlns:control="vistex.control.ovp"
           xmlns:w="sap.ui.integration.widgets" xmlns:core="sap.ui.core"
           xmlns="sap.m" xmlns:f="sap.f" xmlns:ovp="sap.ovp.ui"
           controllerName="vistex.poc.ovp.controller.EasyScanLayout"
@@ -18,15 +18,24 @@
                 <f:content>
                     <ovp:EasyScanLayout dragAndDropEnabled="true"
                                         class="vistexEasyScanLayout">
-
-                        <control:IntegrationCard title="{data>/custom1/title}"
-                                                 subTitle="{data>/custom1/subTitle}" counter="{data>/custom1/counter}"
-                                                 manifest="{data>/custom1/data}" action=".onAction">
-                            <control:layoutData>
-                                <f:GridContainerItemLayoutData
-                                        minRows="4" columns="9"/>
-                            </control:layoutData>
-                            <List items="{data>/custom1/data}">
+                        <control:IntegrationCard title="{data>/cards/custom1/title}"
+                                                 layoutConfig="{data>/cards/custom1/layoutConfig}"
+                                                 subTitle="{data>/cards/custom1/subTitle}"
+                                                 counter="{data>/cards/custom1/counter}"
+                                                 manifest="{data>/cards/custom1/data}" action=".onAction">
+                            <control:viewSwitch>
+                                <Select width="60%"/>
+                            </control:viewSwitch>
+                            <List items="{data>/cards/custom1/data}">
+                                <StandardListItem title="{data>name}"/>
+                            </List>
+                        </control:IntegrationCard>
+                        <control:IntegrationCard title="{data>/cards/custom2/title}"
+                                                 layoutConfig="{data>/cards/custom2/layoutConfig}"
+                                                 subTitle="{data>/cards/custom2/subTitle}"
+                                                 counter="{data>/cards/custom2/counter}"
+                                                 manifest="{data>/cards/custom2/data}" action=".onAction">
+                            <List items="{data>/cards/custom2/data}">
                                 <StandardListItem title="{data>name}"/>
                             </List>
                         </control:IntegrationCard>

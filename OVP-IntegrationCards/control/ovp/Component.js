@@ -4,10 +4,10 @@ sap.ui.define([
 	function (UIComponent) {
 		"use strict";
 
-		return UIComponent.extend("vistex.poc.ovp.control.ovp.Component", {
+		return UIComponent.extend("vistex.control.ovp.Component", {
 
 			createContent: function() {
-				this.card = sap.ui.xmlfragment("vistex.poc.ovp.control.ovp.OVPCard", this);
+				this.card = sap.ui.xmlfragment("vistex.control.ovp.OVPCard", this);
 				return this.card;
 			}
 		});

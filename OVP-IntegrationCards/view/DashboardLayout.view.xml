@@ -1,5 +1,5 @@
 ﻿<mvc:View xmlns:mvc="sap.ui.core.mvc"
-          xmlns:control="vistex.poc.ovp.control.ovp"
+          xmlns:control="vistex.control.ovp"
           xmlns="sap.m" xmlns:f="sap.f"
           controllerName="vistex.poc.ovp.controller.DashboardLayout"
           displayBlock="true">
