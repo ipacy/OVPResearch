@@ -3,7 +3,7 @@
           xmlns="sap.m" xmlns:f="sap.f"
           controllerName="vistex.poc.ovp.controller.DashboardLayout"
           displayBlock="true">
-    <f:DynamicPage id="idDynamicPage">
+    <f:DynamicPage id="idDynamicPage" class = "ovpApplication">
         <f:header>
             <!-- <core:Fragment fragmentName="vistex.poc.ovp.fragments.FilterBar"
                 type="XML" /> -->

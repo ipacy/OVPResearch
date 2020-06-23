@@ -45,7 +45,6 @@ sap.ui.define([
                                 var dashboardLayoutUtil = oCard.getParent().getParent().oContainer.getParent().dashboardLayoutUtil;
 
                                 if (dashboardLayoutUtil && dashboardLayoutUtil.isCardAutoSpan(card.getId())) {
-                                    var $wrapper = jQuery("#" + dashboardLayoutUtil.getCardDomId(card.getId()));
                                     dashboardLayoutUtil.setAutoCardSpanHeight(null, card.getId(), card.$().height());
                                 }
                             }
