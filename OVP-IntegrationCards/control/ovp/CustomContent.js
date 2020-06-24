@@ -15,9 +15,16 @@ sap.ui.define([
         var CustomContent = BaseContent.extend("vistex.control.ovp.CustomContent", {
             metadata: {
                 aggregations: {
-                    viewSwitch: {"type": "sap.ui.core.Control", multiple: false},
-                    content: {"type": "sap.ui.core.Control", multiple: false}
+                    viewSwitch: {"type": "sap.ui.core.Control", multiple: true},
+                    content: {"type": "sap.ui.core.Control", multiple: false},
+                    _filterToolbar: {type: 'sap.m.Toolbar', multiple: false, visibility: 'hidden'},
                 }
+            },
+
+            init: function () {
+                this.setAggregation('_filterToolbar', new sap.m.Toolbar({
+                    height: '3rem'
+                }).addStyleClass("sapUiSizeCompact ovpFilterBarPadding"));
             },
 
             renderer: function (oRm, oCardContent) {
@@ -45,16 +52,25 @@ sap.ui.define([
                 oRm.writeStyles();
                 oRm.write(">");
 
-                if (oCardContent.getAggregation("viewSwitch")) {
-                    oRm.renderControl(new sap.m.Toolbar({
-                        content: oCardContent.getAggregation("viewSwitch").addStyleClass("sapUiSmallMarginBegin sapUiSmallMarginEnd")
-                    }).addStyleClass("sapUiSizeCompact"));
+                if (oCardContent.getAggregation("viewSwitch").length) {
+                    oRm.renderControl(oCardContent.getAggregation('_filterToolbar'));
                 }
                 oRm.renderControl(oCardContent.getAggregation("content"));
 
                 oRm.write("</div>");
             }
         });
+
+        CustomContent.getMetadata().forwardAggregation(
+            'viewSwitch',
+            {
+                getter: function () {
+                    return this.getAggregation('_filterToolbar');
+                },
+                aggregation: 'content',
+                forwardBinding: true
+            }
+        );
 
         return CustomContent;
     }

@@ -45,10 +45,6 @@ sap.ui.define([
                         oSourceObject.showOnlyHeader = oDestinationObject.showOnlyHeader;
                     }
                 };
-
-
             }
-
-
         });
     });

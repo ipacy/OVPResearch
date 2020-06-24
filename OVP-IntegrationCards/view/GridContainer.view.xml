@@ -1,6 +1,6 @@
 ﻿<mvc:View xmlns:mvc="sap.ui.core.mvc"
 	xmlns:w="sap.ui.integration.widgets" xmlns:core="sap.ui.core"
-	xmlns="sap.m" xmlns:f="sap.f" xmlns:control="vistex.poc.ovp.control"
+	xmlns="sap.m" xmlns:f="sap.f" xmlns:control="vistex.control.ovp"
 	controllerName="vistex.poc.ovp.controller.GridContainer"
 	displayBlock="true">
 	<Page>
@@ -30,71 +30,87 @@
 								columnSize="40px" />
 						</f:layoutM>
 
-						<control:IntegrationCard
-							manifest="{manifests>/custom}" action=".onAction">
-							<control:layoutData>
-								<f:GridContainerItemLayoutData
-									minRows="4" columns="9" />
-							</control:layoutData>
-							<List items="{manifests>/custom/sap.card/content/data/json}">
-								<StandardListItem title="{manifests>name}" />
+						<control:IntegrationCard title="{data>/cards/custom1/title}"
+												 layoutConfig="{data>/cards/custom1/layoutConfig}"
+												 subTitle="{data>/cards/custom1/subTitle}"
+												 counter="{data>/cards/custom1/counter}"
+												 manifest="{data>/cards/custom1/data}" action=".onAction">
+														<control:layoutData>
+															<f:GridContainerItemLayoutData
+																	minRows="4" columns="9"/>
+														</control:layoutData>
+							<control:viewSwitch>
+								<Select width="60%"/>
+							</control:viewSwitch>
+							<List items="{data>/cards/custom1/data}">
+								<StandardListItem title="{data>name}"/>
 							</List>
 						</control:IntegrationCard>
-						<w:Card manifest="{manifests>/table}" action=".onAction">
-							<w:layoutData>
-								<f:GridContainerItemLayoutData
-									minRows="2" columns="9" />
-							</w:layoutData>
-						</w:Card>
-						<w:Card manifest="{manifests>/objList}" action=".onAction">
-							<w:layoutData>
-								<f:GridContainerItemLayoutData
-									minRows="2" columns="9" />
-							</w:layoutData>
-						</w:Card>
-						<w:Card manifest="{manifests>/list1}" action=".onAction">
-							<w:layoutData>
-								<f:GridContainerItemLayoutData
-									minRows="2" columns="9" />
-							</w:layoutData>
-						</w:Card>
-						<w:Card manifest="{manifests>/list2}" action=".onAction">
-							<w:layoutData>
-								<f:GridContainerItemLayoutData
-									minRows="5" columns="9" />
-							</w:layoutData>
-						</w:Card>
-						<w:Card manifest="{manifests>/calendar}" action="onAction">
-							<w:layoutData>
-								<f:GridContainerItemLayoutData
-									minRows="4" columns="4" />
-							</w:layoutData>
-						</w:Card>
-						<w:Card manifest="{manifests>/object}" action=".onAction">
-							<w:layoutData>
-								<f:GridContainerItemLayoutData
-									minRows="4" columns="5" />
-							</w:layoutData>
-						</w:Card>
-						<w:Card manifest="{manifests>/stackedColumn}"
-							action=".onAction">
-							<w:layoutData>
-								<f:GridContainerItemLayoutData
-									minRows="5" columns="5" />
-							</w:layoutData>
-						</w:Card>
-						<w:Card manifest="{manifests>/donut}" action=".onAction">
-							<w:layoutData>
-								<f:GridContainerItemLayoutData
-									minRows="4" columns="4" />
-							</w:layoutData>
-						</w:Card>
-						<w:Card manifest="{manifests>/timeline}" action=".onAction">
-							<w:layoutData>
-								<f:GridContainerItemLayoutData
-									minRows="4" columns="5" />
-							</w:layoutData>
-						</w:Card>
+<!--						<control:IntegrationCard-->
+<!--							manifest="{manifests>/custom}" action=".onAction">-->
+<!--							<control:layoutData>-->
+<!--								<f:GridContainerItemLayoutData-->
+<!--									minRows="4" columns="9" />-->
+<!--							</control:layoutData>-->
+<!--							<List items="{manifests>/custom/sap.card/content/data/json}">-->
+<!--								<StandardListItem title="{manifests>name}" />-->
+<!--							</List>-->
+<!--						</control:IntegrationCard>-->
+<!--						<w:Card manifest="{manifests>/table}" action=".onAction">-->
+<!--							<w:layoutData>-->
+<!--								<f:GridContainerItemLayoutData-->
+<!--									minRows="2" columns="9" />-->
+<!--							</w:layoutData>-->
+<!--						</w:Card>-->
+<!--						<w:Card manifest="{manifests>/objList}" action=".onAction">-->
+<!--							<w:layoutData>-->
+<!--								<f:GridContainerItemLayoutData-->
+<!--									minRows="2" columns="9" />-->
+<!--							</w:layoutData>-->
+<!--						</w:Card>-->
+<!--						<w:Card manifest="{manifests>/list1}" action=".onAction">-->
+<!--							<w:layoutData>-->
+<!--								<f:GridContainerItemLayoutData-->
+<!--									minRows="2" columns="9" />-->
+<!--							</w:layoutData>-->
+<!--						</w:Card>-->
+<!--						<w:Card manifest="{manifests>/list2}" action=".onAction">-->
+<!--							<w:layoutData>-->
+<!--								<f:GridContainerItemLayoutData-->
+<!--									minRows="5" columns="9" />-->
+<!--							</w:layoutData>-->
+<!--						</w:Card>-->
+<!--						<w:Card manifest="{manifests>/calendar}" action="onAction">-->
+<!--							<w:layoutData>-->
+<!--								<f:GridContainerItemLayoutData-->
+<!--									minRows="4" columns="4" />-->
+<!--							</w:layoutData>-->
+<!--						</w:Card>-->
+<!--						<w:Card manifest="{manifests>/object}" action=".onAction">-->
+<!--							<w:layoutData>-->
+<!--								<f:GridContainerItemLayoutData-->
+<!--									minRows="4" columns="5" />-->
+<!--							</w:layoutData>-->
+<!--						</w:Card>-->
+<!--						<w:Card manifest="{manifests>/stackedColumn}"-->
+<!--							action=".onAction">-->
+<!--							<w:layoutData>-->
+<!--								<f:GridContainerItemLayoutData-->
+<!--									minRows="5" columns="5" />-->
+<!--							</w:layoutData>-->
+<!--						</w:Card>-->
+<!--						<w:Card manifest="{manifests>/donut}" action=".onAction">-->
+<!--							<w:layoutData>-->
+<!--								<f:GridContainerItemLayoutData-->
+<!--									minRows="4" columns="4" />-->
+<!--							</w:layoutData>-->
+<!--						</w:Card>-->
+<!--						<w:Card manifest="{manifests>/timeline}" action=".onAction">-->
+<!--							<w:layoutData>-->
+<!--								<f:GridContainerItemLayoutData-->
+<!--									minRows="4" columns="5" />-->
+<!--							</w:layoutData>-->
+<!--						</w:Card>-->
 					</f:GridContainer>
 				</f:content>
 			</f:DynamicPage>

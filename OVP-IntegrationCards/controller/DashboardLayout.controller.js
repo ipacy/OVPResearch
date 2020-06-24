@@ -25,6 +25,10 @@ sap.ui.define([
 
 		loadData: function () {
 			this.getView().getModel("data").loadData("models/cardManifest.json");
+		},
+
+		onAction: function (oEvent) {
+			console.log(oEvent)
 		}
 	});
 

@@ -29,6 +29,9 @@ sap.ui.define([
                 },
                 counter: {
                     type: "string"
+                },
+                colSpan: {
+                    type: "int"
                 }
             },
             defaultAggregation: "content",
@@ -47,7 +50,15 @@ sap.ui.define([
             "subTitle": this.getSubTitle(),
             "status": {
                 "text": this.getCounter()
-            }
+            },
+            "actions": [
+                {
+                    "type": "Custom",
+                    "parameters": {
+                        "url": "#"
+                    }
+                }
+            ]
         };
 
         var oHeader,
@@ -139,10 +150,26 @@ sap.ui.define([
         return new Promise(function (resolve, reject) {
 
             if (oCard instanceof vistex.control.ovp.IntegrationCard) {
+                var oCardContent = oCard.getContent() ? oCard.getContent().clone() : null;
+
                 var oContent = new vistex.control.ovp.CustomContent({
-                    viewSwitch: oCard.getViewSwitch(),
-                    content: oCard.getContent()
+                    viewSwitch: oCard.getViewSwitch() ? oCard.getViewSwitch().clone() : null,
+                    content: oCardContent
                 });
+
+                //Setting the Models
+                if (oCard.getContent() || oCard.getViewSwitch()) {
+                    var oModels = {};
+                    if (oCard.getContent()) {
+                        oModels = oCard.getContent().oPropagatedProperties.oModels;
+                    } else {
+                        oModels = oCard.getViewSwitch().oPropagatedProperties.oModels;
+                    }
+                    for (var key in oModels) {
+                        oContent.setModel(oModels[key], key);
+                    }
+                }
+
                 oContent._sAppId = sAppId;
                 oContent.setServiceManager(oServiceManager);
                 oContent.setDataProviderFactory(oDataProviderFactory);

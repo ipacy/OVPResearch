@@ -35,23 +35,12 @@ sap.ui.define([
 		},
 
 		_onRouteMatched: function () {
+
 			var cardManifests = new sap.ui.model.json.JSONModel();
 			cardManifests.loadData("models/cardManifest.json");
-			this.getView().setModel(cardManifests, "manifests");
 
-			this.updatePageHeader("GridContainer", "gridContainer");
+			this.getView().setModel(cardManifests, "data");
 
-			var testModel = new sap.ui.model.json.JSONModel();
-			cardManifests.setData({
-				title: "Title1"
-			}, {
-				title: "Title2"
-			}, {
-				title: "Title3"
-			}, {
-				title: "Title4"
-			});
-			this.getView().setModel(testModel, "testModel");
 		},
 
 		onAction: function (oEvent) {

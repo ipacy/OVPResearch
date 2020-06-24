@@ -1,13 +1,6 @@
 {
   "cards": {
     "custom1": {
-      "layoutConfig": {
-        "cardType": "custom",
-        "settings": {
-          "listType": "condensed"
-        },
-        "id": "__card0"
-      },
       "data": [
         {
           "name": "Teico Inc.",
@@ -43,16 +36,6 @@
       "counter": "5 of 5"
     },
     "custom2": {
-      "layoutConfig": {
-        "cardType": "custom",
-        "settings": {
-          "listType": "condensed",
-          "defaultSpan": {
-            "cols": 3
-          }
-        },
-        "id": "__card1"
-      },
       "data": [
         {
           "name": "Teico Inc.",
