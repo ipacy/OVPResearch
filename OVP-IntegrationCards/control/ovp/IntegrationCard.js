@@ -32,6 +32,10 @@ sap.ui.define([
                 },
                 colSpan: {
                     type: "int"
+                },
+                headerActive: {
+                    type: "boolean",
+                    defaultValue: true
                 }
             },
             defaultAggregation: "content",
@@ -46,20 +50,23 @@ sap.ui.define([
 
     IntegrationCard.prototype._applyHeaderManifestSettings = function () {
         var oManifestHeader = {
-            "title": this.getTitle(),
-            "subTitle": this.getSubTitle(),
-            "status": {
-                "text": this.getCounter()
-            },
-            "actions": [
+            title: this.getTitle(),
+            subTitle: this.getSubTitle(),
+            status: {
+                text: this.getCounter()
+            }
+        };
+
+        if (this.getHeaderActive()) {
+            oManifestHeader['actions'] = [
                 {
-                    "type": "Custom",
-                    "parameters": {
-                        "url": "#"
+                    type: 'Custom',
+                    parameters: {
+                        url: '#'
                     }
                 }
-            ]
-        };
+            ];
+        }
 
         var oHeader,
             oPreviousHeader,
@@ -148,36 +155,33 @@ sap.ui.define([
 
     IntegrationCard.create = function (sType, oConfiguration, oServiceManager, oDataProviderFactory, sAppId, oCard) {
         return new Promise(function (resolve, reject) {
+            var oCardContent = oCard.getContent() ? oCard.getContent().clone() : null;
 
-            if (oCard instanceof vistex.control.ovp.IntegrationCard) {
-                var oCardContent = oCard.getContent() ? oCard.getContent().clone() : null;
+            var oContent = new vistex.control.ovp.CustomContent({
+                viewSwitch: oCard.getViewSwitch() ? oCard.getViewSwitch().clone() : null,
+                content: oCardContent
+            });
 
-                var oContent = new vistex.control.ovp.CustomContent({
-                    viewSwitch: oCard.getViewSwitch() ? oCard.getViewSwitch().clone() : null,
-                    content: oCardContent
-                });
-
-                //Setting the Models
-                if (oCard.getContent() || oCard.getViewSwitch()) {
-                    var oModels = {};
-                    if (oCard.getContent()) {
-                        oModels = oCard.getContent().oPropagatedProperties.oModels;
-                    } else {
-                        oModels = oCard.getViewSwitch().oPropagatedProperties.oModels;
-                    }
-                    for (var key in oModels) {
-                        oContent.setModel(oModels[key], key);
-                    }
+            //Setting the Models
+            if (oCard.getContent() || oCard.getViewSwitch()) {
+                var oModels = {};
+                if (oCard.getContent()) {
+                    oModels = oCard.getContent().oPropagatedProperties.oModels;
+                } else {
+                    oModels = oCard.getViewSwitch().oPropagatedProperties.oModels;
                 }
-
-                oContent._sAppId = sAppId;
-                oContent.setServiceManager(oServiceManager);
-                oContent.setDataProviderFactory(oDataProviderFactory);
-
-                oContent.setConfiguration(oConfiguration);
-
-                resolve(oContent);
+                for (var key in oModels) {
+                    oContent.setModel(oModels[key], key);
+                }
             }
+
+            oContent._sAppId = sAppId;
+            oContent.setServiceManager(oServiceManager);
+            oContent.setDataProviderFactory(oDataProviderFactory);
+
+            oContent.setConfiguration(oConfiguration);
+
+            resolve(oContent);
         });
     }
 

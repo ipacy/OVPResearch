@@ -37,16 +37,16 @@
                                 <StandardListItem title="{data>name}"/>
                             </List>
                         </control:IntegrationCard>
-                        <!--<w:Card manifest="{data>/list1}"/>
-						<w:Card manifest="{manifests>/standardList}"/>
-                        <w:Card manifest="{manifests>/list1}"/>
-                        <w:Card manifest="{manifests>/list2}"/>
-                        <w:Card manifest="{manifests>/object}" action=".onAction"/>
-                        <w:Card manifest="{manifests>/table}" action=".onAction"/>
-                        <w:Card manifest="{manifests>/stackedColumn}"/>
-                        <w:Card manifest="{manifests>/donut}"/>
-                        <w:Card manifest="{manifests>/timeline}" action=".onAction"/>
-                        <w:Card manifest="{manifests>/calendar}" action="onAction"/>-->
+                        <w:Card manifest="{data>/cards/list1}"/>
+                        <!--<w:Card manifest="{data>/cards/standardList}"/>
+                        <w:Card manifest="{data>/cards/list1}"/>
+                        <w:Card manifest="{data>/cards/list2}"/>
+                        <w:Card manifest="{data>/cards/object}" action=".onAction"/>
+                        <w:Card manifest="{data>/cards/table}" action=".onAction"/>-->
+                        <w:Card manifest="{data>/cards/stackedColumn}"/>
+                        <!--<w:Card manifest="{data>/cards/donut}"/>
+                        <w:Card manifest="{data>/cards/timeline}" action=".onAction"/>
+                        <w:Card manifest="{data>/cards/calendar}" action="onAction"/>-->
                     </ovp:EasyScanLayout>
                 </f:content>
             </f:DynamicPage>

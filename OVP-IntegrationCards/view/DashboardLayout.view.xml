@@ -11,12 +11,13 @@
         <f:content>
             <!--                    <ovp:EasyScanLayout dragAndDropEnabled="true" id="OVPDashboardLayout"-->
             <!--                                        class="vistexEasyScanLayout">-->
-            <control:OVPDashboardLayout id="OVPDashboardLayout"
+            <control:OVPDashboardLayout id="OVPDashboardLayout" dragAndDropEnabled="false"
                                         class="ovpLayout">
                 <control:cards>
                     <control:IntegrationCard title="{data>/cards/custom2/title}"
                                              subTitle="{data>/cards/custom2/subTitle}"
                                              counter="{data>/cards/custom2/counter}"
+                                             headerActive="false"
                                              manifest="{data>/cards/custom2/data}" action=".onAction">
                         <List items="{data>/cards/custom2/data}">
                             <StandardListItem title="{data>name}"/>

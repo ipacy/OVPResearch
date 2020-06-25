@@ -69,6 +69,168 @@
       "title": "Title of Card",
       "subTitle": "SubTitle of Card",
       "counter": "5 of 5"
+    },
+    "list1": {
+      "sap.app": {
+        "type": "card"
+      },
+      "sap.card": {
+        "type": "List",
+        "header": {
+          "title": "Incidents in the last 24 hours",
+          "status": {
+            "text": "3 of 3"
+          }
+        },
+        "content": {
+          "data": {
+            "json": [
+              {
+                "name": "Teico Inc.",
+                "icon": "https://sapui5.hana.ondemand.com/test-resources/sap/ui/integration/demokit/sample/CardsLayout/images/Case1.png",
+                "description": "Sun Valley, Idaho",
+                "info": "2456",
+                "infoState": "Error"
+              },
+              {
+                "name": "Freshhh LTD.",
+                "icon": "https://sapui5.hana.ondemand.com/test-resources/sap/ui/integration/demokit/sample/CardsLayout/images/Case2.png",
+                "description": "Dayville, Oregon",
+                "info": "1264",
+                "infoState": "Warning"
+              },
+              {
+                "name": "Lean Pulp",
+                "icon": "https://sapui5.hana.ondemand.com/test-resources/sap/ui/integration/demokit/sample/CardsLayout/images/Case3.png",
+                "description": "Raymond, Callifornia",
+                "info": "236",
+                "infoState": "None"
+              },
+              {
+                "name": "Lean Pulp2",
+                "icon": "https://sapui5.hana.ondemand.com/test-resources/sap/ui/integration/demokit/sample/CardsLayout/images/Case3.png",
+                "description": "Raymond, Callifornia",
+                "info": "236",
+                "infoState": "None"
+              }
+            ]
+          },
+          "item": {
+            "icon": {
+              "src": "{icon}"
+            },
+            "title": {
+              "value": "{name}"
+            },
+            "description": {
+              "value": "{description}"
+            },
+            "info": {
+              "value": "{info}",
+              "state": "{infoState}"
+            }
+          }
+        }
+      }
+    },
+    "stackedColumn": {
+      "sap.app": {
+        "type": "card"
+      },
+      "sap.card": {
+        "type": "Analytical",
+        "header": {
+          "type": "Numeric",
+          "data": {
+            "json": {
+              "n": "43.2",
+              "u": "%",
+              "trend": "Down",
+              "valueColor": "Good"
+            }
+          },
+          "title": "Failure Breakdown - Q1, 2019",
+          "mainIndicator": {
+            "number": "{n}",
+            "unit": "{u}",
+            "trend": "{trend}",
+            "state": "{valueColor}"
+          }
+        },
+        "content": {
+          "chartType": "StackedColumn",
+          "legend": {
+            "visible": true,
+            "position": "Bottom",
+            "alignment": "Left"
+          },
+          "plotArea": {
+            "dataLabel": {
+              "visible": false,
+              "showTotal": false
+            },
+            "categoryAxisText": {
+              "visible": false
+            },
+            "valueAxisText": {
+              "visible": false
+            }
+          },
+          "title": {
+            "visible": false
+          },
+          "measureAxis": "valueAxis",
+          "dimensionAxis": "categoryAxis",
+          "data": {
+            "json": {
+              "list": [
+                {
+                  "Category": "Weather",
+                  "Revenue": 431000.22,
+                  "Cost": 230000,
+                  "Target": 500000,
+                  "Budget": 210000
+                },
+                {
+                  "Category": "Mechanics",
+                  "Revenue": 494000.3,
+                  "Cost": 238000,
+                  "Target": 500000,
+                  "Budget": 224000
+                },
+                {
+                  "Category": "Software",
+                  "Revenue": 491000.17,
+                  "Cost": 221000,
+                  "Target": 500000,
+                  "Budget": 238000
+                }
+              ]
+            },
+            "path": "/list"
+          },
+          "dimensions": [
+            {
+              "label": "Categories",
+              "value": "{Category}"
+            }
+          ],
+          "measures": [
+            {
+              "label": "Revenue",
+              "value": "{Revenue}"
+            },
+            {
+              "label": "Cost",
+              "value": "{Cost}"
+            },
+            {
+              "label": "Target",
+              "value": "{Target}"
+            }
+          ]
+        }
+      }
     }
   }
 }
