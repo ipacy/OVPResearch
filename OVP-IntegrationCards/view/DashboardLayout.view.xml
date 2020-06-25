@@ -11,7 +11,7 @@
         <f:content>
             <!--                    <ovp:EasyScanLayout dragAndDropEnabled="true" id="OVPDashboardLayout"-->
             <!--                                        class="vistexEasyScanLayout">-->
-            <control:OVPDashboardLayout id="OVPDashboardLayout" dragAndDropEnabled="false"
+            <control:OVPDashboardLayout id="OVPDashboardLayout" dragAndDropEnabled="true"
                                         class="ovpLayout">
                 <control:cards>
                     <control:IntegrationCard title="{data>/cards/custom2/title}"

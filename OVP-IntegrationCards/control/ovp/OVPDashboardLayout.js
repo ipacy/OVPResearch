@@ -2,8 +2,9 @@ sap.ui.define([
     "sap/ovp/ui/DashboardLayout",
     "sap/ovp/ui/DashboardLayoutUtil",
     "sap/ui/core/Control",
-    "sap/ui/Device"
-], function (DashboardLayout, DashboardLayoutUtil, Control, Device) {
+    "sap/ui/Device",
+    "sap/ovp/ui/Card"
+], function (DashboardLayout, DashboardLayoutUtil, Control, Device, OVPCard) {
     'use strict';
     return DashboardLayout.extend('vistex.control.ovp.OVPDashboardLayout', {
 
@@ -54,7 +55,8 @@ sap.ui.define([
                     oCard.addDelegate({
                         onAfterRendering: function (oEvent) {
                             var card = oEvent.srcControl;
-                            var dashboardLayoutUtil = oCard.getParent().getParent().oContainer.getParent().dashboardLayoutUtil;
+                            var dashboardLayoutUtil = card.getParent().getParent().oContainer.getParent().dashboardLayoutUtil;
+                            // var dashboardLayoutUtil = oCard.getParent().getParent().oContainer.getParent().dashboardLayoutUtil;
 
                             if (dashboardLayoutUtil && dashboardLayoutUtil.isCardAutoSpan(card.getId())) {
                                 dashboardLayoutUtil.setAutoCardSpanHeight(null, card.getId(), card.$().height());
@@ -63,7 +65,11 @@ sap.ui.define([
                     });
 
                     var oComponent = this.getComp(oCard.getId());
-                    oComponent.card.setInnerCard(this.getCards()[0]);
+                    oComponent.setAggregation("rootControl", new OVPCard({
+                        id: oCard.getId() + "--ovpCard"
+                    }));
+
+                    oComponent.getRootControl().setInnerCard(this.getCards()[0]);
                     --i;
 
                     var oContainer = new sap.ui.core.ComponentContainer({
@@ -106,8 +112,8 @@ sap.ui.define([
                 if (aCards.length && filteredItems.length) {
                     for (var i = 0; i < aCards.length; i++) {
                         for (var j = 0; j < filteredItems.length; j++) {
-                            if (aCards[i].id === filteredItems[j].getComponentInstance().card.getInnerCard().getLayoutConfig().id) {
-                                filteredItems[j].getComponentInstance().card.getInnerCard().getLayoutConfig().dashboardLayout = aCards[i].dashboardLayout;
+                            if (aCards[i].id === filteredItems[j].getComponentInstance().getRootControl().getInnerCard().getLayoutConfig().id) {
+                                filteredItems[j].getComponentInstance().getRootControl().getInnerCard().getLayoutConfig().dashboardLayout = aCards[i].dashboardLayout;
                             }
                         }
                     }
@@ -115,7 +121,7 @@ sap.ui.define([
 
                 if (aCards.length === 0 && filteredItems.length) {
                     for (var i = 0; i < filteredItems.length; i++) {
-                        aCards.push(filteredItems[i].getComponentInstance().card.getInnerCard().getLayoutConfig());
+                        aCards.push(filteredItems[i].getComponentInstance().getRootControl().getInnerCard().getLayoutConfig());
                     }
                 }
 
@@ -177,7 +183,7 @@ sap.ui.define([
 
         getComp: function (id) {
             var oComp = sap.ui.getCore().createComponent({
-                name: "vistex.control.ovp",
+                name: "sap.ovp.app",
                 id: id + "-OVPCardComp",
                 settings: {}
             });
