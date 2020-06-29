@@ -6,14 +6,35 @@
 sap.ui.define([
     "sap/f/cards/BaseContent",
     "sap/ui/integration/widgets/Card",
-    "sap/f/CardRenderer"
+    "sap/f/CardRenderer",
+    "sap/f/library",
+    "sap/ui/integration/library"
 ], function (
     BaseContent,
     Card,
-    CardRenderer
+    CardRenderer,
+    fLibrary,
+    library
 ) {
     "use strict";
     /* global Map */
+
+    var MANIFEST_PATHS = {
+        TYPE: "/sap.card/type",
+        DATA: "/sap.card/data",
+        HEADER: "/sap.card/header",
+        HEADER_POSITION: "/sap.card/headerPosition",
+        CONTENT: "/sap.card/content",
+        SERVICES: "/sap.ui5/services",
+        APP_TYPE: "/sap.app/type",
+        PARAMS: "/sap.card/configuration/parameters"
+    };
+
+    var HeaderPosition = fLibrary.cards.HeaderPosition;
+
+    var AreaType = fLibrary.cards.AreaType;
+
+    var CardDataMode = library.CardDataMode;
 
     var IntegrationCard = Card.extend("vistex.control.ovp.IntegrationCard", /** @lends sap.ui.integration.widgets.Card.prototype */ {
         metadata: {
@@ -47,6 +68,11 @@ sap.ui.define([
 
         renderer: CardRenderer
     });
+
+    IntegrationCard.prototype.init = function () {
+        Card.prototype.init.apply(this, arguments);
+        this.setManifest({});
+    };
 
     IntegrationCard.prototype._applyHeaderManifestSettings = function () {
         var oManifestHeader = {
@@ -99,17 +125,6 @@ sap.ui.define([
                 this.fireEvent("_headerReady");
             }.bind(this));
         }
-    };
-
-    var MANIFEST_PATHS = {
-        TYPE: "/sap.card/type",
-        DATA: "/sap.card/data",
-        HEADER: "/sap.card/header",
-        HEADER_POSITION: "/sap.card/headerPosition",
-        CONTENT: "/sap.card/content",
-        SERVICES: "/sap.ui5/services",
-        APP_TYPE: "/sap.app/type",
-        PARAMS: "/sap.card/configuration/parameters"
     };
 
     IntegrationCard.prototype._applyContentManifestSettings = function () {
@@ -183,7 +198,25 @@ sap.ui.define([
 
             resolve(oContent);
         });
-    }
+    };
+
+    IntegrationCard.prototype.setShowHeader = function (vValue) {
+        this.setProperty("title", vValue);
+        this._bApplyManifest = true;
+        return this;
+    };
+
+    IntegrationCard.prototype.setSubTitle = function (vValue) {
+        this.setProperty("subTitle", vValue);
+        this._bApplyManifest = true;
+        return this;
+    };
+
+    IntegrationCard.prototype.setCounter = function (vValue) {
+        this.setProperty("counter", vValue);
+        this._bApplyManifest = true;
+        return this;
+    };
 
     return IntegrationCard;
 });

@@ -3,6 +3,7 @@
 	<Toolbar>
 		<Title id="idPageTitle" />
 		<ToolbarSpacer/>
+		<Button text="Reload" press="onPress"/>
 		<SegmentedButton xmlns="sap.m"
 			id="idSwapSegmentedButton" selectionChange="swapView">
 			<items>

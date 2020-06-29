@@ -23,6 +23,10 @@ sap.ui.define([
 			this.updatePageHeader("EasyScanLayout", "easyScanLayout");
         },
 
+		onPress: function() {
+			this.getView().getModel("data").loadData("models/cardManifest2.json");
+		},
+
 		onAction: function (oEvent) {
 			if (oEvent.getParameter("type") === sap.ui.integration.library.integrationLibrary.CardActionType.Navigation) {
 				MessageToast.show("URL: " + oEvent.getParameter("parameters").url);

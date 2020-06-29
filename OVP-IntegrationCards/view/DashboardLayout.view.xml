@@ -1,5 +1,6 @@
 ﻿<mvc:View xmlns:mvc="sap.ui.core.mvc"
           xmlns:control="vistex.control.ovp"
+          xmlns:w="sap.ui.integration.widgets"
           xmlns="sap.m" xmlns:f="sap.f"
           controllerName="vistex.poc.ovp.controller.DashboardLayout"
           displayBlock="true">
@@ -14,29 +15,30 @@
             <control:OVPDashboardLayout id="OVPDashboardLayout" dragAndDropEnabled="true"
                                         class="ovpLayout">
                 <control:cards>
-                    <control:IntegrationCard title="{data>/cards/custom2/title}"
-                                             subTitle="{data>/cards/custom2/subTitle}"
-                                             counter="{data>/cards/custom2/counter}"
-                                             headerActive="false"
-                                             manifest="{data>/cards/custom2/data}" action=".onAction">
-                        <List items="{data>/cards/custom2/data}">
-                            <StandardListItem title="{data>name}"/>
-                        </List>
-                    </control:IntegrationCard>
-                    <control:IntegrationCard title="{data>/cards/custom1/title}"
-                                             subTitle="{data>/cards/custom1/subTitle}"
-                                             counter="{data>/cards/custom1/counter}"
-                                             colSpan="2"
-                                             manifest="{data>/cards/custom1/data}" action=".onAction">
-                        <control:viewSwitch>
-                            <Select width="60%"/>
-                        </control:viewSwitch>
-                        <List items="{data>/cards/custom1/data}">
-                            <StandardListItem title="{data>name}"/>
-                        </List>
-                    </control:IntegrationCard>
+<!--                    <control:IntegrationCard title="{data>/cards/custom2/title}"-->
+<!--                                             subTitle="{data>/cards/custom2/subTitle}"-->
+<!--                                             counter="{data>/cards/custom2/counter}"-->
+<!--                                             headerActive="false"-->
+<!--                                             manifest="{data>/cards/custom1/data}"-->
+<!--                                             action=".onAction">-->
+<!--                        <List items="{data>/cards/custom2/data}">-->
+<!--                            <StandardListItem title="{data>name}"/>-->
+<!--                        </List>-->
+<!--                    </control:IntegrationCard>-->
+<!--                    <control:IntegrationCard title="{data>/cards/custom1/title}"-->
+<!--                                             subTitle="{data>/cards/custom1/subTitle}"-->
+<!--                                             counter="{data>/cards/custom1/counter}"-->
+<!--                                             colSpan="2"-->
+<!--                                             action=".onAction">-->
+<!--                        <control:viewSwitch>-->
+<!--                            <Select width="60%"/>-->
+<!--                        </control:viewSwitch>-->
+<!--                        <List items="{data>/cards/custom1/data}">-->
+<!--                            <StandardListItem title="{data>name}"/>-->
+<!--                        </List>-->
+<!--                    </control:IntegrationCard>-->
                     <!--							<w:Card manifest="{data>/cards/objList}" action=".onAction"/>-->
-                    <!--							<w:Card manifest="{data>/cards/list1}"/>-->
+                    							<w:Card manifest="{data>/cards/list1}"/>
                     <!--							<w:Card manifest="{data>/cards/table}" action=".onAction"/>-->
                     <!--							<w:Card manifest="{data>/cards/list2}" action=".onAction"/>-->
                     <!--							<w:Card manifest="{data>/cards/donut}" action=".onAction"/>-->

@@ -43,7 +43,7 @@ sap.ui.define([
                         "id": oCard.getId()
                     };
 
-                    if (oCard.getColSpan()) {
+                    if (oCard.getColSpan && oCard.getColSpan()) {
                         oCard.layoutConfig.settings.defaultSpan = {
                             cols: oCard.getColSpan()
                         };

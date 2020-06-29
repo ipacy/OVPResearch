@@ -21,7 +21,7 @@
                         <control:IntegrationCard title="{data>/cards/custom1/title}"
                                                  subTitle="{data>/cards/custom1/subTitle}"
                                                  counter="{data>/cards/custom1/counter}"
-                                                 manifest="{data>/cards/custom1/data}" action=".onAction">
+                                                 action=".onAction">
                             <control:viewSwitch>
                                 <Select width="60%"/>
                             </control:viewSwitch>
@@ -39,11 +39,11 @@
                         </control:IntegrationCard>
                         <w:Card manifest="{data>/cards/list1}"/>
                         <!--<w:Card manifest="{data>/cards/standardList}"/>
-                        <w:Card manifest="{data>/cards/list1}"/>
-                        <w:Card manifest="{data>/cards/list2}"/>
-                        <w:Card manifest="{data>/cards/object}" action=".onAction"/>
-                        <w:Card manifest="{data>/cards/table}" action=".onAction"/>-->
-                        <w:Card manifest="{data>/cards/stackedColumn}"/>
+                        <w:Card manifest="{data>/cards/list1}"/>-->
+<!--                        <w:Card manifest="{data>/cards/list2}"/>-->
+<!--                        <w:Card manifest="{data>/cards/object}" action=".onAction"/>-->
+<!--                        <w:Card manifest="{data>/cards/table}" action=".onAction"/>-->
+<!--                        <w:Card manifest="{data>/cards/stackedColumn}"/>-->
                         <!--<w:Card manifest="{data>/cards/donut}"/>
                         <w:Card manifest="{data>/cards/timeline}" action=".onAction"/>
                         <w:Card manifest="{data>/cards/calendar}" action="onAction"/>-->
