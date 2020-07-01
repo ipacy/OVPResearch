@@ -236,7 +236,17 @@ sap.ui.define([
         return this;
     };
 
+    IntegrationCard.prototype.setCardHeaderType = function (vValue) {
+        this.setProperty("cardHeaderType", vValue);
+        this._bApplyManifest = true;
+        return this;
+    };
+
     IntegrationCard.prototype._createHeader = function (mConfiguration) {
+        if (this.getCardHeaderType() !== "Numeric") {
+            delete (mConfiguration.type);
+        }
+
         if (this.getCardHeaderType() === "Numeric") {
             mConfiguration.type = "Numeric";
             mConfiguration.unitOfMeasurement = this.getAnalyticalHeaderUnitOfMeasurement();
