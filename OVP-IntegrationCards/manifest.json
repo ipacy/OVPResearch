@@ -109,7 +109,7 @@
           ]
         },
         {
-          "pattern": "dashboardLayout",
+          "pattern": "",
           "name": "dashboardLayout",
           "target": [
             "dashboardLayout"

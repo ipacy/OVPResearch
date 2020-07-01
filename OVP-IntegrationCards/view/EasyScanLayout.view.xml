@@ -18,10 +18,23 @@
                 <f:content>
                     <ovp:EasyScanLayout dragAndDropEnabled="true"
                                         class="vistexEasyScanLayout">
-                        <control:IntegrationCard title="{data>/cards/custom1/title}"
-                                                 subTitle="{data>/cards/custom1/subTitle}"
-                                                 counter="{data>/cards/custom1/counter}"
-                                                 action=".onAction">
+                        <control:IntegrationCard
+                                cardHeaderType="Numeric"
+                                analyticalHeaderUnitOfMeasurement="EUR"
+                                analyticalHeaderNumber="{data>/cards/custom1/header/n}"
+                                analyticalHeaderScale="{data>/cards/custom1/header/u}"
+                                analyticalHeaderTrend="{data>/cards/custom1/header/trend}"
+                                analyticalHeaderState="{data>/cards/custom1/header/valueColor}"
+                                analyticalHeaderDetails="Details of the Analytical Header"
+                                analyticalHeaderKPITargetTitle="Target"
+                                analyticalHeaderKPITargetNumber="25" analyticalHeaderKPITargetUnit="K"
+                                analyticalHeaderKPIDeviationTitle="Deviation"
+                                analyticalHeaderKPIDeviationNumber="35"
+                                analyticalHeaderKPIDeviationUnit="K"
+                                title="{data>/cards/custom1/title}"
+                                subTitle="{data>/cards/custom1/subTitle}"
+                                counter="{data>/cards/custom1/counter}"
+                                action=".onAction">
                             <control:viewSwitch>
                                 <Select width="60%"/>
                             </control:viewSwitch>
@@ -29,21 +42,33 @@
                                 <StandardListItem title="{data>name}"/>
                             </List>
                         </control:IntegrationCard>
-                        <control:IntegrationCard title="{data>/cards/custom2/title}"
-                                                 subTitle="{data>/cards/custom2/subTitle}"
-                                                 counter="{data>/cards/custom2/counter}"
-                                                 manifest="{data>/cards/custom2/data}" action=".onAction">
-                            <List items="{data>/cards/custom2/data}">
-                                <StandardListItem title="{data>name}"/>
-                            </List>
-                        </control:IntegrationCard>
-                        <w:Card manifest="{data>/cards/list1}"/>
-                        <!--<w:Card manifest="{data>/cards/standardList}"/>
-                        <w:Card manifest="{data>/cards/list1}"/>-->
-<!--                        <w:Card manifest="{data>/cards/list2}"/>-->
-<!--                        <w:Card manifest="{data>/cards/object}" action=".onAction"/>-->
-<!--                        <w:Card manifest="{data>/cards/table}" action=".onAction"/>-->
-<!--                        <w:Card manifest="{data>/cards/stackedColumn}"/>-->
+                        <!--                                                <control:StandardIntegrationCard title="{data>/cards/custom2/title}"-->
+                        <!--                                                                         subTitle="{data>/cards/custom2/subTitle}"-->
+                        <!--                                                                         counter="{data>/cards/custom2/counter}"-->
+                        <!--                                                                         manifest="{data>/cards/custom2/data}" action=".onAction">-->
+                        <!--                                                    <List items="{data>/cards/custom2/data}">-->
+                        <!--                                                        <StandardListItem title="{data>name}"/>-->
+                        <!--                                                    </List>-->
+                        <!--                                                </control:IntegrationCard>-->
+                        <!--                                                <w:Card manifest="{data>/cards/list1}"/>-->
+                        <!--                                                <w:Card manifest="{data>/cards/standardList}"/>-->
+                        <!--                                                <w:Card manifest="{data>/cards/list1}"/>-->
+                        <!--                                                <w:Card manifest="{data>/cards/list2}"/>-->
+                        <!--                                                <w:Card manifest="{data>/cards/object}" action=".onAction"/>-->
+                        <!--                                                <w:Card manifest="{data>/cards/table}" action=".onAction"/>-->
+                        <!--                        <control:IntegrationCard manifest="{data>/cards/stackedColumn}" cardHeaderType="Numeric"-->
+                        <!--                                                 analyticalHeaderUnitOfMeasurement="EUR"-->
+                        <!--                                                 analyticalHeaderNumber="{data>/cards/stackedColumn/header/n}"-->
+                        <!--                                                 analyticalHeaderScale="{data>/cards/stackedColumn/header/u}"-->
+                        <!--                                                 analyticalHeaderTrend="{data>/cards/stackedColumn/header/trend}"-->
+                        <!--                                                 analyticalHeaderState="{data>/cards/stackedColumn/header/valueColor}"-->
+                        <!--                                                 analyticalHeaderDetails="Details of the Analytical Header"-->
+                        <!--                                                 analyticalHeaderKPITargetTitle="Target"-->
+                        <!--                                                 analyticalHeaderKPITargetNumber="25" analyticalHeaderKPITargetUnit="K"-->
+                        <!--                                                 analyticalHeaderKPIDeviationTitle="Deviation"-->
+                        <!--                                                 analyticalHeaderKPIDeviationNumber="35"-->
+                        <!--                                                 analyticalHeaderKPIDeviationUnit="K"-->
+                        <!--                        />-->
                         <!--<w:Card manifest="{data>/cards/donut}"/>
                         <w:Card manifest="{data>/cards/timeline}" action=".onAction"/>
                         <w:Card manifest="{data>/cards/calendar}" action="onAction"/>-->

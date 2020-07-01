@@ -1,6 +1,12 @@
 {
   "cards": {
     "custom1": {
+      "header": {
+        "n": "43.2",
+        "u": "%",
+        "trend": "Down",
+        "valueColor": "Error"
+      },
       "data": [
         {
           "name": "Teico Inc.",
@@ -134,28 +140,20 @@
       }
     },
     "stackedColumn": {
+      "header": {
+        "n": "43.2",
+        "u": "%",
+        "trend": "Down",
+        "valueColor": "Bad"
+      },
       "sap.app": {
         "type": "card"
       },
       "sap.card": {
         "type": "Analytical",
         "header": {
-          "type": "Numeric",
-          "data": {
-            "json": {
-              "n": "43.2",
-              "u": "%",
-              "trend": "Down",
-              "valueColor": "Good"
-            }
-          },
           "title": "Failure Breakdown - Q1, 2019",
-          "mainIndicator": {
-            "number": "{n}",
-            "unit": "{u}",
-            "trend": "{trend}",
-            "state": "{valueColor}"
-          }
+          "subTitle": "Subtitle of Failure Breakdown - Q1, 2019"
         },
         "content": {
           "chartType": "StackedColumn",

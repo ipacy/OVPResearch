@@ -39,25 +39,43 @@ sap.ui.define([
     var IntegrationCard = Card.extend("vistex.control.ovp.IntegrationCard", /** @lends sap.ui.integration.widgets.Card.prototype */ {
         metadata: {
             properties: {
-                layoutConfig: {
-                    type: "object"
-                },
-                title: {
-                    type: "string"
-                },
-                subTitle: {
-                    type: "string"
-                },
-                counter: {
-                    type: "string"
-                },
-                colSpan: {
-                    type: "int"
-                },
-                headerActive: {
-                    type: "boolean",
-                    defaultValue: true
-                }
+                layoutConfig: {type: "object"},
+
+                title: {type: "string"},
+
+                subTitle: {type: "string"},
+
+                counter: {type: "string"},
+
+                colSpan: {type: "int"},
+
+                headerActive: {type: "boolean", defaultValue: true},
+
+                cardHeaderType: {type: "string", defaultValue: "Normal"},
+
+                analyticalHeaderUnitOfMeasurement: {"type": "string", group: "Data"},
+
+                analyticalHeaderNumber: {"type": "string", group: "Data"},
+
+                analyticalHeaderScale: {"type": "string", group: "Data"},
+
+                analyticalHeaderTrend: {"type": "sap.m.DeviationIndicator", group: "Appearance", defaultValue: "None"},
+
+                analyticalHeaderState: {"type": "sap.m.ValueColor", group: "Appearance", defaultValue: "Neutral"},
+
+                analyticalHeaderDetails: {"type": "string", group: "Appearance"},
+
+                analyticalHeaderKPITargetTitle: {"type": "string", group: "Appearance"},
+
+                analyticalHeaderKPITargetNumber: {"type": "string", group: "Appearance"},
+
+                analyticalHeaderKPITargetUnit: {"type": "string", group: "Appearance"},
+
+                analyticalHeaderKPIDeviationTitle: {"type": "string", group: "Appearance"},
+
+                analyticalHeaderKPIDeviationNumber: {"type": "string", group: "Appearance"},
+
+                analyticalHeaderKPIDeviationUnit: {"type": "string", group: "Appearance"}
             },
             defaultAggregation: "content",
             aggregations: {
@@ -65,12 +83,12 @@ sap.ui.define([
                 content: {type: "sap.ui.core.Control", multiple: false}
             }
         },
-
         renderer: CardRenderer
     });
 
     IntegrationCard.prototype.init = function () {
         Card.prototype.init.apply(this, arguments);
+        this.addStyleClass("sapOvpBaseCard");
         this.setManifest({});
     };
 
@@ -216,6 +234,40 @@ sap.ui.define([
         this.setProperty("counter", vValue);
         this._bApplyManifest = true;
         return this;
+    };
+
+    IntegrationCard.prototype._createHeader = function (mConfiguration) {
+        if (this.getCardHeaderType() === "Numeric") {
+            mConfiguration.type = "Numeric";
+            mConfiguration.unitOfMeasurement = this.getAnalyticalHeaderUnitOfMeasurement();
+            mConfiguration.details = this.getAnalyticalHeaderDetails();
+
+            mConfiguration.mainIndicator = {
+                number: this.getAnalyticalHeaderNumber(),
+                unit: this.getAnalyticalHeaderScale(),
+                trend: this.getAnalyticalHeaderTrend(),
+                state: this.getAnalyticalHeaderState()
+            };
+
+            mConfiguration.sideIndicators = [];
+            if (this.getAnalyticalHeaderKPITargetTitle() || this.getAnalyticalHeaderKPITargetNumber() || this.getAnalyticalHeaderKPITargetUnit()) {
+                mConfiguration.sideIndicators.push({
+                    title: this.getAnalyticalHeaderKPITargetTitle(),
+                    number: this.getAnalyticalHeaderKPITargetNumber(),
+                    unit: this.getAnalyticalHeaderKPITargetUnit()
+                });
+            }
+
+            if (this.getAnalyticalHeaderKPITargetTitle() || this.getAnalyticalHeaderKPITargetNumber() || this.getAnalyticalHeaderKPITargetUnit()) {
+                mConfiguration.sideIndicators.push({
+                    title: this.getAnalyticalHeaderKPIDeviationTitle(),
+                    number: this.getAnalyticalHeaderKPIDeviationNumber(),
+                    unit: this.getAnalyticalHeaderKPIDeviationUnit()
+                });
+            }
+        }
+
+        return Card.prototype._createHeader.apply(this, arguments);
     };
 
     return IntegrationCard;

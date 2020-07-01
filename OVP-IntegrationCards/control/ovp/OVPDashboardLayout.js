@@ -55,7 +55,8 @@ sap.ui.define([
                     oCard.addDelegate({
                         onAfterRendering: function (oEvent) {
                             var card = oEvent.srcControl;
-                            var dashboardLayoutUtil = card.getParent().getParent().oContainer.getParent().dashboardLayoutUtil;
+                            var dashboardLayoutUtil = card.getParent().getParent().dashboardLayoutUtil;
+                            // var dashboardLayoutUtil = card.getParent().getParent().oContainer.getParent().dashboardLayoutUtil;
                             // var dashboardLayoutUtil = oCard.getParent().getParent().oContainer.getParent().dashboardLayoutUtil;
 
                             if (dashboardLayoutUtil && dashboardLayoutUtil.isCardAutoSpan(card.getId())) {
@@ -65,9 +66,10 @@ sap.ui.define([
                     });
 
                     var oComponent = this.getComp(oCard.getId());
-                    oComponent.setAggregation("rootControl", new OVPCard({
+                    var rootControl = new OVPCard({
                         id: oCard.getId() + "--ovpCard"
-                    }));
+                    });
+                    oComponent.setAggregation("rootControl", rootControl);
 
                     oComponent.getRootControl().setInnerCard(this.getCards()[0]);
                     --i;
@@ -76,7 +78,8 @@ sap.ui.define([
                         component: oComponent
                     });
 
-                    this.addContent(oContainer);
+                    // this.addContent(oContainer);
+                    this.addContent(rootControl);
                 }
                 this.uiModel.setData(oLayoutConfig);
 
@@ -112,9 +115,13 @@ sap.ui.define([
                 if (aCards.length && filteredItems.length) {
                     for (var i = 0; i < aCards.length; i++) {
                         for (var j = 0; j < filteredItems.length; j++) {
-                            if (aCards[i].id === filteredItems[j].getComponentInstance().getRootControl().getInnerCard().getLayoutConfig().id) {
-                                filteredItems[j].getComponentInstance().getRootControl().getInnerCard().getLayoutConfig().dashboardLayout = aCards[i].dashboardLayout;
+                            if (aCards[i].id === filteredItems[j].getInnerCard().getLayoutConfig().id) {
+                                filteredItems[j].getInnerCard().getLayoutConfig().dashboardLayout = aCards[i].dashboardLayout;
                             }
+
+                            // if (aCards[i].id === filteredItems[j].getComponentInstance().getRootControl().getInnerCard().getLayoutConfig().id) {
+                            //     filteredItems[j].getComponentInstance().getRootControl().getInnerCard().getLayoutConfig().dashboardLayout = aCards[i].dashboardLayout;
+                            // }
                         }
                     }
                 }
