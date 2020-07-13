@@ -65,20 +65,11 @@ sap.ui.define([
                         }
                     });
 
-                    var oComponent = this.getComp(oCard.getId());
                     var rootControl = new OVPCard({
-                        id: oCard.getId() + "--ovpCard"
+                        id: oCard.getId() + "--ovpCard",
+                        innerCard: this.getCards()[0]
                     });
-                    oComponent.setAggregation("rootControl", rootControl);
-
-                    oComponent.getRootControl().setInnerCard(this.getCards()[0]);
                     --i;
-
-                    var oContainer = new sap.ui.core.ComponentContainer({
-                        component: oComponent
-                    });
-
-                    // this.addContent(oContainer);
                     this.addContent(rootControl);
                 }
                 this.uiModel.setData(oLayoutConfig);
@@ -128,7 +119,7 @@ sap.ui.define([
 
                 if (aCards.length === 0 && filteredItems.length) {
                     for (var i = 0; i < filteredItems.length; i++) {
-                        aCards.push(filteredItems[i].getComponentInstance().getRootControl().getInnerCard().getLayoutConfig());
+                        aCards.push(filteredItems[i].getInnerCard().getLayoutConfig());
                     }
                 }
 
