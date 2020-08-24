@@ -37,13 +37,13 @@ sap.ui.define([
                     var oCard = this.getCards()[0];
                     oCard.layoutConfig = {
                         "cardType": "custom",
-                            "settings": {
+                        "settings": {
                             "listType": "condensed"
                         },
                         "id": oCard.getId()
                     };
 
-                    if (oCard.getColSpan && oCard.getColSpan()) {
+                    if (oCard.getColSpan()) {
                         oCard.layoutConfig.settings.defaultSpan = {
                             cols: oCard.getColSpan()
                         };
@@ -55,8 +55,7 @@ sap.ui.define([
                     oCard.addDelegate({
                         onAfterRendering: function (oEvent) {
                             var card = oEvent.srcControl;
-                            var dashboardLayoutUtil = card.getParent().getParent().dashboardLayoutUtil;
-                            // var dashboardLayoutUtil = card.getParent().getParent().oContainer.getParent().dashboardLayoutUtil;
+                            var dashboardLayoutUtil = card.getParent().oContainer.getParent().dashboardLayoutUtil;
                             // var dashboardLayoutUtil = oCard.getParent().getParent().oContainer.getParent().dashboardLayoutUtil;
 
                             if (dashboardLayoutUtil && dashboardLayoutUtil.isCardAutoSpan(card.getId())) {
@@ -65,12 +64,17 @@ sap.ui.define([
                         }
                     });
 
-                    var rootControl = new OVPCard({
-                        id: oCard.getId() + "--ovpCard",
-                        innerCard: this.getCards()[0]
-                    });
+                    var oComponent = this.getComp(oCard.getId());
+                    oComponent.setAggregation("rootControl", this.getCards()[0]);
+
+                    // oComponent.getRootControl().setInnerCard(this.getCards()[0]);
                     --i;
-                    this.addContent(rootControl);
+
+                    var oContainer = new sap.ui.core.ComponentContainer({
+                        component: oComponent
+                    });
+
+                    this.addContent(oContainer);
                 }
                 this.uiModel.setData(oLayoutConfig);
 
@@ -106,20 +110,16 @@ sap.ui.define([
                 if (aCards.length && filteredItems.length) {
                     for (var i = 0; i < aCards.length; i++) {
                         for (var j = 0; j < filteredItems.length; j++) {
-                            if (aCards[i].id === filteredItems[j].getInnerCard().getLayoutConfig().id) {
-                                filteredItems[j].getInnerCard().getLayoutConfig().dashboardLayout = aCards[i].dashboardLayout;
+                            if (aCards[i].id === filteredItems[j].getComponentInstance().getRootControl().getLayoutConfig().id) {
+                                filteredItems[j].getComponentInstance().getRootControl().getLayoutConfig().dashboardLayout = aCards[i].dashboardLayout;
                             }
-
-                            // if (aCards[i].id === filteredItems[j].getComponentInstance().getRootControl().getInnerCard().getLayoutConfig().id) {
-                            //     filteredItems[j].getComponentInstance().getRootControl().getInnerCard().getLayoutConfig().dashboardLayout = aCards[i].dashboardLayout;
-                            // }
                         }
                     }
                 }
 
                 if (aCards.length === 0 && filteredItems.length) {
                     for (var i = 0; i < filteredItems.length; i++) {
-                        aCards.push(filteredItems[i].getInnerCard().getLayoutConfig());
+                        aCards.push(filteredItems[i].getComponentInstance().getRootControl().getLayoutConfig());
                     }
                 }
 
