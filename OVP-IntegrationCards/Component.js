@@ -53,7 +53,7 @@ sap.ui.define([
                     }
                     if (actionObject.element) {
                         var cardDetails, cardSizeProperties, ghostWidth, ghostHeight,
-                            oCard = this.layoutUtil.dashboardLayoutModel.getCardById(this.layoutUtil.getCardId(actionObject.element.id));
+                            oCard = this.layoutUtil.dashboardLayoutModel.getCardById(actionObject.element.children[0].id);//this.layoutUtil.getCardId(actionObject.element.id));
                         //If the card is stack card or resizing has been disabled for the card then return
                         if (oCard.template === "sap.ovp.cards.stack" || oCard.settings.stopResizing) {
                             return;
@@ -154,7 +154,8 @@ sap.ui.define([
                     }
                     //Array to store position/resizing delta changes
                     this.layoutUtil.dragOrResizeChanges = [];
-                    var sCardId = this.layoutUtil.getCardId(cardElement.id);
+                    var sCardId = this.layoutUtil.getCardId(cardElement.children[0].id);
+                    // var sCardId = this.layoutUtil.getCardId(cardElement.id);
                     var oCard = this.layoutUtil.dashboardLayoutModel.getCardById(sCardId);
                     this.layoutUtil.dragStartCard = {
                         cardId: oCard.id,
@@ -219,7 +220,9 @@ sap.ui.define([
                         };
                         newCardPosition.row = newCardPosition.row <= 0 ? 1 : newCardPosition.row;
                         newCardPosition.column = newCardPosition.column <= 1 ? 1 : newCardPosition.column;
-                        var oCard = this.layoutUtil.dashboardLayoutModel.getCardById(this.layoutUtil.getCardId(this.floaterData.id));
+                        var oCard = this.layoutUtil.dashboardLayoutModel.getCardById(document.getElementById(this.floaterData.id).children[0].children[0].children[0].id);
+                        // var oCard = this.layoutUtil.dashboardLayoutModel.getCardById(this.floaterData.children[0].id);
+                        // var oCard = this.layoutUtil.dashboardLayoutModel.getCardById(this.layoutUtil.getCardId(this.floaterData.id));
                         //If the new position is beyond the viewport then move the card to the desired position
                         if (newCardPosition.column + oCard.dashboardLayout.colSpan > this.columnCount) {
                             newCardPosition.column = (this.columnCount - oCard.dashboardLayout.colSpan) + 1;

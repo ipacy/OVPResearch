@@ -165,11 +165,9 @@ sap.ui.define(["sap/ui/core/mvc/Controller", "sap/m/library", "sap/ui/model/odat
                     this.performRecreationOfCard(oCard);
                 }
             },
-
             //clarify with UI5 Core: why can view models not be accessed in onInit?
             onBeforeRendering: function () {
             },
-
             // this method will get called once the request gets completed
             onRequestCompleted: function (oResponse) {
                 //if the request is success and no data case then create custom message card
@@ -183,7 +181,6 @@ sap.ui.define(["sap/ui/core/mvc/Controller", "sap/m/library", "sap/ui/model/odat
                     this.fVerifyAndSetErrorOrCustomMessageCard(oResponse, false);
                 }
             },
-
             /*
              this method will be called in following cases once the request is completed
              1.in case of error card with or without custom message
@@ -449,7 +446,6 @@ sap.ui.define(["sap/ui/core/mvc/Controller", "sap/m/library", "sap/ui/model/odat
                     this.busyDialog.close();
                 }
             },
-
             /* Function to change the card template to sap.ovp.cards.charts.analytical if chart type is donut
              *  @param object
              *  @private
@@ -606,7 +602,6 @@ sap.ui.define(["sap/ui/core/mvc/Controller", "sap/m/library", "sap/ui/model/odat
                 }
                 this.oModelViewMap[sModelName][oCard.id] = true;
             },
-
             //set tab index for the cards
             setTabIndex: function (oTabIndexList) {
                 if (typeof oTabIndexList == "object") {
@@ -615,12 +610,10 @@ sap.ui.define(["sap/ui/core/mvc/Controller", "sap/m/library", "sap/ui/model/odat
                     this.oTabIndexList = {};
                 }
             },
-
             //get tab index of the cards
             getTabIndex: function () {
                 return this.oTabIndexList;
             },
-
             //call onBeforeRebindPageExtension breakout function with cards and filters
             fGetViewSwitchIndex: function (oCards) {
                 var oGlobalFilter = this.getGlobalFilter();
@@ -637,7 +630,6 @@ sap.ui.define(["sap/ui/core/mvc/Controller", "sap/m/library", "sap/ui/model/odat
                 }
                 return this.getTabIndex();
             },
-
             /*
              * on filter change get all visible cards, call breakout to set tab index
              * if index is diff from the current then recreate card with new index
@@ -679,7 +671,6 @@ sap.ui.define(["sap/ui/core/mvc/Controller", "sap/m/library", "sap/ui/model/odat
                     }
                 }
             },
-
             //set selected tab index of a card in ordered cards
             setOrderedCardsSelectedKey: function (sCardId, nSelectedKey) {
                 var aOrderedCards = this.getView().getModel("ui").getProperty('/aOrderedCards');

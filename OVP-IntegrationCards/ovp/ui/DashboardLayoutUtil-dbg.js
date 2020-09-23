@@ -1,13 +1,13 @@
 sap.ui.define([
-	"sap/ovp/ui/DashboardLayoutRearrange",
-	"sap/ovp/ui/DashboardLayoutModel",
-    "sap/ovp/cards/CommonUtils",
+    "vistex/poc/ovp/ovp/ui/DashboardLayoutRearrange",
+    "vistex/poc/ovp/ovp/ui/DashboardLayoutModel",
+    "vistex/poc/ovp/ovp/cards/CommonUtils",
     "sap/ui/Device",
     "sap/ui/thirdparty/jquery",
     "sap/base/Log"
-], function(Rearrange, DashboardLayoutModel, CommonUtils, Device, jQuery, Log) {
-	"use strict";
-	var DashboardLayoutUtil = function(uiModel) {
+], function (Rearrange, DashboardLayoutModel, CommonUtils, Device, jQuery, Log) {
+    "use strict";
+    var DashboardLayoutUtil = function (uiModel) {
         this.aCards = null;
         this.ROW_HEIGHT_PX = 16; //176;
         this.MIN_COL_WIDTH_PX = 320;
@@ -23,10 +23,10 @@ sap.ui.define([
             marginPx: this.convertRemToPx(3) - this.CARD_BORDER_PX
         };
         this.dashboardLayoutModel = new DashboardLayoutModel(uiModel, this.oLayoutData.colCount, this.ROW_HEIGHT_PX, this.CARD_BORDER_PX);
-		this.layoutDomId = "";
-		this.oLayoutCtrl = {};
-		this.componentDomId = "";
-		this.lastTriggeredColWidth = 0.0;
+        this.layoutDomId = "";
+        this.oLayoutCtrl = {};
+        this.componentDomId = "";
+        this.lastTriggeredColWidth = 0.0;
         this.changedCards = {};
         this.isRTLEnabled = sap.ui.getCore().getConfiguration().getRTL();
         switch (true) {
@@ -46,64 +46,66 @@ sap.ui.define([
                 this.cssVendorTransition = "transition";
                 this.cssVendorTransform = "transform";
         }
-	};
+        this.currentCard = "";
+    };
 
-	DashboardLayoutUtil.prototype.setLayout = function(layout) {
-		this.oLayoutCtrl = layout;
-		this.layoutDomId = layout.getId();
-		this.componentDomId = this.layoutDomId.split("--")[0];
-	};
+    DashboardLayoutUtil.prototype.setLayout = function (layout) {
+        this.oLayoutCtrl = layout;
+        this.layoutDomId = layout.getId();
+        this.componentDomId = this.layoutDomId;
+        // this.componentDomId = this.layoutDomId.split("--")[0];
+    };
 
-	DashboardLayoutUtil.prototype.getDashboardLayoutModel = function() {
-		return this.dashboardLayoutModel;
-	};
+    DashboardLayoutUtil.prototype.getDashboardLayoutModel = function () {
+        return this.dashboardLayoutModel;
+    };
 
-	DashboardLayoutUtil.prototype.updateCardVisibility = function(aChgCards) {
-		this.dashboardLayoutModel.updateCardVisibility(aChgCards);
-		this.aCards = this.dashboardLayoutModel.getCards(this.oLayoutData.colCount);
+    DashboardLayoutUtil.prototype.updateCardVisibility = function (aChgCards) {
+        this.dashboardLayoutModel.updateCardVisibility(aChgCards);
+        this.aCards = this.dashboardLayoutModel.getCards(this.oLayoutData.colCount);
         this.dashboardLayoutModel._removeSpaceBeforeCard();
-		this._setCardsCssValues(this.aCards);
+        this._setCardsCssValues(this.aCards);
         this._positionCards(this.aCards);
-	};
+    };
 
-	DashboardLayoutUtil.prototype.updateLayoutData = function(iDashboardWidth) {
-		var iDashboardMargin = this.oLayoutData.marginPx,
-			iExtraSpaceForDesktop = 0,
-			iSmallScreenWidth = 320,
-			iMiddleScreenWidth = 1024,
-			iCardMargin = this.CARD_BORDER_PX,
-			iMargin = this.EXTRA_MARGIN,
-			iNewScreenWidth = iDashboardWidth + iDashboardMargin,
-			iDashboardMarginLeft,
-			iDashboardMarginRight; //iDashboardWidth is without left margin
-		this.oLayoutData.layoutWidthPx = iDashboardWidth;
+    DashboardLayoutUtil.prototype.updateLayoutData = function (iDashboardWidth) {
+        var iDashboardMargin = this.oLayoutData.marginPx,
+            iExtraSpaceForDesktop = 0,
+            iSmallScreenWidth = 320,
+            iMiddleScreenWidth = 1024,
+            iCardMargin = this.CARD_BORDER_PX,
+            iMargin = this.EXTRA_MARGIN,
+            iNewScreenWidth = iDashboardWidth + iDashboardMargin,
+            iDashboardMarginLeft,
+            iDashboardMarginRight; //iDashboardWidth is without left margin
+        this.oLayoutData.layoutWidthPx = iDashboardWidth;
 
-		if (iNewScreenWidth <= iSmallScreenWidth) {
-			iDashboardMargin = this.convertRemToPx(0.5) - iCardMargin;
-			iExtraSpaceForDesktop = Device.system.desktop ? 16 : 0; //considering vertical scrollbar on the desktop
-		} else if (iNewScreenWidth <= iMiddleScreenWidth) {
-			iDashboardMargin = this.convertRemToPx(1) - iCardMargin;
-			iExtraSpaceForDesktop = Device.system.desktop ? 8 : 0;
-		} else {
-			iDashboardMargin = this.convertRemToPx(3) - iCardMargin;
-		}
-		if (iDashboardMargin !== this.oLayoutData.marginPx) {
-			this.oLayoutData.marginPx = iDashboardMargin;
-			jQuery(".sapUshellEasyScanLayout").css({
-				"margin-left": iDashboardMargin + "px"
-			});
-		}
+        if (iNewScreenWidth <= iSmallScreenWidth) {
+            iDashboardMargin = this.convertRemToPx(0.5) - iCardMargin;
+            iExtraSpaceForDesktop = Device.system.desktop ? 16 : 0; //considering vertical scrollbar on the desktop
+        } else if (iNewScreenWidth <= iMiddleScreenWidth) {
+            iDashboardMargin = this.convertRemToPx(1) - iCardMargin;
+            iExtraSpaceForDesktop = Device.system.desktop ? 8 : 0;
+        } else {
+            iDashboardMargin = this.convertRemToPx(3) - iCardMargin;
+        }
+        if (iDashboardMargin !== this.oLayoutData.marginPx) {
+            this.oLayoutData.marginPx = iDashboardMargin;
+            jQuery(".sapUshellEasyScanLayout").css({
+                "margin-left": iDashboardMargin + "px"
+            });
+        }
 
-		//calculates content width excluding symmetric margin space on the right
-		//and the extra space for vertical scrollbar on the desktop
-		this.oLayoutData.contentWidthPx = iDashboardWidth - iDashboardMargin - iExtraSpaceForDesktop;
+        //calculates content width excluding symmetric margin space on the right
+        //and the extra space for vertical scrollbar on the desktop
+        this.oLayoutData.contentWidthPx = iDashboardWidth - iDashboardMargin - iExtraSpaceForDesktop;
         this.oLayoutData.previousColCount = this.oLayoutData.colCount;
-		this.oLayoutData.colCount = Math.round(this.oLayoutData.contentWidthPx / this.MIN_COL_WIDTH_PX);
-		if (this.oLayoutData.colCount === 0) {
-			this.oLayoutData.colCount = 1;
-		}
-		this.oLayoutData.colWidthPx = this.oLayoutData.contentWidthPx / this.oLayoutData.colCount;
-		if (jQuery(".sapOvpDashboardDragAndDrop").length > 0 && jQuery(".easyScanLayoutItemWrapper").length > 0) {
+        this.oLayoutData.colCount = Math.round(this.oLayoutData.contentWidthPx / this.MIN_COL_WIDTH_PX);
+        if (this.oLayoutData.colCount === 0) {
+            this.oLayoutData.colCount = 1;
+        }
+        this.oLayoutData.colWidthPx = this.oLayoutData.contentWidthPx / this.oLayoutData.colCount;
+        if (jQuery(".sapOvpDashboardDragAndDrop").length > 0 && jQuery(".easyScanLayoutItemWrapper").length > 0) {
             iDashboardMarginLeft = jQuery(".sapOvpDashboardDragAndDrop")[0].offsetLeft + iMargin;
             if (jQuery(".sapOvpDashboardDragAndDrop")[0].offsetLeft < 40) {
                 iDashboardMarginRight = iDashboardMarginLeft + 8;
@@ -114,30 +116,37 @@ sap.ui.define([
             iDashboardMarginLeft = iDashboardMargin + iMargin;
             iDashboardMarginRight = iDashboardMargin + iExtraSpaceForDesktop + iMargin;
         }
-		jQuery('.sapFDynamicPageTitle').css({"margin-left": iDashboardMarginLeft + "px", "margin-right": iDashboardMarginRight + "px","visibility": "visible"});
-		jQuery('.sapFDynamicPageHeader').css({"margin-left": iDashboardMarginLeft + "px", "margin-right": iDashboardMarginRight + "px"});
+        jQuery('.sapFDynamicPageTitle').css({
+            "margin-left": iDashboardMarginLeft + "px",
+            "margin-right": iDashboardMarginRight + "px",
+            "visibility": "visible"
+        });
+        jQuery('.sapFDynamicPageHeader').css({
+            "margin-left": iDashboardMarginLeft + "px",
+            "margin-right": iDashboardMarginRight + "px"
+        });
 
-		return this.oLayoutData;
-	};
+        return this.oLayoutData;
+    };
 
-	DashboardLayoutUtil.prototype.getRearrange = function(settings) {
-		var defaultSettings = {
-			containerSelector: ".sapUshellEasyScanLayoutInner",
-			wrapper: ".sapUshellEasyScanLayout",
-			draggableSelector: ".easyScanLayoutItemWrapper",
-			placeHolderClass: "dashboardLayoutItemWrapper-placeHolder",
-			cloneClass: "easyScanLayoutItemWrapperClone",
-			moveTolerance: 10,
-			switchModeDelay: 500,
-			isTouch: !Device.system.desktop,
-			debug: false,
-			aCards: this.aCards,
-			layoutUtil: this,
-			rowHeight: this.oLayoutData.rowHeightPx,
-			colWidth: this.oLayoutData.colWidthPx
-		};
-		return new Rearrange(jQuery.extend(true, defaultSettings, settings));
-	};
+    DashboardLayoutUtil.prototype.getRearrange = function (settings) {
+        var defaultSettings = {
+            containerSelector: ".sapUshellEasyScanLayoutInner",
+            wrapper: ".sapUshellEasyScanLayout",
+            draggableSelector: ".easyScanLayoutItemWrapper",
+            placeHolderClass: "dashboardLayoutItemWrapper-placeHolder",
+            cloneClass: "easyScanLayoutItemWrapperClone",
+            moveTolerance: 10,
+            switchModeDelay: 500,
+            isTouch: !Device.system.desktop,
+            debug: false,
+            aCards: this.aCards,
+            layoutUtil: this,
+            rowHeight: this.oLayoutData.rowHeightPx,
+            colWidth: this.oLayoutData.colWidthPx
+        };
+        return new Rearrange(jQuery.extend(true, defaultSettings, settings));
+    };
 
     /**
      * Method called upon when the window is resized
@@ -183,27 +192,27 @@ sap.ui.define([
         }
     };
 
-	/**
-	 * get cards for specified number of columns
-	 *
-	 * @method getCards
-	 * @param {Int} iColCount - number of columns
-	 * @returns {Array} cards
-	 */
-	DashboardLayoutUtil.prototype.getCards = function(iColCount) {
-		if (this.aCards && this.oLayoutData.previousColCount === iColCount) {
-			return this.aCards;
-		}
-		this._setColCount(iColCount);
-		this.aCards = this.dashboardLayoutModel.getCards(iColCount);
-		this._setCardsCssValues(this.aCards);
-		return this.aCards;
-	};
+    /**
+     * get cards for specified number of columns
+     *
+     * @method getCards
+     * @param {Int} iColCount - number of columns
+     * @returns {Array} cards
+     */
+    DashboardLayoutUtil.prototype.getCards = function (iColCount) {
+        if (this.aCards && this.oLayoutData.previousColCount === iColCount) {
+            return this.aCards;
+        }
+        this._setColCount(iColCount);
+        this.aCards = this.dashboardLayoutModel.getCards(iColCount);
+        this._setCardsCssValues(this.aCards);
+        return this.aCards;
+    };
 
-	DashboardLayoutUtil.prototype.resetToManifest = function() {
-		this.aCards = [];
-		this.dashboardLayoutModel.resetToManifest();
-	};
+    DashboardLayoutUtil.prototype.resetToManifest = function () {
+        this.aCards = [];
+        this.dashboardLayoutModel.resetToManifest();
+    };
 
     /**
      * get card at pixel position in it's container
@@ -214,7 +223,9 @@ sap.ui.define([
      */
     DashboardLayoutUtil.prototype.getCardDomId = function (cardId) {
         // card00 --> mainView--ovpLayout--card00
-        return this.layoutDomId + "--" + cardId;
+        this.currentCard = cardId;
+        return this.layoutDomId + cardId;
+        // return this.layoutDomId + "--" + cardId;
     };
 
     /**
@@ -226,24 +237,25 @@ sap.ui.define([
      */
     DashboardLayoutUtil.prototype.getCardId = function (cardDomId) {
         // mainView--ovpLayout--card00 --> card00
-        return cardDomId ? cardDomId.split("--")[2] : '';
+        return cardDomId ? cardDomId : '';
+        // return cardDomId ? cardDomId.split("--")[2] : '';
     };
 
-    /**
+   /* /!**
      * get the manifest id of the card from the card component id
      *
      * @method getCardIdFromComponent
      * @param {String} cardComponentId - card component id
      * @returns {String}  manifest id of the card
-     */
+     *!/
     DashboardLayoutUtil.prototype.getCardIdFromComponent = function (cardComponentId) {
         // mainView--card00 --> card00
         return cardComponentId ? cardComponentId.split("--")[1] : '';
-    };
+    };*/
 
-	DashboardLayoutUtil.prototype.isCardAutoSpan = function(cardId) {
-		return this.dashboardLayoutModel.getCardById(cardId).dashboardLayout.autoSpan;
-	};
+    DashboardLayoutUtil.prototype.isCardAutoSpan = function (cardId) {
+        return this.dashboardLayoutModel.getCardById(cardId).dashboardLayout.autoSpan;
+    };
 
     /**
      * Method called to increase the height of the card automatically on initial load(auto span is true)
@@ -255,9 +267,7 @@ sap.ui.define([
      */
     DashboardLayoutUtil.prototype.setAutoCardSpanHeight = function (evt, cardId, height) {
         var iRows, layoutChanges, oCard;
-        if (!cardId && evt && evt.target.parentElement) {
-            cardId = evt.target.parentElement.parentElement.id.split("--")[1];
-        }
+
         var iHeight = height;
         if (!iHeight && evt) {
             iHeight = evt.size.height;
@@ -280,7 +290,9 @@ sap.ui.define([
             this._positionCards(layoutChanges.affectedCards);
         }
     };
-
+    DashboardLayoutUtil.prototype.getItemHeight = function (ref, sCardId) {
+        var aAggregation = sap.ui.getCore().byId(sCardComponentId);
+    }
     /**
      * Method called for calculating different parameters of card for resize
      *
@@ -291,8 +303,16 @@ sap.ui.define([
     DashboardLayoutUtil.prototype.calculateCardProperties = function (sCardId) {
         var oGenCardCtrl = this._getCardController(sCardId);
         var oCard = this.dashboardLayoutModel.getCardById(sCardId);
-        var iChartHeight = 250, iHeaderHeight, iDropDownHeight, iLineItemHeight, minCardHeight, iHeight;
-        if (oGenCardCtrl) {
+        var iChartHeight = 250, iHeaderHeight = 200, iDropDownHeight = 40, iLineItemHeight = 0, minCardHeight, iHeight;
+        minCardHeight = iHeaderHeight + iDropDownHeight;
+        return {
+            headerHeight: iHeaderHeight,
+            dropDownHeight: iDropDownHeight,
+            itemHeight: iLineItemHeight,
+            minCardHeight: minCardHeight,
+            leastHeight: iHeaderHeight
+        }
+        if (true) { //oGenCardCtrl
             iHeight = oGenCardCtrl.getItemHeight(oGenCardCtrl, 'ovpCardHeader');
             iHeaderHeight = iHeight === 0 ? oCard.dashboardLayout.headerHeight : iHeight;
             iDropDownHeight = oGenCardCtrl.getItemHeight(oGenCardCtrl, 'toolbar');
@@ -333,10 +353,10 @@ sap.ui.define([
         }
     };
 
-	DashboardLayoutUtil.prototype._sizeCard = function(oCard) {
-		if (!oCard) {
-			return;
-		}
+    DashboardLayoutUtil.prototype._sizeCard = function (oCard) {
+        if (!oCard) {
+            return;
+        }
         var $card = document.getElementById(this.getCardDomId(oCard.id));
         oCard.dashboardLayout.width = oCard.dashboardLayout.colSpan * this.oLayoutData.colWidthPx + "px";
         oCard.dashboardLayout.height = oCard.dashboardLayout.rowSpan * this.oLayoutData.rowHeightPx + "px";
@@ -429,7 +449,7 @@ sap.ui.define([
                 element.style[this.cssVendorTransition] = 'all 0.15s ease';
                 element.style[this.cssVendorTransform] = 'translate3d(' + pos.left + ' ,' + pos.top + ', 0px)';
                 bSideCard = oCardObj.dashboardLayout.column + oCardObj.dashboardLayout.colSpan === this.oLayoutData.colCount + 1;
-                if (bSideCard) {
+             /*   if (bSideCard) {
                     if (oCardObj.dashboardLayout.colSpan === 1) {
                         element.classList.add('sapOvpNotResizableLeftRight');
                     } else {
@@ -442,7 +462,7 @@ sap.ui.define([
                 }
                 if (oCardObj.template === "sap.ovp.cards.linklist" && oCardObj.settings.listFlavor === 'carousel' && oCardObj.dashboardLayout.rowSpan === 45) {
                     element.classList.add('sapOvpNotResizableDown');
-                }
+                }*/
             }
         }.bind(this));
     };
@@ -450,7 +470,8 @@ sap.ui.define([
     DashboardLayoutUtil.prototype.updateCardSize = function (sCardId, ghostHeight, ghostWidth) {
         var oCard = this.dashboardLayoutModel.getCardById(sCardId);
         var oCardController = this._getCardController(sCardId);
-        var $card = document.getElementById(this.getCardDomId(sCardId));
+        // var $card = document.getElementById(this.getCardDomId(sCardId));
+        var $card = document.getElementById(sCardId);
         $card.style.height = ghostHeight + 'px';
         $card.style.width = ghostWidth + 'px';
         $card.style[this.cssVendorTransition] = 'none';
@@ -460,24 +481,25 @@ sap.ui.define([
         }
     };
 
-	DashboardLayoutUtil.prototype.resizeCard = function(cardDomId, span, aDragOrResizeChange) {
-		this.changedCards = this.dashboardLayoutModel.resizeCard(this.getCardId(cardDomId), span, /*manual resize*/ true, aDragOrResizeChange);
-		this._positionCards(this.changedCards.affectedCards);
-	};
+    DashboardLayoutUtil.prototype.resizeCard = function (cardDomId, span, aDragOrResizeChange) {
+        this.changedCards = this.dashboardLayoutModel.resizeCard(this.getCardId(cardDomId), span, /*manual resize*/ true, aDragOrResizeChange);
+        this._positionCards(this.changedCards.affectedCards);
+    };
 
-	// map grid coords to position coords
-	DashboardLayoutUtil.prototype._mapGridToPositionPx = function (gridPos) {
-	    var iLeftValue = (gridPos.column - 1) * this.getColWidthPx();
-	    var pos = {
-	        top: (gridPos.row - 1) * this.getRowHeightPx() + "px",
-	        left: (this.isRTLEnabled ? -iLeftValue : iLeftValue) + "px"
-	    };
-	    return pos;
-	};
+    // map grid coords to position coords
+    DashboardLayoutUtil.prototype._mapGridToPositionPx = function (gridPos) {
+        var iLeftValue = (gridPos.column - 1) * this.getColWidthPx();
+        var pos = {
+            top: (gridPos.row - 1) * this.getRowHeightPx() + "px",
+            left: (this.isRTLEnabled ? -iLeftValue : iLeftValue) + "px"
+        };
+        return pos;
+    };
 
-	DashboardLayoutUtil.prototype._getCardComponentDomId = function(cardId) {
-		return this.componentDomId + "--" + cardId;
-	};
+    DashboardLayoutUtil.prototype._getCardComponentDomId = function (cardId) {
+        return this.componentDomId + cardId;
+        // return this.componentDomId + "--" + cardId;
+    };
 
     DashboardLayoutUtil.prototype._getCardController = function (cardId) {
         var oCtrl = null;
@@ -491,12 +513,12 @@ sap.ui.define([
         return oCtrl;
     };
 
-	DashboardLayoutUtil.prototype._setCardsCssValues = function(aCards) {
-		var i = 0;
-		for (i = 0; i < aCards.length; i++) {
-			this.setCardCssValues(aCards[i]);
-		}
-	};
+    DashboardLayoutUtil.prototype._setCardsCssValues = function (aCards) {
+        var i = 0;
+        for (i = 0; i < aCards.length; i++) {
+            this.setCardCssValues(aCards[i]);
+        }
+    };
 
     DashboardLayoutUtil.prototype.setCardCssValues = function (oCard) {
         var iLeftValue = (oCard.dashboardLayout.column - 1) * this.oLayoutData.colWidthPx;
@@ -506,23 +528,23 @@ sap.ui.define([
         oCard.dashboardLayout.left = (this.isRTLEnabled ? -iLeftValue : iLeftValue) + 'px';
     };
 
-	DashboardLayoutUtil.prototype.convertRemToPx = function(value) {
-		var val = value;
-		if (typeof value === "string" || value instanceof String) { //take string with a rem unit
-			val = value.length > 0 ? parseInt(value.split("rem")[0], 10) : 0;
-		}
-		return val * CommonUtils.getPixelPerRem();
-	};
+    DashboardLayoutUtil.prototype.convertRemToPx = function (value) {
+        var val = value;
+        if (typeof value === "string" || value instanceof String) { //take string with a rem unit
+            val = value.length > 0 ? parseInt(value.split("rem")[0], 10) : 0;
+        }
+        return val * CommonUtils.getPixelPerRem();
+    };
 
-	DashboardLayoutUtil.prototype.convertPxToRem = function(value) {
-		var val = value;
-		if (typeof value === "string" || value instanceof String) { //take string with a rem unit
-			val = value.length > 0 ? parseFloat(value.split("px")[0], 10) : 0;
-		}
-		return val / CommonUtils.getPixelPerRem();
-	};
+    DashboardLayoutUtil.prototype.convertPxToRem = function (value) {
+        var val = value;
+        if (typeof value === "string" || value instanceof String) { //take string with a rem unit
+            val = value.length > 0 ? parseFloat(value.split("px")[0], 10) : 0;
+        }
+        return val / CommonUtils.getPixelPerRem();
+    };
 
-    DashboardLayoutUtil.prototype.setKpiNumericContentWidth = function($element) {
+    DashboardLayoutUtil.prototype.setKpiNumericContentWidth = function ($element) {
         /*
          For restricting target and deviation in KPI Header to move towards the right
          */
@@ -531,25 +553,25 @@ sap.ui.define([
             var $ovpKpiContent = aOvpKpiContent[0];
             var iColumnPadding = 8;
             var iParentPadding = 16;
-            $ovpKpiContent.style.width = (this.getColWidthPx() - (2 * iColumnPadding + 2 * iParentPadding))  + "px";
+            $ovpKpiContent.style.width = (this.getColWidthPx() - (2 * iColumnPadding + 2 * iParentPadding)) + "px";
         }
     };
 
-	DashboardLayoutUtil.prototype.getLayoutWidthPx = function() {
-		return this.oLayoutData.colCount * this.oLayoutData.colWidthPx;
-	};
+    DashboardLayoutUtil.prototype.getLayoutWidthPx = function () {
+        return this.oLayoutData.colCount * this.oLayoutData.colWidthPx;
+    };
 
-	DashboardLayoutUtil.prototype.getColWidthPx = function() {
-		return this.oLayoutData.colWidthPx;
-	};
+    DashboardLayoutUtil.prototype.getColWidthPx = function () {
+        return this.oLayoutData.colWidthPx;
+    };
 
-	DashboardLayoutUtil.prototype.getRowHeightPx = function() {
-		return this.oLayoutData.rowHeightPx;
-	};
+    DashboardLayoutUtil.prototype.getRowHeightPx = function () {
+        return this.oLayoutData.rowHeightPx;
+    };
 
-	DashboardLayoutUtil.prototype._setColCount = function(iColCount) {
-		this.oLayoutData.colCount = iColCount;
-	};
+    DashboardLayoutUtil.prototype._setColCount = function (iColCount) {
+        this.oLayoutData.colCount = iColCount;
+    };
 
     return DashboardLayoutUtil;
 }, /* bExport*/ true);

@@ -1,4 +1,4 @@
-sap.ui.define(["sap/ui/core/UIComponent", "sap/ovp/cards/rta/SettingsDialogConstants",
+createsap.ui.define(["sap/ui/core/UIComponent", "sap/ovp/cards/rta/SettingsDialogConstants",
         "sap/ui/core/routing/Router", "sap/ui/thirdparty/jquery", "sap/base/util/ObjectPath", "sap/base/Log",
         "sap/ui/model/json/JSONModel", "sap/ovp/ui/DashboardLayoutUtil", "sap/ui/core/mvc/ViewType",
         "sap/ui/model/resource/ResourceModel", "sap/ovp/app/resources", "sap/ui/core/CustomData", "sap/ushell/Config", "sap/ui/rta/RuntimeAuthoring"/*Don't Remove this. Important for Personalization to work*/],

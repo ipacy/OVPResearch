@@ -1,6 +1,6 @@
 sap.ui.define([
-    "sap/ovp/ui/DashboardLayout",
-    "sap/ovp/ui/DashboardLayoutUtil",
+    "vistex/poc/ovp/ovp/ui/DashboardLayout",
+    "vistex/poc/ovp/ovp/ui/DashboardLayoutUtil",
     "sap/ui/core/Control",
     "sap/ui/Device",
     "sap/ovp/ui/Card"
@@ -23,9 +23,11 @@ sap.ui.define([
             this.data("sap-ui-fastnavgroup", "true", true);
             this.oColumnLayoutData = {};
             this.resizeHandlerId = this.initResizeHandler();
+            this.attachEventOnce('modelContextChange', this.onDataChange.bind(this));
+            // this.addStyleClass("ovpLayoutElement");
         },
 
-        onBeforeRendering: function () {
+        onDataChange: function () {
             var oLayoutConfig = {
                 visible: true,
                 cards: []
@@ -101,9 +103,6 @@ sap.ui.define([
                     return element.getVisible();
                 }
 
-                function filterById(element) {
-                    return element.id === this.getId().split("--")[1];
-                }
 
                 var filteredItems = oControl.getContent().filter(filterVisibleCards);
 

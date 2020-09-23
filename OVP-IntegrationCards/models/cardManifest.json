@@ -8,13 +8,20 @@
         "valueColor": "Error"
       },
       "data": [
+      {
+        "name": "Teico Inc.",
+        "description": "Sun Valley, Idaho",
+        "info": "2456",
+        "infoState": "Error",
+        "company": "Vistex"
+      },
         {
-          "name": "Teico Inc.",
-          "description": "Sun Valley, Idaho",
-          "info": "2456",
-          "infoState": "Error",
-          "company": "Vistex"
-        },
+        "name": "Teico Inc.",
+        "description": "Sun Valley, Idaho",
+        "info": "2456",
+        "infoState": "Error",
+        "company": "Vistex"
+      },
         {
           "name": "Freshhh LTD.",
           "icon": "https://sapui5.hana.ondemand.com/test-resources/sap/ui/integration/demokit/sample/CardsLayout/images/Case2.png",
@@ -43,6 +50,13 @@
     },
     "custom2": {
       "data": [
+        {
+          "name": "Teico Inc.",
+          "description": "Sun Valley, Idaho",
+          "info": "2456",
+          "infoState": "Error",
+          "company": "Vistex"
+        },
         {
           "name": "Teico Inc.",
           "description": "Sun Valley, Idaho",
